@@ -1,0 +1,2799 @@
+
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="fixes.js"></script>
+    <link rel="stylesheet" type="text/css" href="fixes.css">
+</head>
+<body>
+<div class="code-block side-by-side before" id="before_block"><pre><span class="ast-node" id="student_code_8231a9f1-561e-456b-88ec-f7c73866358f" data-node-id="8231a9f1-561e-456b-88ec-f7c73866358f" data-node-name="Module"><span class="ast-node" id="student_code_b030dc2f-8d3d-4d1a-acf2-800db30952a8" data-node-id="b030dc2f-8d3d-4d1a-acf2-800db30952a8" data-node-name="Import" data-key=0 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="student_code_e8341425-91b4-4da3-91f1-55ab56d0d1fa" data-node-id="e8341425-91b4-4da3-91f1-55ab56d0d1fa" data-node-name="alias name: io" data-key=0 data-parent-list-id="7a53a467-86aa-48e8-87bf-11456748999e">import</span> io</span>
+<span class="ast-node" id="student_code_8449760f-2c92-40d0-9e72-56ce38e7ec00" data-node-id="8449760f-2c92-40d0-9e72-56ce38e7ec00" data-node-name="Import" data-key=1 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="student_code_525214f8-eb0a-491c-bfe7-deb079b55462" data-node-id="525214f8-eb0a-491c-bfe7-deb079b55462" data-node-name="alias name: sys" data-key=0 data-parent-list-id="ce93dcbf-c46f-4c99-9fae-4fdbf1024a58">import</span> sys</span>
+<span class="ast-node" id="student_code_0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6" data-node-id="0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6" data-node-name="Import" data-key=2 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="student_code_40eb9cd9-e645-451a-b35d-ffd516a4fae4" data-node-id="40eb9cd9-e645-451a-b35d-ffd516a4fae4" data-node-name="alias name: csv" data-key=0 data-parent-list-id="c4932aba-2bd8-45c1-8233-8c6918d2591c">import</span> csv</span>
+<span class="ast-node" id="student_code_0c5c9140-1254-4ff6-be08-a30a28630566" data-node-id="0c5c9140-1254-4ff6-be08-a30a28630566" data-node-name="Import" data-key=3 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="student_code_e5b631c1-5a2e-4d0e-9dec-74b226935140" data-node-id="e5b631c1-5a2e-4d0e-9dec-74b226935140" data-node-name="alias name: unittest" data-key=0 data-parent-list-id="af67b5e6-cc69-4562-b04c-ba92983b88b2">import</span> unittest</span>
+
+
+<span class="ast-node" id="student_code_0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a" data-node-id="0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a" data-node-name="FunctionDef name: nat_pct" data-key=4 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac">def nat_pct(<span class="ast-node" id="student_code_f0425df2-b628-4e58-98cd-d9f7fb729816" data-node-id="f0425df2-b628-4e58-98cd-d9f7fb729816" data-node-name="arguments" data-key=args><span class="ast-node" id="student_code_69a8c0e2-15cc-4aac-9b18-e946acd6d877" data-node-id="69a8c0e2-15cc-4aac-9b18-e946acd6d877" data-node-name="arg(arg = data)" data-key=0 data-parent-list-id="31a65490-e3a8-4203-9d87-595ee5b8db7d">data</span>, <span class="ast-node" id="student_code_5962b5d1-41c6-42c9-be4c-0c57d925ff62" data-node-id="5962b5d1-41c6-42c9-be4c-0c57d925ff62" data-node-name="arg(arg = col_list)" data-key=1 data-parent-list-id="31a65490-e3a8-4203-9d87-595ee5b8db7d">col_list</span></span>):
+    <span class="ast-node" id="student_code_629b10de-be9e-4bfb-a333-69cae0e5be9e" data-node-id="629b10de-be9e-4bfb-a333-69cae0e5be9e" data-node-name="Assign" data-key=0 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c"><span class="ast-node" id="student_code_5bf88591-c871-41bc-ae16-388a075eb5dc" data-node-id="5bf88591-c871-41bc-ae16-388a075eb5dc" data-node-name="Store identifier data_totals" data-key=0 data-parent-list-id="b99c7b76-eccc-420c-ae0b-5b4f34b9e754">data_totals</span> = <span class="ast-node" id="student_code_31812ae3-f80a-49fc-884d-f44f32d36558" data-node-id="31812ae3-f80a-49fc-884d-f44f32d36558" data-node-name="Dict" data-key=value>{}</span></span>
+    <span class="ast-node" id="student_code_ddee8ce4-ed8d-403e-86eb-81550b660d08" data-node-id="ddee8ce4-ed8d-403e-86eb-81550b660d08" data-node-name="For" data-key=1 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c">for <span class="ast-node delete-node" id="student_code_c6a19b6c-43f5-4f67-bba8-d66a09f98bb6" data-node-id="c6a19b6c-43f5-4f67-bba8-d66a09f98bb6" data-node-name="Tuple(ctx=Store)" data-key=target><span class="ast-node delete-node" id="student_code_0e4d87a9-6eb8-4780-a8ac-306ee214ac4a" data-node-id="0e4d87a9-6eb8-4780-a8ac-306ee214ac4a" data-node-name="Store identifier demographic" data-key=0 data-parent-list-id="3399d4c6-2e37-47dd-b24d-208fd1d4f98a">demographic</span>, <span class="ast-node delete-node" id="student_code_8be90c22-c229-4fe0-98c7-05f7b2938747" data-node-id="8be90c22-c229-4fe0-98c7-05f7b2938747" data-node-name="Store identifier regions" data-key=1 data-parent-list-id="3399d4c6-2e37-47dd-b24d-208fd1d4f98a">regions</span></span> in <span class="ast-node delete-node" id="student_code_836f7797-00ef-4ede-a661-18577d00bb14" data-node-id="836f7797-00ef-4ede-a661-18577d00bb14" data-node-name="Call" data-key=iter><span class="ast-node delete-node" id="student_code_17708d5b-c968-477a-9be5-14e2d6921893" data-node-id="17708d5b-c968-477a-9be5-14e2d6921893" data-node-name="Attribute(ctx=Load)(attr = items)" data-key=func><span class="ast-node delete-node" id="student_code_1a1d7c5d-40b6-4dc0-b9cd-17f1146d1379" data-node-id="1a1d7c5d-40b6-4dc0-b9cd-17f1146d1379" data-node-name="Load identifier data" data-key=value>data</span>.items</span>()</span>:
+        <span class="ast-node delete-node" id="student_code_2d56a04b-3539-4a38-aa04-f0373ebdcdcb" data-node-id="2d56a04b-3539-4a38-aa04-f0373ebdcdcb" data-node-name="If" data-key=0 data-parent-list-id="d54f7e79-0a17-49ac-8dc5-598f6833919f">if <span class="ast-node delete-node" id="student_code_ec9f0b72-50e1-46b0-aee7-598fc8c18b15" data-node-id="ec9f0b72-50e1-46b0-aee7-598fc8c18b15" data-node-name="Compare operators: ['In']" data-key=test><span class="ast-node delete-node" id="student_code_f135966d-8bc5-4537-ad3b-6f8dac17ab4a" data-node-id="f135966d-8bc5-4537-ad3b-6f8dac17ab4a" data-node-name="Load identifier demographic" data-key=left>demographic</span> in <span class="ast-node delete-node" id="student_code_ccef4ee0-c324-4d34-bc8e-e356f5a33ae2" data-node-id="ccef4ee0-c324-4d34-bc8e-e356f5a33ae2" data-node-name="Load identifier col_list" data-key=0 data-parent-list-id="49d2f803-a3b7-4fbc-bded-0fca04b9c556">col_list</span></span>:
+            <span class="ast-node move-node" id="student_code_7e7e5a35-94cd-48fb-8a42-30f6d2079956" data-node-id="7e7e5a35-94cd-48fb-8a42-30f6d2079956" data-node-name="For" data-key=0 data-parent-list-id="e2f8c77d-a168-400a-a178-8b70762aba5b">for <span class="ast-node delete-node" id="student_code_c26786d3-4c59-446f-991d-93debb229570" data-node-id="c26786d3-4c59-446f-991d-93debb229570" data-node-name="Tuple(ctx=Store)" data-key=target><span class="ast-node move-node" id="student_code_1039ff45-bd11-4f40-9594-4f9f3e15f308" data-node-id="1039ff45-bd11-4f40-9594-4f9f3e15f308" data-node-name="Store identifier region" data-key=0 data-parent-list-id="1e03f774-5d05-4998-977f-1fd1257880b7">region</span>, <span class="ast-node delete-node" id="student_code_eae2d4ae-cfc8-4006-b773-b52ed99e2aba" data-node-id="eae2d4ae-cfc8-4006-b773-b52ed99e2aba" data-node-name="Store identifier count" data-key=1 data-parent-list-id="1e03f774-5d05-4998-977f-1fd1257880b7">count</span></span> in <span class="ast-node delete-node" id="student_code_153a9e0c-7ccf-46ae-a5e0-4ce972b635ed" data-node-id="153a9e0c-7ccf-46ae-a5e0-4ce972b635ed" data-node-name="Call" data-key=iter><span class="ast-node delete-node" id="student_code_548d658a-2a86-4cc2-b63e-a5a85e6d7bd4" data-node-id="548d658a-2a86-4cc2-b63e-a5a85e6d7bd4" data-node-name="Attribute(ctx=Load)(attr = items)" data-key=func><span class="ast-node delete-node" id="student_code_52c93cbc-ab4b-417f-a23b-53998e15be9e" data-node-id="52c93cbc-ab4b-417f-a23b-53998e15be9e" data-node-name="Load identifier region" data-key=value>region</span>.items</span>()</span>:
+                <span class="ast-node delete-node" id="student_code_da42b57e-d60f-458b-876f-edb3ff764dd3" data-node-id="da42b57e-d60f-458b-876f-edb3ff764dd3" data-node-name="If" data-key=0 data-parent-list-id="4a800091-63f2-49c7-9fa1-b047c78c5161">if <span class="ast-node move-node" id="student_code_6e97cc89-784f-48a9-aab9-6fed252da1de" data-node-id="6e97cc89-784f-48a9-aab9-6fed252da1de" data-node-name="Compare operators: ['Eq']" data-key=test><span class="ast-node" id="student_code_1d49af13-2b6d-4129-a56f-9d436ec7f655" data-node-id="1d49af13-2b6d-4129-a56f-9d436ec7f655" data-node-name="Load identifier region" data-key=left>region</span> == <span class="ast-node move-node" id="student_code_1d0920fc-985b-4a15-a9c9-31ceebe2f633" data-node-id="1d0920fc-985b-4a15-a9c9-31ceebe2f633" data-node-name="Str(s = Region Totals)" data-key=0 data-parent-list-id="caa6f8f7-c6e1-47eb-b8ef-158ced7eb67e">'Region Totals'</span></span>:
+                    <span class="ast-node delete-node" id="student_code_02dce214-084f-4c6a-b279-0d3ba20c88a9" data-node-id="02dce214-084f-4c6a-b279-0d3ba20c88a9" data-node-name="Continue" data-key=0 data-parent-list-id="c4bb9f4e-3757-4c0d-b331-63b75520a478">continue</span></span>
+                <span class="ast-node" id="student_code_a801de55-5d81-4766-9c4b-8b18e4943791" data-node-id="a801de55-5d81-4766-9c4b-8b18e4943791" data-node-name="If" data-key=1 data-parent-list-id="4a800091-63f2-49c7-9fa1-b047c78c5161">if <span class="ast-node delete-node" id="student_code_4e29811f-742b-4020-9048-f084417c3001" data-node-id="4e29811f-742b-4020-9048-f084417c3001" data-node-name="Compare operators: ['NotIn']" data-key=test><span class="ast-node delete-node" id="student_code_9e258b36-4f1d-46ae-bf80-705bca96e7b9" data-node-id="9e258b36-4f1d-46ae-bf80-705bca96e7b9" data-node-name="Load identifier demographic" data-key=left>demographic</span> not in <span class="ast-node delete-node" id="student_code_bb7e5861-507a-47c6-b5c9-695d4dff20d1" data-node-id="bb7e5861-507a-47c6-b5c9-695d4dff20d1" data-node-name="Load identifier data_totals" data-key=0 data-parent-list-id="37a4a56b-2a6e-42f8-9b7a-764a84b5b75c">data_totals</span></span>:
+                    <span class="ast-node move-node" id="student_code_d47da5da-09f3-4536-a6a1-da2566eb082d" data-node-id="d47da5da-09f3-4536-a6a1-da2566eb082d" data-node-name="Assign" data-key=0 data-parent-list-id="ecb5a1ea-ad44-4f49-be39-bceea0c9591d"><span class="ast-node move-node" id="student_code_98964ab8-f3c1-4cc8-a9ad-d6811877ef58" data-node-id="98964ab8-f3c1-4cc8-a9ad-d6811877ef58" data-node-name="Subscript(ctx=Store)" data-key=0 data-parent-list-id="54d20985-150c-4532-8a27-fd64957ac265"><span class="ast-node" id="student_code_46c26e0b-40e0-4088-8fc7-29e0aae978c0" data-node-id="46c26e0b-40e0-4088-8fc7-29e0aae978c0" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node" id="student_code_a0059d0b-a52b-4a73-8003-838fcd62ba4b" data-node-id="a0059d0b-a52b-4a73-8003-838fcd62ba4b" data-node-name="Index" data-key=slice><span class="ast-node rename-node" id="student_code_8d8f6c63-8615-4d6b-a8f7-016ed8c7213d" data-node-id="8d8f6c63-8615-4d6b-a8f7-016ed8c7213d" data-node-name="Load identifier demographic" data-key=value>demographic</span></span>]</span> = <span class="ast-node" id="student_code_95523b19-c607-44b0-9f5a-3b36a16ed5c3" data-node-id="95523b19-c607-44b0-9f5a-3b36a16ed5c3" data-node-name="Num(n = 0)" data-key=value>0</span></span></span>
+                <span class="ast-node" id="student_code_480d2a2b-82dc-4bc0-88b3-73d2276e8691" data-node-id="480d2a2b-82dc-4bc0-88b3-73d2276e8691" data-node-name="AugAssign +" data-key=2 data-parent-list-id="4a800091-63f2-49c7-9fa1-b047c78c5161"><span class="ast-node move-node" id="student_code_11878406-4d84-401e-acd4-29db3802d0c7" data-node-id="11878406-4d84-401e-acd4-29db3802d0c7" data-node-name="Subscript(ctx=Store)" data-key=target><span class="ast-node" id="student_code_2582a56e-cbbd-4a70-923e-e5be5c8dd4fc" data-node-id="2582a56e-cbbd-4a70-923e-e5be5c8dd4fc" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node" id="student_code_73a28932-a354-4328-8c50-133fa6e5bb1b" data-node-id="73a28932-a354-4328-8c50-133fa6e5bb1b" data-node-name="Index" data-key=slice><span class="ast-node" id="student_code_0789c3ba-84ab-4547-9621-cab95da471d2" data-node-id="0789c3ba-84ab-4547-9621-cab95da471d2" data-node-name="Load identifier demographic" data-key=value>demographic</span></span>]</span> += <span class="ast-node delete-node" id="student_code_029297d6-11f5-4295-9ca0-c5364cbb12fb" data-node-id="029297d6-11f5-4295-9ca0-c5364cbb12fb" data-node-name="Load identifier count" data-key=value>count</span></span></span></span></span>
+    <span class="ast-node move-node" id="student_code_73ce57d3-a33b-484d-ad80-a372771c257b" data-node-id="73ce57d3-a33b-484d-ad80-a372771c257b" data-node-name="Assign" data-key=2 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c"><span class="ast-node" id="student_code_1a456c8b-15c8-4262-93ae-6c320ac39f0c" data-node-id="1a456c8b-15c8-4262-93ae-6c320ac39f0c" data-node-name="Store identifier total_count" data-key=0 data-parent-list-id="f7a92dc9-f875-452e-ac98-5a9053c41848">total_count</span> = <span class="ast-node delete-node" id="student_code_234f9f53-958e-4475-bf53-34907c2039b6" data-node-id="234f9f53-958e-4475-bf53-34907c2039b6" data-node-name="Call" data-key=value><span class="ast-node delete-node" id="student_code_445d8c78-b63f-4c8f-9dc8-854f3ae663e2" data-node-id="445d8c78-b63f-4c8f-9dc8-854f3ae663e2" data-node-name="Load identifier sum" data-key=func>sum</span>(<span class="ast-node delete-node" id="student_code_2f29d663-384d-483d-82b1-dc0e8959c2f3" data-node-id="2f29d663-384d-483d-82b1-dc0e8959c2f3" data-node-name="Call" data-key=0 data-parent-list-id="61d1fcbe-b940-4f46-96e1-b80eaffbf0b5"><span class="ast-node delete-node" id="student_code_fa8e0d12-d6a9-4e25-96b5-237f23a266e0" data-node-id="fa8e0d12-d6a9-4e25-96b5-237f23a266e0" data-node-name="Attribute(ctx=Load)(attr = values)" data-key=func><span class="ast-node move-node" id="student_code_7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23" data-node-id="7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>.values</span>()</span>)</span></span>
+    <span class="ast-node" id="student_code_8a3f3493-c977-4381-aa37-f8fe327c4afe" data-node-id="8a3f3493-c977-4381-aa37-f8fe327c4afe" data-node-name="For" data-key=3 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c">for <span class="ast-node delete-node" id="student_code_f6e43cd6-5b4c-4a4a-9cc8-85ff277f9d02" data-node-id="f6e43cd6-5b4c-4a4a-9cc8-85ff277f9d02" data-node-name="Tuple(ctx=Store)" data-key=target><span class="ast-node delete-node" id="student_code_9d07e85b-47de-40ba-b1b5-238e3d1b4952" data-node-id="9d07e85b-47de-40ba-b1b5-238e3d1b4952" data-node-name="Store identifier demographic" data-key=0 data-parent-list-id="18f15db4-e2a9-4bc1-9ea0-0b82ca4f3e57">demographic</span>, <span class="ast-node delete-node" id="student_code_1f3d51ba-c838-4515-867b-fee2c87a7963" data-node-id="1f3d51ba-c838-4515-867b-fee2c87a7963" data-node-name="Store identifier count" data-key=1 data-parent-list-id="18f15db4-e2a9-4bc1-9ea0-0b82ca4f3e57">count</span></span> in <span class="ast-node delete-node" id="student_code_b1716f82-b07c-4d03-9af4-abf623398fc3" data-node-id="b1716f82-b07c-4d03-9af4-abf623398fc3" data-node-name="Call" data-key=iter><span class="ast-node delete-node" id="student_code_ddd9c6a2-c3d5-4c8c-9529-f2e34b1125fe" data-node-id="ddd9c6a2-c3d5-4c8c-9529-f2e34b1125fe" data-node-name="Attribute(ctx=Load)(attr = items)" data-key=func><span class="ast-node move-node" id="student_code_40db387f-ed60-4054-85e2-7a3f4cad44f9" data-node-id="40db387f-ed60-4054-85e2-7a3f4cad44f9" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>.items</span>()</span>:
+        <span class="ast-node" id="student_code_b2e4c36a-223b-4951-9190-1059b69ac8a8" data-node-id="b2e4c36a-223b-4951-9190-1059b69ac8a8" data-node-name="Assign" data-key=0 data-parent-list-id="86a1fa81-3b20-4fc4-a2e4-e5acaf5d4a9f"><span class="ast-node" id="student_code_d56ea758-47b6-4fef-83c8-97bf9f707de1" data-node-id="d56ea758-47b6-4fef-83c8-97bf9f707de1" data-node-name="Subscript(ctx=Store)" data-key=0 data-parent-list-id="5a30f3e1-92a9-422f-ae68-22c3c427a967"><span class="ast-node" id="student_code_838f42b7-6c6f-4d49-94db-fd9be9ca8b54" data-node-id="838f42b7-6c6f-4d49-94db-fd9be9ca8b54" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node" id="student_code_ced1b54e-0dce-47a1-9fb3-0659c5ed6369" data-node-id="ced1b54e-0dce-47a1-9fb3-0659c5ed6369" data-node-name="Index" data-key=slice><span class="ast-node rename-node" id="student_code_2bf0c2d4-be88-4fbc-b31c-6a01a5959594" data-node-id="2bf0c2d4-be88-4fbc-b31c-6a01a5959594" data-node-name="Load identifier demographic" data-key=value>demographic</span></span>]</span> = <span class="ast-node" id="student_code_b9ec5184-e570-4135-8240-e43efbc72715" data-node-id="b9ec5184-e570-4135-8240-e43efbc72715" data-node-name="Call" data-key=value><span class="ast-node" id="student_code_0aea43ee-3cff-4ce8-a8b4-8c5d9c79ea22" data-node-id="0aea43ee-3cff-4ce8-a8b4-8c5d9c79ea22" data-node-name="Load identifier round" data-key=func>round</span>(<span class="ast-node" id="student_code_0f88786c-140c-4ec9-bd52-ec581d9661cd" data-node-id="0f88786c-140c-4ec9-bd52-ec581d9661cd" data-node-name="BinOp *" data-key=0 data-parent-list-id="06875c68-4802-4f41-ac33-1c512ceac95b"><span class="ast-node move-node" id="student_code_25911112-5f6e-48ef-a55c-f70e8091fdff" data-node-id="25911112-5f6e-48ef-a55c-f70e8091fdff" data-node-name="BinOp /" data-key=left><span class="ast-node delete-node" id="student_code_dddabfc7-2059-4f7f-b23a-209f699ea590" data-node-id="dddabfc7-2059-4f7f-b23a-209f699ea590" data-node-name="Load identifier count" data-key=left>count</span> / <span class="ast-node delete-node" id="student_code_85ccc71f-e1bf-433e-88dc-bd7abc0fd840" data-node-id="85ccc71f-e1bf-433e-88dc-bd7abc0fd840" data-node-name="Load identifier total_count" data-key=right>total_count</span></span> * <span class="ast-node" id="student_code_ffa44491-c056-4e69-8b62-29280440f10a" data-node-id="ffa44491-c056-4e69-8b62-29280440f10a" data-node-name="Num(n = 100)" data-key=right>100</span></span>, <span class="ast-node" id="student_code_74c91d09-7212-4da1-aaf6-198629c41597" data-node-id="74c91d09-7212-4da1-aaf6-198629c41597" data-node-name="Num(n = 2)" data-key=1 data-parent-list-id="06875c68-4802-4f41-ac33-1c512ceac95b">2</span>)</span></span></span>
+    <span class="ast-node" id="student_code_dbcf66a2-c99c-430a-99d0-d24e45d66e50" data-node-id="dbcf66a2-c99c-430a-99d0-d24e45d66e50" data-node-name="Return" data-key=4 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c">return <span class="ast-node" id="student_code_00085613-19bb-4214-aac0-b9ec04a18c34" data-node-id="00085613-19bb-4214-aac0-b9ec04a18c34" data-node-name="Load identifier data_totals" data-key=value>data_totals</span></span></span></span></pre></div><div class="code-block side-by-side after" id="after_block"><pre><span class="ast-node" id="corrected_code_8231a9f1-561e-456b-88ec-f7c73866358f" data-node-id="8231a9f1-561e-456b-88ec-f7c73866358f" data-node-name="Module"><span class="ast-node" id="corrected_code_b030dc2f-8d3d-4d1a-acf2-800db30952a8" data-node-id="b030dc2f-8d3d-4d1a-acf2-800db30952a8" data-node-name="Import" data-key=0 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="corrected_code_e8341425-91b4-4da3-91f1-55ab56d0d1fa" data-node-id="e8341425-91b4-4da3-91f1-55ab56d0d1fa" data-node-name="alias name: io" data-key=0 data-parent-list-id="7a53a467-86aa-48e8-87bf-11456748999e">import</span> io</span>
+<span class="ast-node" id="corrected_code_8449760f-2c92-40d0-9e72-56ce38e7ec00" data-node-id="8449760f-2c92-40d0-9e72-56ce38e7ec00" data-node-name="Import" data-key=1 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="corrected_code_525214f8-eb0a-491c-bfe7-deb079b55462" data-node-id="525214f8-eb0a-491c-bfe7-deb079b55462" data-node-name="alias name: sys" data-key=0 data-parent-list-id="ce93dcbf-c46f-4c99-9fae-4fdbf1024a58">import</span> sys</span>
+<span class="ast-node" id="corrected_code_0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6" data-node-id="0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6" data-node-name="Import" data-key=2 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="corrected_code_40eb9cd9-e645-451a-b35d-ffd516a4fae4" data-node-id="40eb9cd9-e645-451a-b35d-ffd516a4fae4" data-node-name="alias name: csv" data-key=0 data-parent-list-id="c4932aba-2bd8-45c1-8233-8c6918d2591c">import</span> csv</span>
+<span class="ast-node" id="corrected_code_0c5c9140-1254-4ff6-be08-a30a28630566" data-node-id="0c5c9140-1254-4ff6-be08-a30a28630566" data-node-name="Import" data-key=3 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac"><span class="ast-node" id="corrected_code_e5b631c1-5a2e-4d0e-9dec-74b226935140" data-node-id="e5b631c1-5a2e-4d0e-9dec-74b226935140" data-node-name="alias name: unittest" data-key=0 data-parent-list-id="af67b5e6-cc69-4562-b04c-ba92983b88b2">import</span> unittest</span>
+
+
+<span class="ast-node" id="corrected_code_0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a" data-node-id="0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a" data-node-name="FunctionDef name: nat_pct" data-key=4 data-parent-list-id="c54243a1-5d99-470f-ac6d-707bac27d9ac">def nat_pct(<span class="ast-node" id="corrected_code_f0425df2-b628-4e58-98cd-d9f7fb729816" data-node-id="f0425df2-b628-4e58-98cd-d9f7fb729816" data-node-name="arguments" data-key=args><span class="ast-node" id="corrected_code_69a8c0e2-15cc-4aac-9b18-e946acd6d877" data-node-id="69a8c0e2-15cc-4aac-9b18-e946acd6d877" data-node-name="arg(arg = data)" data-key=0 data-parent-list-id="31a65490-e3a8-4203-9d87-595ee5b8db7d">data</span>, <span class="ast-node" id="corrected_code_5962b5d1-41c6-42c9-be4c-0c57d925ff62" data-node-id="5962b5d1-41c6-42c9-be4c-0c57d925ff62" data-node-name="arg(arg = col_list)" data-key=1 data-parent-list-id="31a65490-e3a8-4203-9d87-595ee5b8db7d">col_list</span></span>):
+    <span class="ast-node" id="corrected_code_629b10de-be9e-4bfb-a333-69cae0e5be9e" data-node-id="629b10de-be9e-4bfb-a333-69cae0e5be9e" data-node-name="Assign" data-key=0 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c"><span class="ast-node" id="corrected_code_5bf88591-c871-41bc-ae16-388a075eb5dc" data-node-id="5bf88591-c871-41bc-ae16-388a075eb5dc" data-node-name="Store identifier data_totals" data-key=0 data-parent-list-id="b99c7b76-eccc-420c-ae0b-5b4f34b9e754">data_totals</span> = <span class="ast-node" id="corrected_code_31812ae3-f80a-49fc-884d-f44f32d36558" data-node-id="31812ae3-f80a-49fc-884d-f44f32d36558" data-node-name="Dict" data-key=value>{}</span></span>
+    <span class="ast-node" id="corrected_code_ddee8ce4-ed8d-403e-86eb-81550b660d08" data-node-id="ddee8ce4-ed8d-403e-86eb-81550b660d08" data-node-name="For" data-key=1 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c">for <span class="ast-node insert-node" id="corrected_code_1ad465fd-6254-411b-a35c-3b6d164583f2" data-node-id="1ad465fd-6254-411b-a35c-3b6d164583f2" data-node-name="Store identifier dem" data-key=target>dem</span> in <span class="ast-node insert-node" id="corrected_code_0d047001-6850-419f-95cc-da42e408c88d" data-node-id="0d047001-6850-419f-95cc-da42e408c88d" data-node-name="Load identifier col_list" data-key=iter>col_list</span>:
+        <span class="ast-node move-node" id="corrected_code_d47da5da-09f3-4536-a6a1-da2566eb082d" data-node-id="d47da5da-09f3-4536-a6a1-da2566eb082d" data-node-name="Assign" data-key=0 data-parent-list-id="d54f7e79-0a17-49ac-8dc5-598f6833919f"><span class="ast-node insert-node" id="corrected_code_68791fb1-b9ac-4ac2-aee8-23e66e463370" data-node-id="68791fb1-b9ac-4ac2-aee8-23e66e463370" data-node-name="Subscript(ctx=Store)" data-key=0 data-parent-list-id="54d20985-150c-4532-8a27-fd64957ac265"><span class="ast-node insert-node" id="corrected_code_504b47a4-3bb0-4f54-b36f-081ad3d56571" data-node-id="504b47a4-3bb0-4f54-b36f-081ad3d56571" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node insert-node" id="corrected_code_da23113d-7a6c-403c-b809-7cf0d15eff18" data-node-id="da23113d-7a6c-403c-b809-7cf0d15eff18" data-node-name="Index" data-key=slice><span class="ast-node insert-node" id="corrected_code_62a0aa64-c006-47d8-a471-7b993dafc157" data-node-id="62a0aa64-c006-47d8-a471-7b993dafc157" data-node-name="Load identifier dem" data-key=value>dem</span></span>]</span> = <span class="ast-node" id="corrected_code_95523b19-c607-44b0-9f5a-3b36a16ed5c3" data-node-id="95523b19-c607-44b0-9f5a-3b36a16ed5c3" data-node-name="Num(n = 0)" data-key=value>0</span></span>
+        <span class="ast-node move-node" id="corrected_code_7e7e5a35-94cd-48fb-8a42-30f6d2079956" data-node-id="7e7e5a35-94cd-48fb-8a42-30f6d2079956" data-node-name="For" data-key=1 data-parent-list-id="d54f7e79-0a17-49ac-8dc5-598f6833919f">for <span class="ast-node move-node" id="corrected_code_1039ff45-bd11-4f40-9594-4f9f3e15f308" data-node-id="1039ff45-bd11-4f40-9594-4f9f3e15f308" data-node-name="Store identifier region" data-key=target>region</span> in <span class="ast-node insert-node" id="corrected_code_04ba59a3-0a33-4db4-8b51-822b6779db53" data-node-id="04ba59a3-0a33-4db4-8b51-822b6779db53" data-node-name="Load identifier data" data-key=iter>data</span>:
+            <span class="ast-node" id="corrected_code_a801de55-5d81-4766-9c4b-8b18e4943791" data-node-id="a801de55-5d81-4766-9c4b-8b18e4943791" data-node-name="If" data-key=0 data-parent-list-id="4a800091-63f2-49c7-9fa1-b047c78c5161">if <span class="ast-node move-node" id="corrected_code_6e97cc89-784f-48a9-aab9-6fed252da1de" data-node-id="6e97cc89-784f-48a9-aab9-6fed252da1de" data-node-name="Compare operators: ['Eq']" data-key=test><span class="ast-node" id="corrected_code_1d49af13-2b6d-4129-a56f-9d436ec7f655" data-node-id="1d49af13-2b6d-4129-a56f-9d436ec7f655" data-node-name="Load identifier region" data-key=left>region</span> == None</span>:
+                <span class="ast-node insert-node" id="corrected_code_ed59b23b-04ba-4042-9f42-bf206fb27361" data-node-id="ed59b23b-04ba-4042-9f42-bf206fb27361" data-node-name="Assign" data-key=0 data-parent-list-id="ecb5a1ea-ad44-4f49-be39-bceea0c9591d"><span class="ast-node move-node" id="corrected_code_11878406-4d84-401e-acd4-29db3802d0c7" data-node-id="11878406-4d84-401e-acd4-29db3802d0c7" data-node-name="Subscript(ctx=Store)" data-key=0 data-parent-list-id="7b5716b5-b79b-4613-97a0-745ad3b4b904"><span class="ast-node" id="corrected_code_2582a56e-cbbd-4a70-923e-e5be5c8dd4fc" data-node-id="2582a56e-cbbd-4a70-923e-e5be5c8dd4fc" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node" id="corrected_code_73a28932-a354-4328-8c50-133fa6e5bb1b" data-node-id="73a28932-a354-4328-8c50-133fa6e5bb1b" data-node-name="Index" data-key=slice><span class="ast-node" id="corrected_code_0789c3ba-84ab-4547-9621-cab95da471d2" data-node-id="0789c3ba-84ab-4547-9621-cab95da471d2" data-node-name="Load identifier demographic" data-key=value>demographic</span></span>]</span> = <span class="ast-node insert-node" id="corrected_code_81bf1d58-d7a3-4a59-af60-78f2e20b09d4" data-node-id="81bf1d58-d7a3-4a59-af60-78f2e20b09d4" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node insert-node" id="corrected_code_1d4bb5d1-68e9-4f8c-b569-f9ef09ad78bb" data-node-id="1d4bb5d1-68e9-4f8c-b569-f9ef09ad78bb" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node insert-node" id="corrected_code_1b34a5ed-ae4d-4c92-9826-3542811b1583" data-node-id="1b34a5ed-ae4d-4c92-9826-3542811b1583" data-node-name="Load identifier data" data-key=value>data</span>[<span class="ast-node insert-node" id="corrected_code_cf947b19-a190-4eea-8eaf-b008519d052f" data-node-id="cf947b19-a190-4eea-8eaf-b008519d052f" data-node-name="Index" data-key=slice><span class="ast-node insert-node" id="corrected_code_e4de9e59-568c-41c4-9818-6babce274b2a" data-node-id="e4de9e59-568c-41c4-9818-6babce274b2a" data-node-name="Load identifier region" data-key=value>region</span></span>]</span>[<span class="ast-node insert-node" id="corrected_code_7f408be4-7e4a-4649-be45-27fc8b6d53ec" data-node-id="7f408be4-7e4a-4649-be45-27fc8b6d53ec" data-node-name="Index" data-key=slice><span class="ast-node insert-node" id="corrected_code_07a35525-7598-40b7-82bc-d832a2ff70cf" data-node-id="07a35525-7598-40b7-82bc-d832a2ff70cf" data-node-name="Load identifier dem" data-key=value>dem</span></span>]</span></span></span>
+            <span class="ast-node" id="corrected_code_480d2a2b-82dc-4bc0-88b3-73d2276e8691" data-node-id="480d2a2b-82dc-4bc0-88b3-73d2276e8691" data-node-name="AugAssign +" data-key=1 data-parent-list-id="4a800091-63f2-49c7-9fa1-b047c78c5161"><span class="ast-node move-node" id="corrected_code_98964ab8-f3c1-4cc8-a9ad-d6811877ef58" data-node-id="98964ab8-f3c1-4cc8-a9ad-d6811877ef58" data-node-name="Subscript(ctx=Store)" data-key=target><span class="ast-node" id="corrected_code_46c26e0b-40e0-4088-8fc7-29e0aae978c0" data-node-id="46c26e0b-40e0-4088-8fc7-29e0aae978c0" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node" id="corrected_code_a0059d0b-a52b-4a73-8003-838fcd62ba4b" data-node-id="a0059d0b-a52b-4a73-8003-838fcd62ba4b" data-node-name="Index" data-key=slice><span class="ast-node rename-node" id="corrected_code_8d8f6c63-8615-4d6b-a8f7-016ed8c7213d" data-node-id="8d8f6c63-8615-4d6b-a8f7-016ed8c7213d" data-node-name="Load identifier dem" data-key=value>dem</span></span>]</span> += <span class="ast-node insert-node" id="corrected_code_d30764f5-5a52-4eee-b9eb-7edd2b7d5708" data-node-id="d30764f5-5a52-4eee-b9eb-7edd2b7d5708" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node insert-node" id="corrected_code_8148c472-47f8-4fe7-83ac-39f241f32e24" data-node-id="8148c472-47f8-4fe7-83ac-39f241f32e24" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node insert-node" id="corrected_code_0dcb4d94-75bc-4b9c-8ff1-27c09d226bef" data-node-id="0dcb4d94-75bc-4b9c-8ff1-27c09d226bef" data-node-name="Load identifier data" data-key=value>data</span>[<span class="ast-node insert-node" id="corrected_code_14a1450a-3d7d-4b27-b6b0-e587c1be955d" data-node-id="14a1450a-3d7d-4b27-b6b0-e587c1be955d" data-node-name="Index" data-key=slice><span class="ast-node insert-node" id="corrected_code_4940d58e-8929-40aa-8dd8-ba165e59c2e1" data-node-id="4940d58e-8929-40aa-8dd8-ba165e59c2e1" data-node-name="Load identifier region" data-key=value>region</span></span>]</span>[<span class="ast-node insert-node" id="corrected_code_0e164ac6-07f3-4e91-9614-1dd85a58c6b4" data-node-id="0e164ac6-07f3-4e91-9614-1dd85a58c6b4" data-node-name="Index" data-key=slice><span class="ast-node insert-node" id="corrected_code_cc7adcab-5d31-4ec2-b0eb-22c31bbfaca8" data-node-id="cc7adcab-5d31-4ec2-b0eb-22c31bbfaca8" data-node-name="Load identifier dem" data-key=value>dem</span></span>]</span></span></span></span>
+    <span class="ast-node" id="corrected_code_8a3f3493-c977-4381-aa37-f8fe327c4afe" data-node-id="8a3f3493-c977-4381-aa37-f8fe327c4afe" data-node-name="For" data-key=2 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c">for <span class="ast-node insert-node" id="corrected_code_43040893-8180-4b3a-b3a1-e5dad3e4029b" data-node-id="43040893-8180-4b3a-b3a1-e5dad3e4029b" data-node-name="Store identifier dem" data-key=target>dem</span> in <span class="ast-node move-node" id="corrected_code_40db387f-ed60-4054-85e2-7a3f4cad44f9" data-node-id="40db387f-ed60-4054-85e2-7a3f4cad44f9" data-node-name="Load identifier data_totals" data-key=iter>data_totals</span>:
+        <span class="ast-node move-node" id="corrected_code_73ce57d3-a33b-484d-ad80-a372771c257b" data-node-id="73ce57d3-a33b-484d-ad80-a372771c257b" data-node-name="Assign" data-key=0 data-parent-list-id="86a1fa81-3b20-4fc4-a2e4-e5acaf5d4a9f"><span class="ast-node" id="corrected_code_1a456c8b-15c8-4262-93ae-6c320ac39f0c" data-node-id="1a456c8b-15c8-4262-93ae-6c320ac39f0c" data-node-name="Store identifier total_count" data-key=0 data-parent-list-id="f7a92dc9-f875-452e-ac98-5a9053c41848">total_count</span> = <span class="ast-node move-node" id="corrected_code_25911112-5f6e-48ef-a55c-f70e8091fdff" data-node-id="25911112-5f6e-48ef-a55c-f70e8091fdff" data-node-name="BinOp /" data-key=value><span class="ast-node insert-node" id="corrected_code_26969ea7-88c2-4d53-a337-877f6c7db9f2" data-node-id="26969ea7-88c2-4d53-a337-877f6c7db9f2" data-node-name="Subscript(ctx=Load)" data-key=left><span class="ast-node move-node" id="corrected_code_7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23" data-node-id="7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node insert-node" id="corrected_code_ffc68df7-507f-45bf-94dc-58c2a7313817" data-node-id="ffc68df7-507f-45bf-94dc-58c2a7313817" data-node-name="Index" data-key=slice><span class="ast-node insert-node" id="corrected_code_3d1ea67e-022a-4dd9-b550-4c63474b0807" data-node-id="3d1ea67e-022a-4dd9-b550-4c63474b0807" data-node-name="Load identifier dem" data-key=value>dem</span></span>]</span> / <span class="ast-node insert-node" id="corrected_code_bafe843b-6188-4523-a91c-40b1aee69c11" data-node-id="bafe843b-6188-4523-a91c-40b1aee69c11" data-node-name="Subscript(ctx=Load)" data-key=right><span class="ast-node insert-node" id="corrected_code_3bbbd0d2-0f3b-46f5-966d-ea4e4d422a7f" data-node-id="3bbbd0d2-0f3b-46f5-966d-ea4e4d422a7f" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node insert-node" id="corrected_code_f6a3bbe5-591b-40c3-bc7e-1c4b4826754e" data-node-id="f6a3bbe5-591b-40c3-bc7e-1c4b4826754e" data-node-name="Index" data-key=slice><span class="ast-node move-node" id="corrected_code_1d0920fc-985b-4a15-a9c9-31ceebe2f633" data-node-id="1d0920fc-985b-4a15-a9c9-31ceebe2f633" data-node-name="Str(s = Region Totals)" data-key=value>'Region Totals'</span></span>]</span></span></span>
+        <span class="ast-node" id="corrected_code_b2e4c36a-223b-4951-9190-1059b69ac8a8" data-node-id="b2e4c36a-223b-4951-9190-1059b69ac8a8" data-node-name="Assign" data-key=1 data-parent-list-id="86a1fa81-3b20-4fc4-a2e4-e5acaf5d4a9f"><span class="ast-node" id="corrected_code_d56ea758-47b6-4fef-83c8-97bf9f707de1" data-node-id="d56ea758-47b6-4fef-83c8-97bf9f707de1" data-node-name="Subscript(ctx=Store)" data-key=0 data-parent-list-id="5a30f3e1-92a9-422f-ae68-22c3c427a967"><span class="ast-node" id="corrected_code_838f42b7-6c6f-4d49-94db-fd9be9ca8b54" data-node-id="838f42b7-6c6f-4d49-94db-fd9be9ca8b54" data-node-name="Load identifier data_totals" data-key=value>data_totals</span>[<span class="ast-node" id="corrected_code_ced1b54e-0dce-47a1-9fb3-0659c5ed6369" data-node-id="ced1b54e-0dce-47a1-9fb3-0659c5ed6369" data-node-name="Index" data-key=slice><span class="ast-node rename-node" id="corrected_code_2bf0c2d4-be88-4fbc-b31c-6a01a5959594" data-node-id="2bf0c2d4-be88-4fbc-b31c-6a01a5959594" data-node-name="Load identifier dem" data-key=value>dem</span></span>]</span> = <span class="ast-node" id="corrected_code_b9ec5184-e570-4135-8240-e43efbc72715" data-node-id="b9ec5184-e570-4135-8240-e43efbc72715" data-node-name="Call" data-key=value><span class="ast-node" id="corrected_code_0aea43ee-3cff-4ce8-a8b4-8c5d9c79ea22" data-node-id="0aea43ee-3cff-4ce8-a8b4-8c5d9c79ea22" data-node-name="Load identifier round" data-key=func>round</span>(<span class="ast-node" id="corrected_code_0f88786c-140c-4ec9-bd52-ec581d9661cd" data-node-id="0f88786c-140c-4ec9-bd52-ec581d9661cd" data-node-name="BinOp *" data-key=0 data-parent-list-id="06875c68-4802-4f41-ac33-1c512ceac95b"><span class="ast-node insert-node" id="corrected_code_597cb60a-c65b-4cb8-bc36-46b1c845c8db" data-node-id="597cb60a-c65b-4cb8-bc36-46b1c845c8db" data-node-name="Load identifier value" data-key=left>total_count</span> * <span class="ast-node" id="corrected_code_ffa44491-c056-4e69-8b62-29280440f10a" data-node-id="ffa44491-c056-4e69-8b62-29280440f10a" data-node-name="Num(n = 100)" data-key=right>100</span></span>, <span class="ast-node" id="corrected_code_74c91d09-7212-4da1-aaf6-198629c41597" data-node-id="74c91d09-7212-4da1-aaf6-198629c41597" data-node-name="Num(n = 2)" data-key=1 data-parent-list-id="06875c68-4802-4f41-ac33-1c512ceac95b">2</span>)</span></span></span>
+    <span class="ast-node" id="corrected_code_dbcf66a2-c99c-430a-99d0-d24e45d66e50" data-node-id="dbcf66a2-c99c-430a-99d0-d24e45d66e50" data-node-name="Return" data-key=3 data-parent-list-id="3de30093-b202-4773-a21e-143610ad405c">return <span class="ast-node" id="corrected_code_00085613-19bb-4214-aac0-b9ec04a18c34" data-node-id="00085613-19bb-4214-aac0-b9ec04a18c34" data-node-name="Load identifier data_totals" data-key=value>data_totals</span></span></span></span></pre></div>
+<script>
+  correction_data={
+  "unit_test_string": "nat_pct({\"region1\":{\"demo\":5,\"Region Totals\":10},\"region1\":{\"demo\":2,\"Region Totals\":4}},[\"demo\", \"Region Totals\"]) == {'Region Totals': 100.0, 'demo': 50.0}",
+  "synced_trace": [
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "<module 'io' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/io.py'>"
+        ],
+        "op": "IMPORT_NAME io",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) IMPORT_NAME 0"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "<module 'io' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/io.py'>"
+        ],
+        "op": "IMPORT_NAME io",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) IMPORT_NAME 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [],
+        "op": "STORE_NAME io",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [],
+        "op": "STORE_NAME io",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "0ef2ae49-5f94-4dd4-bf6e-86a1be936ea6",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "<module 'sys' (built-in)>"
+        ],
+        "op": "IMPORT_NAME sys",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) IMPORT_NAME 1"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "<module 'sys' (built-in)>"
+        ],
+        "op": "IMPORT_NAME sys",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) IMPORT_NAME 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [],
+        "op": "STORE_NAME sys",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) STORE_NAME 1"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [],
+        "op": "STORE_NAME sys",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) STORE_NAME 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8449760f-2c92-40d0-9e72-56ce38e7ec00",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "8449760f-2c92-40d0-9e72-56ce38e7ec00",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "8449760f-2c92-40d0-9e72-56ce38e7ec00",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "8449760f-2c92-40d0-9e72-56ce38e7ec00",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "<module 'csv' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/csv.py'>"
+        ],
+        "op": "IMPORT_NAME csv",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) IMPORT_NAME 2"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [
+          "<module 'csv' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/csv.py'>"
+        ],
+        "op": "IMPORT_NAME csv",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) IMPORT_NAME 2"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [],
+        "op": "STORE_NAME csv",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) STORE_NAME 2"
+      },
+      "after": {
+        "node": "0c5c9140-1254-4ff6-be08-a30a28630566",
+        "values": [],
+        "op": "STORE_NAME csv",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) STORE_NAME 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "b030dc2f-8d3d-4d1a-acf2-800db30952a8",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "b030dc2f-8d3d-4d1a-acf2-800db30952a8",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "b030dc2f-8d3d-4d1a-acf2-800db30952a8",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "b030dc2f-8d3d-4d1a-acf2-800db30952a8",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "e5b631c1-5a2e-4d0e-9dec-74b226935140",
+        "values": [
+          "<module 'unittest' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/unittest/__init__.py'>"
+        ],
+        "op": "IMPORT_NAME unittest",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) IMPORT_NAME 3"
+      },
+      "after": {
+        "node": "e5b631c1-5a2e-4d0e-9dec-74b226935140",
+        "values": [
+          "<module 'unittest' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/unittest/__init__.py'>"
+        ],
+        "op": "IMPORT_NAME unittest",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) IMPORT_NAME 3"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "e5b631c1-5a2e-4d0e-9dec-74b226935140",
+        "values": [],
+        "op": "STORE_NAME unittest",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) STORE_NAME 3"
+      },
+      "after": {
+        "node": "e5b631c1-5a2e-4d0e-9dec-74b226935140",
+        "values": [],
+        "op": "STORE_NAME unittest",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) STORE_NAME 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [
+          "nat_pct"
+        ],
+        "op": "LOAD_CONST nat_pct",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) LOAD_CONST 3"
+      },
+      "after": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [
+          "nat_pct"
+        ],
+        "op": "LOAD_CONST nat_pct",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) LOAD_CONST 3"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [
+          "<function nat_pct>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) MAKE_FUNCTION 0"
+      },
+      "after": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [
+          "<function nat_pct>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) MAKE_FUNCTION 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [],
+        "op": "STORE_NAME nat_pct",
+        "op_id": [
+          "<module>",
+          38
+        ],
+        "actual_op": "('<module>', 38) STORE_NAME 4"
+      },
+      "after": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [],
+        "op": "STORE_NAME nat_pct",
+        "op_id": [
+          "<module>",
+          38
+        ],
+        "actual_op": "('<module>', 38) STORE_NAME 4"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [
+          "<function nat_pct>"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          40
+        ],
+        "actual_op": "('<module>', 40) LOAD_NAME 4"
+      },
+      "after": {
+        "node": "0c4c71c9-4dbd-4f04-9446-eee2f7a6c60a",
+        "values": [
+          "<function nat_pct>"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          40
+        ],
+        "actual_op": "('<module>', 40) LOAD_NAME 4"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "31812ae3-f80a-49fc-884d-f44f32d36558",
+        "values": [
+          "{}"
+        ],
+        "op": "BUILD_MAP 0",
+        "op_id": [
+          "nat_pct",
+          0
+        ],
+        "actual_op": "('nat_pct', 0) BUILD_MAP 0"
+      },
+      "after": {
+        "node": "31812ae3-f80a-49fc-884d-f44f32d36558",
+        "values": [
+          "{}"
+        ],
+        "op": "BUILD_MAP 0",
+        "op_id": [
+          "nat_pct",
+          0
+        ],
+        "actual_op": "('nat_pct', 0) BUILD_MAP 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5bf88591-c871-41bc-ae16-388a075eb5dc",
+        "values": [],
+        "op": "STORE_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          2
+        ],
+        "actual_op": "('nat_pct', 2) STORE_FAST 3"
+      },
+      "after": {
+        "node": "5bf88591-c871-41bc-ae16-388a075eb5dc",
+        "values": [],
+        "op": "STORE_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          2
+        ],
+        "actual_op": "('nat_pct', 2) STORE_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "SETUP_LOOP 98",
+        "op_id": [
+          "nat_pct",
+          4
+        ],
+        "actual_op": "('nat_pct', 4) SETUP_LOOP 188"
+      },
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "SETUP_LOOP 88",
+        "op_id": [
+          "nat_pct",
+          4
+        ],
+        "actual_op": "('nat_pct', 4) SETUP_LOOP 166"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1a1d7c5d-40b6-4dc0-b9cd-17f1146d1379",
+        "values": [
+          "{'region1': {'demo': 2, 'Region Totals': 4}}"
+        ],
+        "op": "LOAD_FAST data",
+        "op_id": [
+          "nat_pct",
+          6
+        ],
+        "actual_op": "('nat_pct', 6) LOAD_FAST 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "17708d5b-c968-477a-9be5-14e2d6921893",
+        "values": [],
+        "op": "LOAD_METHOD items",
+        "op_id": [
+          "nat_pct",
+          8
+        ],
+        "actual_op": "('nat_pct', 8) LOAD_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "17708d5b-c968-477a-9be5-14e2d6921893",
+        "values": [
+          "dict_items([('region1', {'demo': 2, 'Region Totals': 4})])"
+        ],
+        "op": "CALL_METHOD 0",
+        "op_id": [
+          "nat_pct",
+          10
+        ],
+        "actual_op": "('nat_pct', 10) CALL_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0d047001-6850-419f-95cc-da42e408c88d",
+        "values": [
+          "['demo', 'Region Totals']"
+        ],
+        "op": "LOAD_FAST col_list",
+        "op_id": [
+          "nat_pct",
+          6
+        ],
+        "actual_op": "('nat_pct', 6) LOAD_FAST 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [
+          "<dict_itemiterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "nat_pct",
+          12
+        ],
+        "actual_op": "('nat_pct', 12) GET_ITER 0"
+      },
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [
+          "<list_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "nat_pct",
+          8
+        ],
+        "actual_op": "('nat_pct', 8) GET_ITER 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [
+          "<dict_itemiterator object>",
+          "('region1', {'demo': 2, 'Region Totals': 4})"
+        ],
+        "op": "FOR_ITER 96",
+        "op_id": [
+          "nat_pct",
+          14
+        ],
+        "actual_op": "('nat_pct', 14) FOR_ITER 168"
+      },
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [
+          "<list_iterator object>",
+          "demo"
+        ],
+        "op": "FOR_ITER 86",
+        "op_id": [
+          "nat_pct",
+          10
+        ],
+        "actual_op": "('nat_pct', 10) FOR_ITER 154"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8be90c22-c229-4fe0-98c7-05f7b2938747",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}",
+          "region1"
+        ],
+        "op": "UNPACK_SEQUENCE 2",
+        "op_id": [
+          "nat_pct",
+          16
+        ],
+        "actual_op": "('nat_pct', 16) UNPACK_SEQUENCE 2"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8be90c22-c229-4fe0-98c7-05f7b2938747",
+        "values": [],
+        "op": "STORE_FAST demographic",
+        "op_id": [
+          "nat_pct",
+          18
+        ],
+        "actual_op": "('nat_pct', 18) STORE_FAST 5"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8be90c22-c229-4fe0-98c7-05f7b2938747",
+        "values": [],
+        "op": "STORE_FAST regions",
+        "op_id": [
+          "nat_pct",
+          20
+        ],
+        "actual_op": "('nat_pct', 20) STORE_FAST 6"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "0e4d87a9-6eb8-4780-a8ac-306ee214ac4a",
+        "values": [
+          "region1"
+        ],
+        "op": "LOAD_FAST demographic",
+        "op_id": [
+          "nat_pct",
+          22
+        ],
+        "actual_op": "('nat_pct', 22) LOAD_FAST 5"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ccef4ee0-c324-4d34-bc8e-e356f5a33ae2",
+        "values": [
+          "['demo', 'Region Totals']"
+        ],
+        "op": "LOAD_FAST col_list",
+        "op_id": [
+          "nat_pct",
+          24
+        ],
+        "actual_op": "('nat_pct', 24) LOAD_FAST 1"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ec9f0b72-50e1-46b0-aee7-598fc8c18b15",
+        "values": [
+          "False"
+        ],
+        "op": "COMPARE_OP in",
+        "op_id": [
+          "nat_pct",
+          26
+        ],
+        "actual_op": "('nat_pct', 26) COMPARE_OP 6"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2d56a04b-3539-4a38-aa04-f0373ebdcdcb",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 14",
+        "op_id": [
+          "nat_pct",
+          28
+        ],
+        "actual_op": "('nat_pct', 28) POP_JUMP_IF_FALSE 26"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [],
+        "op": "STORE_FAST dem",
+        "op_id": [
+          "nat_pct",
+          12
+        ],
+        "actual_op": "('nat_pct', 12) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "95523b19-c607-44b0-9f5a-3b36a16ed5c3",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "nat_pct",
+          14
+        ],
+        "actual_op": "('nat_pct', 14) LOAD_CONST 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "504b47a4-3bb0-4f54-b36f-081ad3d56571",
+        "values": [
+          "{}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          16
+        ],
+        "actual_op": "('nat_pct', 16) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [
+          "demo"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          18
+        ],
+        "actual_op": "('nat_pct', 18) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "da23113d-7a6c-403c-b809-7cf0d15eff18",
+        "values": [],
+        "op": "STORE_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          20
+        ],
+        "actual_op": "('nat_pct', 20) STORE_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "SETUP_LOOP 84",
+        "op_id": [
+          "nat_pct",
+          22
+        ],
+        "actual_op": "('nat_pct', 22) SETUP_LOOP 132"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "04ba59a3-0a33-4db4-8b51-822b6779db53",
+        "values": [
+          "{'region1': {'demo': 2, 'Region Totals': 4}}"
+        ],
+        "op": "LOAD_FAST data",
+        "op_id": [
+          "nat_pct",
+          24
+        ],
+        "actual_op": "('nat_pct', 24) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [
+          "<dict_keyiterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "nat_pct",
+          26
+        ],
+        "actual_op": "('nat_pct', 26) GET_ITER 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [
+          "<dict_keyiterator object>",
+          "region1"
+        ],
+        "op": "FOR_ITER 82",
+        "op_id": [
+          "nat_pct",
+          28
+        ],
+        "actual_op": "('nat_pct', 28) FOR_ITER 120"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1039ff45-bd11-4f40-9594-4f9f3e15f308",
+        "values": [],
+        "op": "STORE_FAST region",
+        "op_id": [
+          "nat_pct",
+          30
+        ],
+        "actual_op": "('nat_pct', 30) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1039ff45-bd11-4f40-9594-4f9f3e15f308",
+        "values": [
+          "region1"
+        ],
+        "op": "LOAD_FAST region",
+        "op_id": [
+          "nat_pct",
+          32
+        ],
+        "actual_op": "('nat_pct', 32) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "6e97cc89-784f-48a9-aab9-6fed252da1de",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "nat_pct",
+          34
+        ],
+        "actual_op": "('nat_pct', 34) LOAD_CONST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "6e97cc89-784f-48a9-aab9-6fed252da1de",
+        "values": [
+          "False"
+        ],
+        "op": "COMPARE_OP ==",
+        "op_id": [
+          "nat_pct",
+          36
+        ],
+        "actual_op": "('nat_pct', 36) COMPARE_OP 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a801de55-5d81-4766-9c4b-8b18e4943791",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 56",
+        "op_id": [
+          "nat_pct",
+          38
+        ],
+        "actual_op": "('nat_pct', 38) POP_JUMP_IF_FALSE 100"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "46c26e0b-40e0-4088-8fc7-29e0aae978c0",
+        "values": [
+          "{'demo': 0}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          56
+        ],
+        "actual_op": "('nat_pct', 56) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [
+          "demo"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          58
+        ],
+        "actual_op": "('nat_pct', 58) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [
+          "{'demo': 0}",
+          "demo",
+          "{'demo': 0}",
+          "demo"
+        ],
+        "op": "DUP_TOP_TWO",
+        "op_id": [
+          "nat_pct",
+          60
+        ],
+        "actual_op": "('nat_pct', 60) DUP_TOP_TWO 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [
+          "0"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          62
+        ],
+        "actual_op": "('nat_pct', 62) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0dcb4d94-75bc-4b9c-8ff1-27c09d226bef",
+        "values": [
+          "{'region1': {'demo': 2, 'Region Totals': 4}}"
+        ],
+        "op": "LOAD_FAST data",
+        "op_id": [
+          "nat_pct",
+          64
+        ],
+        "actual_op": "('nat_pct', 64) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1039ff45-bd11-4f40-9594-4f9f3e15f308",
+        "values": [
+          "region1"
+        ],
+        "op": "LOAD_FAST region",
+        "op_id": [
+          "nat_pct",
+          66
+        ],
+        "actual_op": "('nat_pct', 66) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "14a1450a-3d7d-4b27-b6b0-e587c1be955d",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          68
+        ],
+        "actual_op": "('nat_pct', 68) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [
+          "demo"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          70
+        ],
+        "actual_op": "('nat_pct', 70) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0e164ac6-07f3-4e91-9614-1dd85a58c6b4",
+        "values": [
+          "2"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          72
+        ],
+        "actual_op": "('nat_pct', 72) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "480d2a2b-82dc-4bc0-88b3-73d2276e8691",
+        "values": [
+          "2"
+        ],
+        "op": "INPLACE_ADD",
+        "op_id": [
+          "nat_pct",
+          74
+        ],
+        "actual_op": "('nat_pct', 74) INPLACE_ADD 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [
+          "2",
+          "{'demo': 0}",
+          "demo"
+        ],
+        "op": "ROT_THREE",
+        "op_id": [
+          "nat_pct",
+          76
+        ],
+        "actual_op": "('nat_pct', 76) ROT_THREE 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [],
+        "op": "STORE_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          78
+        ],
+        "actual_op": "('nat_pct', 78) STORE_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 28",
+        "op_id": [
+          "nat_pct",
+          80
+        ],
+        "actual_op": "('nat_pct', 80) JUMP_ABSOLUTE 48"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "FOR_ITER 82",
+        "op_id": [
+          "nat_pct",
+          28
+        ],
+        "actual_op": "('nat_pct', 28) FOR_ITER 120"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "nat_pct",
+          82
+        ],
+        "actual_op": "('nat_pct', 82) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "FOR_ITER 96",
+        "op_id": [
+          "nat_pct",
+          14
+        ],
+        "actual_op": "('nat_pct', 14) FOR_ITER 168"
+      },
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 10",
+        "op_id": [
+          "nat_pct",
+          84
+        ],
+        "actual_op": "('nat_pct', 84) JUMP_ABSOLUTE 18"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "nat_pct",
+          96
+        ],
+        "actual_op": "('nat_pct', 96) POP_BLOCK 0"
+      },
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [
+          "<list_iterator object>",
+          "Region Totals"
+        ],
+        "op": "FOR_ITER 86",
+        "op_id": [
+          "nat_pct",
+          10
+        ],
+        "actual_op": "('nat_pct', 10) FOR_ITER 154"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "445d8c78-b63f-4c8f-9dc8-854f3ae663e2",
+        "values": [
+          "<built-in function sum>"
+        ],
+        "op": "LOAD_GLOBAL sum",
+        "op_id": [
+          "nat_pct",
+          98
+        ],
+        "actual_op": "('nat_pct', 98) LOAD_GLOBAL 1"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23",
+        "values": [
+          "{}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          100
+        ],
+        "actual_op": "('nat_pct', 100) LOAD_FAST 3"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fa8e0d12-d6a9-4e25-96b5-237f23a266e0",
+        "values": [],
+        "op": "LOAD_METHOD values",
+        "op_id": [
+          "nat_pct",
+          102
+        ],
+        "actual_op": "('nat_pct', 102) LOAD_METHOD 2"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fa8e0d12-d6a9-4e25-96b5-237f23a266e0",
+        "values": [
+          "dict_values([])"
+        ],
+        "op": "CALL_METHOD 0",
+        "op_id": [
+          "nat_pct",
+          104
+        ],
+        "actual_op": "('nat_pct', 104) CALL_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "234f9f53-958e-4475-bf53-34907c2039b6",
+        "values": [
+          "0"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "nat_pct",
+          106
+        ],
+        "actual_op": "('nat_pct', 106) CALL_FUNCTION 1"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1a456c8b-15c8-4262-93ae-6c320ac39f0c",
+        "values": [],
+        "op": "STORE_FAST total_count",
+        "op_id": [
+          "nat_pct",
+          108
+        ],
+        "actual_op": "('nat_pct', 108) STORE_FAST 11"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [],
+        "op": "STORE_FAST dem",
+        "op_id": [
+          "nat_pct",
+          12
+        ],
+        "actual_op": "('nat_pct', 12) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "95523b19-c607-44b0-9f5a-3b36a16ed5c3",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "nat_pct",
+          14
+        ],
+        "actual_op": "('nat_pct', 14) LOAD_CONST 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "504b47a4-3bb0-4f54-b36f-081ad3d56571",
+        "values": [
+          "{'demo': 2}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          16
+        ],
+        "actual_op": "('nat_pct', 16) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          18
+        ],
+        "actual_op": "('nat_pct', 18) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "da23113d-7a6c-403c-b809-7cf0d15eff18",
+        "values": [],
+        "op": "STORE_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          20
+        ],
+        "actual_op": "('nat_pct', 20) STORE_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "SETUP_LOOP 84",
+        "op_id": [
+          "nat_pct",
+          22
+        ],
+        "actual_op": "('nat_pct', 22) SETUP_LOOP 132"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "04ba59a3-0a33-4db4-8b51-822b6779db53",
+        "values": [
+          "{'region1': {'demo': 2, 'Region Totals': 4}}"
+        ],
+        "op": "LOAD_FAST data",
+        "op_id": [
+          "nat_pct",
+          24
+        ],
+        "actual_op": "('nat_pct', 24) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [
+          "<dict_keyiterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "nat_pct",
+          26
+        ],
+        "actual_op": "('nat_pct', 26) GET_ITER 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [
+          "<dict_keyiterator object>",
+          "region1"
+        ],
+        "op": "FOR_ITER 82",
+        "op_id": [
+          "nat_pct",
+          28
+        ],
+        "actual_op": "('nat_pct', 28) FOR_ITER 120"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1039ff45-bd11-4f40-9594-4f9f3e15f308",
+        "values": [],
+        "op": "STORE_FAST region",
+        "op_id": [
+          "nat_pct",
+          30
+        ],
+        "actual_op": "('nat_pct', 30) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1039ff45-bd11-4f40-9594-4f9f3e15f308",
+        "values": [
+          "region1"
+        ],
+        "op": "LOAD_FAST region",
+        "op_id": [
+          "nat_pct",
+          32
+        ],
+        "actual_op": "('nat_pct', 32) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "6e97cc89-784f-48a9-aab9-6fed252da1de",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "nat_pct",
+          34
+        ],
+        "actual_op": "('nat_pct', 34) LOAD_CONST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "6e97cc89-784f-48a9-aab9-6fed252da1de",
+        "values": [
+          "False"
+        ],
+        "op": "COMPARE_OP ==",
+        "op_id": [
+          "nat_pct",
+          36
+        ],
+        "actual_op": "('nat_pct', 36) COMPARE_OP 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a801de55-5d81-4766-9c4b-8b18e4943791",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 56",
+        "op_id": [
+          "nat_pct",
+          38
+        ],
+        "actual_op": "('nat_pct', 38) POP_JUMP_IF_FALSE 100"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "46c26e0b-40e0-4088-8fc7-29e0aae978c0",
+        "values": [
+          "{'demo': 2, 'Region Totals': 0}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          56
+        ],
+        "actual_op": "('nat_pct', 56) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          58
+        ],
+        "actual_op": "('nat_pct', 58) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [
+          "{'demo': 2, 'Region Totals': 0}",
+          "Region Totals",
+          "{'demo': 2, 'Region Totals': 0}",
+          "Region Totals"
+        ],
+        "op": "DUP_TOP_TWO",
+        "op_id": [
+          "nat_pct",
+          60
+        ],
+        "actual_op": "('nat_pct', 60) DUP_TOP_TWO 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [
+          "0"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          62
+        ],
+        "actual_op": "('nat_pct', 62) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0dcb4d94-75bc-4b9c-8ff1-27c09d226bef",
+        "values": [
+          "{'region1': {'demo': 2, 'Region Totals': 4}}"
+        ],
+        "op": "LOAD_FAST data",
+        "op_id": [
+          "nat_pct",
+          64
+        ],
+        "actual_op": "('nat_pct', 64) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1039ff45-bd11-4f40-9594-4f9f3e15f308",
+        "values": [
+          "region1"
+        ],
+        "op": "LOAD_FAST region",
+        "op_id": [
+          "nat_pct",
+          66
+        ],
+        "actual_op": "('nat_pct', 66) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "14a1450a-3d7d-4b27-b6b0-e587c1be955d",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          68
+        ],
+        "actual_op": "('nat_pct', 68) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1ad465fd-6254-411b-a35c-3b6d164583f2",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          70
+        ],
+        "actual_op": "('nat_pct', 70) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0e164ac6-07f3-4e91-9614-1dd85a58c6b4",
+        "values": [
+          "4"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          72
+        ],
+        "actual_op": "('nat_pct', 72) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "480d2a2b-82dc-4bc0-88b3-73d2276e8691",
+        "values": [
+          "4"
+        ],
+        "op": "INPLACE_ADD",
+        "op_id": [
+          "nat_pct",
+          74
+        ],
+        "actual_op": "('nat_pct', 74) INPLACE_ADD 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [
+          "4",
+          "{'demo': 2, 'Region Totals': 0}",
+          "Region Totals"
+        ],
+        "op": "ROT_THREE",
+        "op_id": [
+          "nat_pct",
+          76
+        ],
+        "actual_op": "('nat_pct', 76) ROT_THREE 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a0059d0b-a52b-4a73-8003-838fcd62ba4b",
+        "values": [],
+        "op": "STORE_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          78
+        ],
+        "actual_op": "('nat_pct', 78) STORE_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 28",
+        "op_id": [
+          "nat_pct",
+          80
+        ],
+        "actual_op": "('nat_pct', 80) JUMP_ABSOLUTE 48"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "FOR_ITER 82",
+        "op_id": [
+          "nat_pct",
+          28
+        ],
+        "actual_op": "('nat_pct', 28) FOR_ITER 120"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7e7e5a35-94cd-48fb-8a42-30f6d2079956",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "nat_pct",
+          82
+        ],
+        "actual_op": "('nat_pct', 82) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 10",
+        "op_id": [
+          "nat_pct",
+          84
+        ],
+        "actual_op": "('nat_pct', 84) JUMP_ABSOLUTE 18"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "FOR_ITER 86",
+        "op_id": [
+          "nat_pct",
+          10
+        ],
+        "actual_op": "('nat_pct', 10) FOR_ITER 154"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ddee8ce4-ed8d-403e-86eb-81550b660d08",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "nat_pct",
+          86
+        ],
+        "actual_op": "('nat_pct', 86) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "SETUP_LOOP 154",
+        "op_id": [
+          "nat_pct",
+          110
+        ],
+        "actual_op": "('nat_pct', 110) SETUP_LOOP 82"
+      },
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "SETUP_LOOP 136",
+        "op_id": [
+          "nat_pct",
+          88
+        ],
+        "actual_op": "('nat_pct', 88) SETUP_LOOP 82"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "40db387f-ed60-4054-85e2-7a3f4cad44f9",
+        "values": [
+          "{}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          112
+        ],
+        "actual_op": "('nat_pct', 112) LOAD_FAST 3"
+      },
+      "after": {
+        "node": "40db387f-ed60-4054-85e2-7a3f4cad44f9",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          90
+        ],
+        "actual_op": "('nat_pct', 90) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddd9c6a2-c3d5-4c8c-9529-f2e34b1125fe",
+        "values": [],
+        "op": "LOAD_METHOD items",
+        "op_id": [
+          "nat_pct",
+          114
+        ],
+        "actual_op": "('nat_pct', 114) LOAD_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ddd9c6a2-c3d5-4c8c-9529-f2e34b1125fe",
+        "values": [
+          "dict_items([])"
+        ],
+        "op": "CALL_METHOD 0",
+        "op_id": [
+          "nat_pct",
+          116
+        ],
+        "actual_op": "('nat_pct', 116) CALL_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [
+          "<dict_keyiterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "nat_pct",
+          92
+        ],
+        "actual_op": "('nat_pct', 92) GET_ITER 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [
+          "<dict_keyiterator object>",
+          "demo"
+        ],
+        "op": "FOR_ITER 134",
+        "op_id": [
+          "nat_pct",
+          94
+        ],
+        "actual_op": "('nat_pct', 94) FOR_ITER 70"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "43040893-8180-4b3a-b3a1-e5dad3e4029b",
+        "values": [],
+        "op": "STORE_FAST dem",
+        "op_id": [
+          "nat_pct",
+          96
+        ],
+        "actual_op": "('nat_pct', 96) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          98
+        ],
+        "actual_op": "('nat_pct', 98) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "3d1ea67e-022a-4dd9-b550-4c63474b0807",
+        "values": [
+          "demo"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          100
+        ],
+        "actual_op": "('nat_pct', 100) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ffc68df7-507f-45bf-94dc-58c2a7313817",
+        "values": [
+          "2"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          102
+        ],
+        "actual_op": "('nat_pct', 102) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "3bbbd0d2-0f3b-46f5-966d-ea4e4d422a7f",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          104
+        ],
+        "actual_op": "('nat_pct', 104) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1d0920fc-985b-4a15-a9c9-31ceebe2f633",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_CONST Region Totals",
+        "op_id": [
+          "nat_pct",
+          106
+        ],
+        "actual_op": "('nat_pct', 106) LOAD_CONST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "f6a3bbe5-591b-40c3-bc7e-1c4b4826754e",
+        "values": [
+          "4"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          108
+        ],
+        "actual_op": "('nat_pct', 108) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "25911112-5f6e-48ef-a55c-f70e8091fdff",
+        "values": [
+          "0.5"
+        ],
+        "op": "BINARY_TRUE_DIVIDE",
+        "op_id": [
+          "nat_pct",
+          110
+        ],
+        "actual_op": "('nat_pct', 110) BINARY_TRUE_DIVIDE 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1a456c8b-15c8-4262-93ae-6c320ac39f0c",
+        "values": [],
+        "op": "STORE_FAST total_count",
+        "op_id": [
+          "nat_pct",
+          112
+        ],
+        "actual_op": "('nat_pct', 112) STORE_FAST 9"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0aea43ee-3cff-4ce8-a8b4-8c5d9c79ea22",
+        "values": [
+          "<built-in function round>"
+        ],
+        "op": "LOAD_GLOBAL round",
+        "op_id": [
+          "nat_pct",
+          114
+        ],
+        "actual_op": "('nat_pct', 114) LOAD_GLOBAL 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "597cb60a-c65b-4cb8-bc36-46b1c845c8db",
+        "values": [
+          "0.5"
+        ],
+        "op": "LOAD_FAST total_count",
+        "op_id": [
+          "nat_pct",
+          116
+        ],
+        "actual_op": "('nat_pct', 116) LOAD_FAST 9"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ffa44491-c056-4e69-8b62-29280440f10a",
+        "values": [
+          "100"
+        ],
+        "op": "LOAD_CONST 100",
+        "op_id": [
+          "nat_pct",
+          118
+        ],
+        "actual_op": "('nat_pct', 118) LOAD_CONST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0f88786c-140c-4ec9-bd52-ec581d9661cd",
+        "values": [
+          "50.0"
+        ],
+        "op": "BINARY_MULTIPLY",
+        "op_id": [
+          "nat_pct",
+          120
+        ],
+        "actual_op": "('nat_pct', 120) BINARY_MULTIPLY 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "74c91d09-7212-4da1-aaf6-198629c41597",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_CONST 2",
+        "op_id": [
+          "nat_pct",
+          122
+        ],
+        "actual_op": "('nat_pct', 122) LOAD_CONST 4"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "b9ec5184-e570-4135-8240-e43efbc72715",
+        "values": [
+          "50.0"
+        ],
+        "op": "CALL_FUNCTION 2",
+        "op_id": [
+          "nat_pct",
+          124
+        ],
+        "actual_op": "('nat_pct', 124) CALL_FUNCTION 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "838f42b7-6c6f-4d49-94db-fd9be9ca8b54",
+        "values": [
+          "{'demo': 2, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          126
+        ],
+        "actual_op": "('nat_pct', 126) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "2bf0c2d4-be88-4fbc-b31c-6a01a5959594",
+        "values": [
+          "demo"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          128
+        ],
+        "actual_op": "('nat_pct', 128) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ced1b54e-0dce-47a1-9fb3-0659c5ed6369",
+        "values": [],
+        "op": "STORE_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          130
+        ],
+        "actual_op": "('nat_pct', 130) STORE_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 94",
+        "op_id": [
+          "nat_pct",
+          132
+        ],
+        "actual_op": "('nat_pct', 132) JUMP_ABSOLUTE 186"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [
+          "<dict_keyiterator object>",
+          "Region Totals"
+        ],
+        "op": "FOR_ITER 134",
+        "op_id": [
+          "nat_pct",
+          94
+        ],
+        "actual_op": "('nat_pct', 94) FOR_ITER 70"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "43040893-8180-4b3a-b3a1-e5dad3e4029b",
+        "values": [],
+        "op": "STORE_FAST dem",
+        "op_id": [
+          "nat_pct",
+          96
+        ],
+        "actual_op": "('nat_pct', 96) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7da7f8cf-fbec-4e4b-b75d-ecfd9013ce23",
+        "values": [
+          "{'demo': 50.0, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          98
+        ],
+        "actual_op": "('nat_pct', 98) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "3d1ea67e-022a-4dd9-b550-4c63474b0807",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          100
+        ],
+        "actual_op": "('nat_pct', 100) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ffc68df7-507f-45bf-94dc-58c2a7313817",
+        "values": [
+          "4"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          102
+        ],
+        "actual_op": "('nat_pct', 102) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "3bbbd0d2-0f3b-46f5-966d-ea4e4d422a7f",
+        "values": [
+          "{'demo': 50.0, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          104
+        ],
+        "actual_op": "('nat_pct', 104) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1d0920fc-985b-4a15-a9c9-31ceebe2f633",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_CONST Region Totals",
+        "op_id": [
+          "nat_pct",
+          106
+        ],
+        "actual_op": "('nat_pct', 106) LOAD_CONST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "f6a3bbe5-591b-40c3-bc7e-1c4b4826754e",
+        "values": [
+          "4"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          108
+        ],
+        "actual_op": "('nat_pct', 108) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "25911112-5f6e-48ef-a55c-f70e8091fdff",
+        "values": [
+          "1.0"
+        ],
+        "op": "BINARY_TRUE_DIVIDE",
+        "op_id": [
+          "nat_pct",
+          110
+        ],
+        "actual_op": "('nat_pct', 110) BINARY_TRUE_DIVIDE 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1a456c8b-15c8-4262-93ae-6c320ac39f0c",
+        "values": [],
+        "op": "STORE_FAST total_count",
+        "op_id": [
+          "nat_pct",
+          112
+        ],
+        "actual_op": "('nat_pct', 112) STORE_FAST 9"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0aea43ee-3cff-4ce8-a8b4-8c5d9c79ea22",
+        "values": [
+          "<built-in function round>"
+        ],
+        "op": "LOAD_GLOBAL round",
+        "op_id": [
+          "nat_pct",
+          114
+        ],
+        "actual_op": "('nat_pct', 114) LOAD_GLOBAL 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "597cb60a-c65b-4cb8-bc36-46b1c845c8db",
+        "values": [
+          "1.0"
+        ],
+        "op": "LOAD_FAST total_count",
+        "op_id": [
+          "nat_pct",
+          116
+        ],
+        "actual_op": "('nat_pct', 116) LOAD_FAST 9"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ffa44491-c056-4e69-8b62-29280440f10a",
+        "values": [
+          "100"
+        ],
+        "op": "LOAD_CONST 100",
+        "op_id": [
+          "nat_pct",
+          118
+        ],
+        "actual_op": "('nat_pct', 118) LOAD_CONST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0f88786c-140c-4ec9-bd52-ec581d9661cd",
+        "values": [
+          "100.0"
+        ],
+        "op": "BINARY_MULTIPLY",
+        "op_id": [
+          "nat_pct",
+          120
+        ],
+        "actual_op": "('nat_pct', 120) BINARY_MULTIPLY 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "74c91d09-7212-4da1-aaf6-198629c41597",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_CONST 2",
+        "op_id": [
+          "nat_pct",
+          122
+        ],
+        "actual_op": "('nat_pct', 122) LOAD_CONST 4"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "b9ec5184-e570-4135-8240-e43efbc72715",
+        "values": [
+          "100.0"
+        ],
+        "op": "CALL_FUNCTION 2",
+        "op_id": [
+          "nat_pct",
+          124
+        ],
+        "actual_op": "('nat_pct', 124) CALL_FUNCTION 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "838f42b7-6c6f-4d49-94db-fd9be9ca8b54",
+        "values": [
+          "{'demo': 50.0, 'Region Totals': 4}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          126
+        ],
+        "actual_op": "('nat_pct', 126) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "2bf0c2d4-be88-4fbc-b31c-6a01a5959594",
+        "values": [
+          "Region Totals"
+        ],
+        "op": "LOAD_FAST dem",
+        "op_id": [
+          "nat_pct",
+          128
+        ],
+        "actual_op": "('nat_pct', 128) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ced1b54e-0dce-47a1-9fb3-0659c5ed6369",
+        "values": [],
+        "op": "STORE_SUBSCR",
+        "op_id": [
+          "nat_pct",
+          130
+        ],
+        "actual_op": "('nat_pct', 130) STORE_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [
+          "<dict_itemiterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "nat_pct",
+          118
+        ],
+        "actual_op": "('nat_pct', 118) GET_ITER 0"
+      },
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 94",
+        "op_id": [
+          "nat_pct",
+          132
+        ],
+        "actual_op": "('nat_pct', 132) JUMP_ABSOLUTE 186"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "FOR_ITER 152",
+        "op_id": [
+          "nat_pct",
+          120
+        ],
+        "actual_op": "('nat_pct', 120) FOR_ITER 62"
+      },
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "FOR_ITER 134",
+        "op_id": [
+          "nat_pct",
+          94
+        ],
+        "actual_op": "('nat_pct', 94) FOR_ITER 70"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "nat_pct",
+          152
+        ],
+        "actual_op": "('nat_pct', 152) POP_BLOCK 0"
+      },
+      "after": {
+        "node": "8a3f3493-c977-4381-aa37-f8fe327c4afe",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "nat_pct",
+          134
+        ],
+        "actual_op": "('nat_pct', 134) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "00085613-19bb-4214-aac0-b9ec04a18c34",
+        "values": [
+          "{}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          154
+        ],
+        "actual_op": "('nat_pct', 154) LOAD_FAST 3"
+      },
+      "after": {
+        "node": "00085613-19bb-4214-aac0-b9ec04a18c34",
+        "values": [
+          "{'demo': 50.0, 'Region Totals': 100.0}"
+        ],
+        "op": "LOAD_FAST data_totals",
+        "op_id": [
+          "nat_pct",
+          136
+        ],
+        "actual_op": "('nat_pct', 136) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dbcf66a2-c99c-430a-99d0-d24e45d66e50",
+        "values": [
+          "{}"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "nat_pct",
+          156
+        ],
+        "actual_op": "('nat_pct', 156) RETURN_VALUE 0"
+      },
+      "after": {
+        "node": "dbcf66a2-c99c-430a-99d0-d24e45d66e50",
+        "values": [
+          "{'demo': 50.0, 'Region Totals': 100.0}"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "nat_pct",
+          138
+        ],
+        "actual_op": "('nat_pct', 138) RETURN_VALUE 0"
+      },
+      "value_matches": false
+    }
+  ],
+  "points_of_interest": {
+    "last_matching_before_fix": 20,
+    "first_wrong_before_fix": 27,
+    "last_matching_after_fix": 153
+  },
+  "effect_summary": "The fixed version of the code performed better than the old version: \nThe test passed in the fixed version, but not in the old version."
+}
+</script>
+                
+</body>

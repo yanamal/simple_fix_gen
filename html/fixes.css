@@ -1,0 +1,230 @@
+br {
+    margin-top: 7px;
+    display: block;
+    content: " ";
+}
+
+.highlight {
+    background: #eeeeee !important;
+    border-width: thin;
+    border: black !important;
+    border-style: dotted  !important;
+}
+
+.code-block {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 3;
+}
+
+.trace-div {
+    border: 1px solid gray;
+}
+
+.explanation{
+    text-align: center;
+}
+
+.trace-block {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    vertical-align: top;
+    line-height: 2;
+}
+
+.shifted-tree-node {
+    position: absolute;
+    color: initial;
+    border-width: thin;
+    border-style: solid;
+}
+
+.ast-node {
+    position: relative
+}
+
+.placeholder {
+    position: relative;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.superscript {
+    position: absolute;
+    top: -20px;
+    color: rgba(100, 0, 0, 0.8);
+    visibility: hidden;
+}
+
+.shifted-tree-node:hover > .superscript{
+    visibility: visible;
+}
+
+.delete-text {
+    background-color: rgb(255, 233, 233);
+    text-decoration: line-through;
+}
+.delete-text>* {
+    text-decoration: none;
+}
+
+.delete-node>.text-span {
+    background-color: rgb(255, 233, 233);
+    text-decoration: line-through;
+}
+
+.code-block .move-node {
+    background-color: rgb(224, 237, 255);
+    text-decoration: none;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 11px;
+    padding: 3px;
+}
+
+.rename-node {
+    position:relative;
+}
+
+.before-fix-code .rename-node>.text-span {
+    background-color: rgb(255, 233, 233);
+    text-decoration: line-through;
+}
+
+.rename-node>.replacement {
+    position: absolute;
+    top: -20px;
+}
+
+.ast-node>.value {
+    position: absolute;
+    top: -20px;
+    color: rgba(150, 100, 100, 1);
+    background-color: rgba(240, 240, 240, 1);
+    line-height: 16px;
+    border-width: thin;
+    border: black !important;
+    border-style: dotted !important;
+}
+
+.insert-multiline-span {
+    background-color: rgba(0, 255, 0, 0.1);
+    position:relative;
+    left: 10px;
+    top: -5px;
+    box-shadow: -10px 5px rgb(0 0 0);
+}
+
+.insert-span {
+    background-color: rgba(0, 255, 0, 0.1);
+    position:absolute;
+    top: -14px;
+    left: -10px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 11px;
+    line-height: 1;
+}
+
+.inserted-node-inline {
+    position: absolute;
+    top: -20px;
+    left: -5px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 11px;
+    line-height: 1;
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.insertion-inline-indicator {
+    position: relative;
+    top: 5px;
+}
+
+.insertion-multiline-indicator {
+    position: absolute;
+}
+
+.evaluated-node {
+    border-top: 1px solid rgba(25, 25, 25, 1);
+}
+
+.after-fix-code{
+    position: absolute;
+    opacity: 0;
+}
+
+
+input[name="test[]"] {
+    display: block;
+    width:500px;
+}
+
+
+.trace-slider
+{
+    height: 175px;
+    display: inline-block;
+}
+
+.ticks {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tick {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+}
+
+.op-line {
+    stroke:rgb(25,25,25);
+    stroke-width:1
+}
+
+.no-op-line {
+    stroke:rgba(25,25,25,0);
+    stroke-width:1
+}
+
+.bad-value-op-line {
+    stroke:rgba(255,0,0,1);
+    stroke-width:1
+}
+
+.ui-slider-handle {
+    border-radius: 1em;
+}
+
+.comparison-div {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.side-by-side {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.half-width {
+    width: 48%;
+    overflow: scroll;
+}
+
+.side-by-side.after .insert-node>.text-span {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.side-by-side .rename-node>.text-span {
+    background-color: rgba(255, 165, 0, 0.1);
+}

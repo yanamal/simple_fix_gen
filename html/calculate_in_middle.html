@@ -1,0 +1,1715 @@
+
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="fixes.js"></script>
+    <link rel="stylesheet" type="text/css" href="fixes.css">
+</head>
+<body>
+<div class="code-block side-by-side before" id="before_block"><pre><span class="ast-node" id="student_code_1e93d12e-e088-44a5-8149-e8a3ecfec761" data-node-id="1e93d12e-e088-44a5-8149-e8a3ecfec761" data-node-name="Module"><span class="ast-node" id="student_code_a1aa4a31-95e3-4a46-a2a9-c81a37211a2b" data-node-id="a1aa4a31-95e3-4a46-a2a9-c81a37211a2b" data-node-name="Import" data-key=0 data-parent-list-id="40fc8c5c-682d-470c-aa09-88bebd25f9d2"><span class="ast-node" id="student_code_adb3658c-7e74-4e31-8f6d-caa33aadbfc3" data-node-id="adb3658c-7e74-4e31-8f6d-caa33aadbfc3" data-node-name="alias name: re" data-key=0 data-parent-list-id="d0b38117-20af-4312-9861-d824b9ea39aa"><span class="ast-node" id="student_code_bca91e2a-0bf5-4e69-9c0f-b98e020ea636" data-node-id="bca91e2a-0bf5-4e69-9c0f-b98e020ea636" data-node-name="alias name: os" data-key=1 data-parent-list-id="d0b38117-20af-4312-9861-d824b9ea39aa"><span class="ast-node" id="student_code_fb14b110-815e-49de-abad-8fc6702c3dac" data-node-id="fb14b110-815e-49de-abad-8fc6702c3dac" data-node-name="alias name: unittest" data-key=2 data-parent-list-id="d0b38117-20af-4312-9861-d824b9ea39aa">import</span></span></span> re, os, unittest</span>
+
+
+<span class="ast-node" id="student_code_304488e0-b8b0-4ecc-b59e-3d80b9563ac9" data-node-id="304488e0-b8b0-4ecc-b59e-3d80b9563ac9" data-node-name="FunctionDef name: calculate_in_middle" data-key=1 data-parent-list-id="40fc8c5c-682d-470c-aa09-88bebd25f9d2">def calculate_in_middle(<span class="ast-node" id="student_code_b028d296-d28b-4fe7-ba23-b37fb5aad6c2" data-node-id="b028d296-d28b-4fe7-ba23-b37fb5aad6c2" data-node-name="arguments" data-key=args><span class="ast-node" id="student_code_79179750-917d-46cf-8b20-7d3554ad28bd" data-node-id="79179750-917d-46cf-8b20-7d3554ad28bd" data-node-name="arg(arg = mid)" data-key=0 data-parent-list-id="151a3c15-5ab3-4c71-a6a2-71e5f8266d80">mid</span>, <span class="ast-node" id="student_code_71bcbf88-78fe-477b-9c29-49fede9e2654" data-node-id="71bcbf88-78fe-477b-9c29-49fede9e2654" data-node-name="arg(arg = lines_list)" data-key=1 data-parent-list-id="151a3c15-5ab3-4c71-a6a2-71e5f8266d80">lines_list</span></span>):
+    <span class="ast-node delete-node" id="student_code_eb43cce6-ff18-4108-867f-a902e6a18116" data-node-id="eb43cce6-ff18-4108-867f-a902e6a18116" data-node-name="Assign" data-key=0 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node delete-node" id="student_code_c2718965-65df-47cc-b78b-eacf2fe6da08" data-node-id="c2718965-65df-47cc-b78b-eacf2fe6da08" data-node-name="Store identifier count" data-key=0 data-parent-list-id="d853b1a8-d921-4fa1-92d0-32c115a93091">count</span> = <span class="ast-node move-node" id="student_code_bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc" data-node-id="bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc" data-node-name="Num(n = 0)" data-key=value>0</span></span>
+    <span class="ast-node" id="student_code_3f357813-f82d-45b0-afbb-c4eec4cc89a7" data-node-id="3f357813-f82d-45b0-afbb-c4eec4cc89a7" data-node-name="Assign" data-key=1 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node" id="student_code_3d980774-5ac3-4b1b-9541-b68e51c586bd" data-node-id="3d980774-5ac3-4b1b-9541-b68e51c586bd" data-node-name="Store identifier expression" data-key=0 data-parent-list-id="7f48eee8-5595-43c0-86e6-21b05177d203">expression</span> = <span class="ast-node delete-node" id="student_code_7b3b1c37-ced3-4bd7-8bee-eaeb123e853a" data-node-id="7b3b1c37-ced3-4bd7-8bee-eaeb123e853a" data-node-name="Str(s = ^[^(?:{mid})][a-zA-z]*(?:{mid})[a-zA-z]*[^(?:{mid})]$)" data-key=value>'^[^(?:{mid})][a-zA-z]*(?:{mid})[a-zA-z]*[^(?:{mid})]$'</span></span>
+    <span class="ast-node" id="student_code_b73cb1c4-1408-467e-8f84-cc920b6342df" data-node-id="b73cb1c4-1408-467e-8f84-cc920b6342df" data-node-name="Assign" data-key=2 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node" id="student_code_b0751df0-0fd2-41f6-8980-eadfcbc668da" data-node-id="b0751df0-0fd2-41f6-8980-eadfcbc668da" data-node-name="Store identifier mid_list" data-key=0 data-parent-list-id="d81af195-934e-4324-ba64-771595e4c3df">mid_list</span> = <span class="ast-node" id="student_code_ea9b21ee-48df-4ca5-9fd6-32c4af1303d4" data-node-id="ea9b21ee-48df-4ca5-9fd6-32c4af1303d4" data-node-name="List(ctx=Load)" data-key=value>[]</span></span>
+    <span class="ast-node" id="student_code_71243f48-f3b6-41b7-89fc-ac6cf221133f" data-node-id="71243f48-f3b6-41b7-89fc-ac6cf221133f" data-node-name="For" data-key=3 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a">for <span class="ast-node" id="student_code_7e0b730d-bf57-46bb-adbb-dabbf1face4a" data-node-id="7e0b730d-bf57-46bb-adbb-dabbf1face4a" data-node-name="Store identifier line" data-key=target>line</span> in <span class="ast-node" id="student_code_dde11742-6e60-4e11-8a92-95c4323c7c8d" data-node-id="dde11742-6e60-4e11-8a92-95c4323c7c8d" data-node-name="Load identifier lines_list" data-key=iter>lines_list</span>:
+        <span class="ast-node delete-node" id="student_code_9d2c6f9f-f1d3-4dc4-8dcd-3bd1fa3a762b" data-node-id="9d2c6f9f-f1d3-4dc4-8dcd-3bd1fa3a762b" data-node-name="Expr" data-key=0 data-parent-list-id="64788723-467b-4488-b774-ffa958244d70"><span class="ast-node move-node" id="student_code_0c731476-c7d8-45a8-9dd3-ecdaa135ca35" data-node-id="0c731476-c7d8-45a8-9dd3-ecdaa135ca35" data-node-name="Call" data-key=value><span class="ast-node rename-node" id="student_code_31a62ef9-761d-415d-abbc-e7dda51a3fdc" data-node-id="31a62ef9-761d-415d-abbc-e7dda51a3fdc" data-node-name="Attribute(ctx=Load)(attr = split)" data-key=func><span class="ast-node rename-node" id="student_code_c1a70c51-bdc0-4907-a5aa-ce1815979ec9" data-node-id="c1a70c51-bdc0-4907-a5aa-ce1815979ec9" data-node-name="Load identifier line" data-key=value>line</span>.split</span>()</span></span>
+        <span class="ast-node" id="student_code_bfd9f327-df56-4ba4-a781-966cf81038a9" data-node-id="bfd9f327-df56-4ba4-a781-966cf81038a9" data-node-name="Assign" data-key=1 data-parent-list-id="64788723-467b-4488-b774-ffa958244d70"><span class="ast-node" id="student_code_fbe46843-a654-4861-b10e-81d3ebc88c7e" data-node-id="fbe46843-a654-4861-b10e-81d3ebc88c7e" data-node-name="Store identifier mid_word" data-key=0 data-parent-list-id="d0b2e2b1-3c23-4f36-9e65-7984184454fc">mid_word</span> = <span class="ast-node" id="student_code_46f027f8-1e2c-4c26-8593-4510078d1fb4" data-node-id="46f027f8-1e2c-4c26-8593-4510078d1fb4" data-node-name="Call" data-key=value><span class="ast-node" id="student_code_0e72c7c6-a1b4-4862-9f3b-f10ede06d868" data-node-id="0e72c7c6-a1b4-4862-9f3b-f10ede06d868" data-node-name="Attribute(ctx=Load)(attr = findall)" data-key=func><span class="ast-node" id="student_code_d071e433-d7f8-4e79-ae54-206f7ad18a93" data-node-id="d071e433-d7f8-4e79-ae54-206f7ad18a93" data-node-name="Load identifier re" data-key=value>re</span>.findall</span>(<span class="ast-node" id="student_code_2c3b5bab-c7fa-410b-94fc-37c1bde99e24" data-node-id="2c3b5bab-c7fa-410b-94fc-37c1bde99e24" data-node-name="Load identifier expression" data-key=0 data-parent-list-id="4ce82475-f5a6-449b-a2a1-4f5e5006e18a">expression</span>, <span class="ast-node" id="student_code_0abb3987-d28c-4651-8605-49769f2f2b56" data-node-id="0abb3987-d28c-4651-8605-49769f2f2b56" data-node-name="Load identifier line" data-key=1 data-parent-list-id="4ce82475-f5a6-449b-a2a1-4f5e5006e18a">line</span>)</span></span>
+        <span class="ast-node move-node" id="student_code_79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9" data-node-id="79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9" data-node-name="Expr" data-key=2 data-parent-list-id="64788723-467b-4488-b774-ffa958244d70"><span class="ast-node" id="student_code_9b5fbe76-0097-4904-990e-758b5ff29246" data-node-id="9b5fbe76-0097-4904-990e-758b5ff29246" data-node-name="Call" data-key=value><span class="ast-node" id="student_code_aec102cf-28f6-4594-810e-bd48574c2566" data-node-id="aec102cf-28f6-4594-810e-bd48574c2566" data-node-name="Attribute(ctx=Load)(attr = extend)" data-key=func><span class="ast-node" id="student_code_fef93b35-a2ef-47f4-99ff-50575e0b1573" data-node-id="fef93b35-a2ef-47f4-99ff-50575e0b1573" data-node-name="Load identifier mid_list" data-key=value>mid_list</span>.extend</span>(<span class="ast-node delete-node" id="student_code_cad3d811-db0e-4f89-87b9-e4e4c14d50be" data-node-id="cad3d811-db0e-4f89-87b9-e4e4c14d50be" data-node-name="Load identifier mid_word" data-key=0 data-parent-list-id="83268cc6-7a17-4f3a-b9f2-23651eaeb392">mid_word</span>)</span></span></span>
+    <span class="ast-node" id="student_code_03d61471-edb1-45f6-9423-b58c2cdc3f41" data-node-id="03d61471-edb1-45f6-9423-b58c2cdc3f41" data-node-name="Assign" data-key=4 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node" id="student_code_80a92bfa-47b4-4dfa-a92e-0073889fcc8d" data-node-id="80a92bfa-47b4-4dfa-a92e-0073889fcc8d" data-node-name="Store identifier count" data-key=0 data-parent-list-id="2e392c74-ef4a-41fd-b40d-74270044e763">count</span> = <span class="ast-node" id="student_code_47c9aa66-243b-44f8-8881-793cd1c5b47a" data-node-id="47c9aa66-243b-44f8-8881-793cd1c5b47a" data-node-name="Call" data-key=value><span class="ast-node" id="student_code_54fe8693-aede-426d-b1b2-0b275aff6c45" data-node-id="54fe8693-aede-426d-b1b2-0b275aff6c45" data-node-name="Load identifier len" data-key=func>len</span>(<span class="ast-node" id="student_code_f6f0e9a1-e923-43cf-a50e-aec093b01a2b" data-node-id="f6f0e9a1-e923-43cf-a50e-aec093b01a2b" data-node-name="Load identifier mid_list" data-key=0 data-parent-list-id="02c76251-b5ed-440f-9eeb-d5c0d6170a02">mid_list</span>)</span></span>
+    <span class="ast-node" id="student_code_dfc5644f-02fb-4bee-8cce-537b4d9eaf62" data-node-id="dfc5644f-02fb-4bee-8cce-537b4d9eaf62" data-node-name="Return" data-key=5 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a">return <span class="ast-node" id="student_code_500ee554-e705-43cc-9461-43e1061fcf6b" data-node-id="500ee554-e705-43cc-9461-43e1061fcf6b" data-node-name="Load identifier count" data-key=value>count</span></span></span></span></pre></div><div class="code-block side-by-side after" id="after_block"><pre><span class="ast-node" id="corrected_code_1e93d12e-e088-44a5-8149-e8a3ecfec761" data-node-id="1e93d12e-e088-44a5-8149-e8a3ecfec761" data-node-name="Module"><span class="ast-node" id="corrected_code_a1aa4a31-95e3-4a46-a2a9-c81a37211a2b" data-node-id="a1aa4a31-95e3-4a46-a2a9-c81a37211a2b" data-node-name="Import" data-key=0 data-parent-list-id="40fc8c5c-682d-470c-aa09-88bebd25f9d2"><span class="ast-node" id="corrected_code_adb3658c-7e74-4e31-8f6d-caa33aadbfc3" data-node-id="adb3658c-7e74-4e31-8f6d-caa33aadbfc3" data-node-name="alias name: re" data-key=0 data-parent-list-id="d0b38117-20af-4312-9861-d824b9ea39aa"><span class="ast-node" id="corrected_code_bca91e2a-0bf5-4e69-9c0f-b98e020ea636" data-node-id="bca91e2a-0bf5-4e69-9c0f-b98e020ea636" data-node-name="alias name: os" data-key=1 data-parent-list-id="d0b38117-20af-4312-9861-d824b9ea39aa"><span class="ast-node" id="corrected_code_fb14b110-815e-49de-abad-8fc6702c3dac" data-node-id="fb14b110-815e-49de-abad-8fc6702c3dac" data-node-name="alias name: unittest" data-key=2 data-parent-list-id="d0b38117-20af-4312-9861-d824b9ea39aa">import</span></span></span> re, os, unittest</span>
+
+
+<span class="ast-node" id="corrected_code_304488e0-b8b0-4ecc-b59e-3d80b9563ac9" data-node-id="304488e0-b8b0-4ecc-b59e-3d80b9563ac9" data-node-name="FunctionDef name: calculate_in_middle" data-key=1 data-parent-list-id="40fc8c5c-682d-470c-aa09-88bebd25f9d2">def calculate_in_middle(<span class="ast-node" id="corrected_code_b028d296-d28b-4fe7-ba23-b37fb5aad6c2" data-node-id="b028d296-d28b-4fe7-ba23-b37fb5aad6c2" data-node-name="arguments" data-key=args><span class="ast-node" id="corrected_code_79179750-917d-46cf-8b20-7d3554ad28bd" data-node-id="79179750-917d-46cf-8b20-7d3554ad28bd" data-node-name="arg(arg = mid)" data-key=0 data-parent-list-id="151a3c15-5ab3-4c71-a6a2-71e5f8266d80">mid</span>, <span class="ast-node" id="corrected_code_71bcbf88-78fe-477b-9c29-49fede9e2654" data-node-id="71bcbf88-78fe-477b-9c29-49fede9e2654" data-node-name="arg(arg = lines_list)" data-key=1 data-parent-list-id="151a3c15-5ab3-4c71-a6a2-71e5f8266d80">lines_list</span></span>):
+    <span class="ast-node" id="corrected_code_3f357813-f82d-45b0-afbb-c4eec4cc89a7" data-node-id="3f357813-f82d-45b0-afbb-c4eec4cc89a7" data-node-name="Assign" data-key=0 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node" id="corrected_code_3d980774-5ac3-4b1b-9541-b68e51c586bd" data-node-id="3d980774-5ac3-4b1b-9541-b68e51c586bd" data-node-name="Store identifier expression" data-key=0 data-parent-list-id="7f48eee8-5595-43c0-86e6-21b05177d203">expression</span> = <span class="ast-node insert-node" id="corrected_code_ce57d38b-8dc1-4648-ad22-ae0043cdd3c6" data-node-id="ce57d38b-8dc1-4648-ad22-ae0043cdd3c6" data-node-name="BinOp +" data-key=value><span class="ast-node insert-node" id="corrected_code_33099c6e-caa5-4134-b38f-8df6a317bbf9" data-node-id="33099c6e-caa5-4134-b38f-8df6a317bbf9" data-node-name="BinOp +" data-key=left><span class="ast-node insert-node" id="corrected_code_049ed39f-d909-42c5-9852-32c9e27451db" data-node-id="049ed39f-d909-42c5-9852-32c9e27451db" data-node-name="Str(s = \b[A-Za-z]+)" data-key=left>'\\b[A-Za-z]+'</span> + <span class="ast-node move-node" id="corrected_code_0c731476-c7d8-45a8-9dd3-ecdaa135ca35" data-node-id="0c731476-c7d8-45a8-9dd3-ecdaa135ca35" data-node-name="Call" data-key=right><span class="ast-node rename-node" id="corrected_code_31a62ef9-761d-415d-abbc-e7dda51a3fdc" data-node-id="31a62ef9-761d-415d-abbc-e7dda51a3fdc" data-node-name="Attribute(ctx=Load)(attr = escape)" data-key=func><span class="ast-node rename-node" id="corrected_code_c1a70c51-bdc0-4907-a5aa-ce1815979ec9" data-node-id="c1a70c51-bdc0-4907-a5aa-ce1815979ec9" data-node-name="Load identifier re" data-key=value>re</span>.escape</span>(<span class="ast-node insert-node" id="corrected_code_a7f34bf8-8cae-49d6-9bcd-d55c463d19e6" data-node-id="a7f34bf8-8cae-49d6-9bcd-d55c463d19e6" data-node-name="Load identifier mid" data-key=0 data-parent-list-id="c1e9aaf4-0e77-4fda-bdaf-44df83078ae8">mid</span>)</span></span> + <span class="ast-node insert-node" id="corrected_code_3f101446-fbc6-4a13-8c6a-067e01924aeb" data-node-id="3f101446-fbc6-4a13-8c6a-067e01924aeb" data-node-name="Str(s = [A-Za-z]+\b)" data-key=right>'[A-Za-z]+\\b'</span></span></span>
+    <span class="ast-node" id="corrected_code_b73cb1c4-1408-467e-8f84-cc920b6342df" data-node-id="b73cb1c4-1408-467e-8f84-cc920b6342df" data-node-name="Assign" data-key=1 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node" id="corrected_code_b0751df0-0fd2-41f6-8980-eadfcbc668da" data-node-id="b0751df0-0fd2-41f6-8980-eadfcbc668da" data-node-name="Store identifier mid_list" data-key=0 data-parent-list-id="d81af195-934e-4324-ba64-771595e4c3df">mid_list</span> = <span class="ast-node" id="corrected_code_ea9b21ee-48df-4ca5-9fd6-32c4af1303d4" data-node-id="ea9b21ee-48df-4ca5-9fd6-32c4af1303d4" data-node-name="List(ctx=Load)" data-key=value>[]</span></span>
+    <span class="ast-node" id="corrected_code_71243f48-f3b6-41b7-89fc-ac6cf221133f" data-node-id="71243f48-f3b6-41b7-89fc-ac6cf221133f" data-node-name="For" data-key=2 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a">for <span class="ast-node" id="corrected_code_7e0b730d-bf57-46bb-adbb-dabbf1face4a" data-node-id="7e0b730d-bf57-46bb-adbb-dabbf1face4a" data-node-name="Store identifier line" data-key=target>line</span> in <span class="ast-node" id="corrected_code_dde11742-6e60-4e11-8a92-95c4323c7c8d" data-node-id="dde11742-6e60-4e11-8a92-95c4323c7c8d" data-node-name="Load identifier lines_list" data-key=iter>lines_list</span>:
+        <span class="ast-node" id="corrected_code_bfd9f327-df56-4ba4-a781-966cf81038a9" data-node-id="bfd9f327-df56-4ba4-a781-966cf81038a9" data-node-name="Assign" data-key=0 data-parent-list-id="64788723-467b-4488-b774-ffa958244d70"><span class="ast-node" id="corrected_code_fbe46843-a654-4861-b10e-81d3ebc88c7e" data-node-id="fbe46843-a654-4861-b10e-81d3ebc88c7e" data-node-name="Store identifier mid_word" data-key=0 data-parent-list-id="d0b2e2b1-3c23-4f36-9e65-7984184454fc">mid_word</span> = <span class="ast-node" id="corrected_code_46f027f8-1e2c-4c26-8593-4510078d1fb4" data-node-id="46f027f8-1e2c-4c26-8593-4510078d1fb4" data-node-name="Call" data-key=value><span class="ast-node" id="corrected_code_0e72c7c6-a1b4-4862-9f3b-f10ede06d868" data-node-id="0e72c7c6-a1b4-4862-9f3b-f10ede06d868" data-node-name="Attribute(ctx=Load)(attr = findall)" data-key=func><span class="ast-node" id="corrected_code_d071e433-d7f8-4e79-ae54-206f7ad18a93" data-node-id="d071e433-d7f8-4e79-ae54-206f7ad18a93" data-node-name="Load identifier re" data-key=value>re</span>.findall</span>(<span class="ast-node" id="corrected_code_2c3b5bab-c7fa-410b-94fc-37c1bde99e24" data-node-id="2c3b5bab-c7fa-410b-94fc-37c1bde99e24" data-node-name="Load identifier expression" data-key=0 data-parent-list-id="4ce82475-f5a6-449b-a2a1-4f5e5006e18a">expression</span>, <span class="ast-node" id="corrected_code_0abb3987-d28c-4651-8605-49769f2f2b56" data-node-id="0abb3987-d28c-4651-8605-49769f2f2b56" data-node-name="Load identifier line" data-key=1 data-parent-list-id="4ce82475-f5a6-449b-a2a1-4f5e5006e18a">line</span>)</span></span>
+        <span class="ast-node insert-node" id="corrected_code_7cb179ee-14e8-40ae-99ca-6c3092fa0e33" data-node-id="7cb179ee-14e8-40ae-99ca-6c3092fa0e33" data-node-name="For" data-key=1 data-parent-list-id="64788723-467b-4488-b774-ffa958244d70">for <span class="ast-node insert-node" id="corrected_code_8a0801c4-516a-4fb0-8117-12d40fd4d1fd" data-node-id="8a0801c4-516a-4fb0-8117-12d40fd4d1fd" data-node-name="Store identifier i" data-key=target>i</span> in <span class="ast-node insert-node" id="corrected_code_51ccbd77-da4b-4bd0-8151-42fe9d2f59cd" data-node-id="51ccbd77-da4b-4bd0-8151-42fe9d2f59cd" data-node-name="Load identifier x" data-key=iter>mid_word</span>:
+            <span class="ast-node move-node" id="corrected_code_79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9" data-node-id="79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9" data-node-name="Expr" data-key=0 data-parent-list-id="b0520019-37a8-4b39-84cc-50a66d984bc2"><span class="ast-node" id="corrected_code_9b5fbe76-0097-4904-990e-758b5ff29246" data-node-id="9b5fbe76-0097-4904-990e-758b5ff29246" data-node-name="Call" data-key=value><span class="ast-node" id="corrected_code_aec102cf-28f6-4594-810e-bd48574c2566" data-node-id="aec102cf-28f6-4594-810e-bd48574c2566" data-node-name="Attribute(ctx=Load)(attr = extend)" data-key=func><span class="ast-node" id="corrected_code_fef93b35-a2ef-47f4-99ff-50575e0b1573" data-node-id="fef93b35-a2ef-47f4-99ff-50575e0b1573" data-node-name="Load identifier mid_list" data-key=value>mid_list</span>.extend</span>(<span class="ast-node insert-node" id="corrected_code_f7e98d41-f0dd-4033-98b7-c1767c4cf791" data-node-id="f7e98d41-f0dd-4033-98b7-c1767c4cf791" data-node-name="Subscript(ctx=Load)" data-key=0 data-parent-list-id="83268cc6-7a17-4f3a-b9f2-23651eaeb392"><span class="ast-node insert-node" id="corrected_code_f56be549-3e41-4c11-b601-65913d618632" data-node-id="f56be549-3e41-4c11-b601-65913d618632" data-node-name="Load identifier i" data-key=value>i</span>[<span class="ast-node insert-node" id="corrected_code_ea89991e-ae4f-4e7a-94db-6cdbdad97c2e" data-node-id="ea89991e-ae4f-4e7a-94db-6cdbdad97c2e" data-node-name="Index" data-key=slice><span class="ast-node move-node" id="corrected_code_bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc" data-node-id="bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc" data-node-name="Num(n = 0)" data-key=value>0</span></span>]</span>)</span></span></span></span>
+    <span class="ast-node" id="corrected_code_03d61471-edb1-45f6-9423-b58c2cdc3f41" data-node-id="03d61471-edb1-45f6-9423-b58c2cdc3f41" data-node-name="Assign" data-key=3 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a"><span class="ast-node" id="corrected_code_80a92bfa-47b4-4dfa-a92e-0073889fcc8d" data-node-id="80a92bfa-47b4-4dfa-a92e-0073889fcc8d" data-node-name="Store identifier count" data-key=0 data-parent-list-id="2e392c74-ef4a-41fd-b40d-74270044e763">count</span> = <span class="ast-node" id="corrected_code_47c9aa66-243b-44f8-8881-793cd1c5b47a" data-node-id="47c9aa66-243b-44f8-8881-793cd1c5b47a" data-node-name="Call" data-key=value><span class="ast-node" id="corrected_code_54fe8693-aede-426d-b1b2-0b275aff6c45" data-node-id="54fe8693-aede-426d-b1b2-0b275aff6c45" data-node-name="Load identifier len" data-key=func>len</span>(<span class="ast-node" id="corrected_code_f6f0e9a1-e923-43cf-a50e-aec093b01a2b" data-node-id="f6f0e9a1-e923-43cf-a50e-aec093b01a2b" data-node-name="Load identifier mid_list" data-key=0 data-parent-list-id="02c76251-b5ed-440f-9eeb-d5c0d6170a02">mid_list</span>)</span></span>
+    <span class="ast-node" id="corrected_code_dfc5644f-02fb-4bee-8cce-537b4d9eaf62" data-node-id="dfc5644f-02fb-4bee-8cce-537b4d9eaf62" data-node-name="Return" data-key=4 data-parent-list-id="47651712-9eb1-4864-ad96-0fa6d1deb72a">return <span class="ast-node" id="corrected_code_500ee554-e705-43cc-9461-43e1061fcf6b" data-node-id="500ee554-e705-43cc-9461-43e1061fcf6b" data-node-name="Load identifier count" data-key=value>count</span></span></span></span></pre></div>
+<script>
+  correction_data={
+  "unit_test_string": "calculate_in_middle('be', [\"be maybe Elizabeth's vibe - become a number.\"])  == 2",
+  "synced_trace": [
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "<module 're' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/re.py'>"
+        ],
+        "op": "IMPORT_NAME re",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) IMPORT_NAME 0"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "<module 're' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/re.py'>"
+        ],
+        "op": "IMPORT_NAME re",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) IMPORT_NAME 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [],
+        "op": "STORE_NAME re",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [],
+        "op": "STORE_NAME re",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "bca91e2a-0bf5-4e69-9c0f-b98e020ea636",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "bca91e2a-0bf5-4e69-9c0f-b98e020ea636",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "bca91e2a-0bf5-4e69-9c0f-b98e020ea636",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "bca91e2a-0bf5-4e69-9c0f-b98e020ea636",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "<module 'os' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/os.py'>"
+        ],
+        "op": "IMPORT_NAME os",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) IMPORT_NAME 1"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "<module 'os' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/os.py'>"
+        ],
+        "op": "IMPORT_NAME os",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) IMPORT_NAME 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [],
+        "op": "STORE_NAME os",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) STORE_NAME 1"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [],
+        "op": "STORE_NAME os",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) STORE_NAME 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "a1aa4a31-95e3-4a46-a2a9-c81a37211a2b",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "a1aa4a31-95e3-4a46-a2a9-c81a37211a2b",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a1aa4a31-95e3-4a46-a2a9-c81a37211a2b",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "a1aa4a31-95e3-4a46-a2a9-c81a37211a2b",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "<module 'unittest' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/unittest/__init__.py'>"
+        ],
+        "op": "IMPORT_NAME unittest",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) IMPORT_NAME 2"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [
+          "<module 'unittest' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/unittest/__init__.py'>"
+        ],
+        "op": "IMPORT_NAME unittest",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) IMPORT_NAME 2"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [],
+        "op": "STORE_NAME unittest",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) STORE_NAME 2"
+      },
+      "after": {
+        "node": "fb14b110-815e-49de-abad-8fc6702c3dac",
+        "values": [],
+        "op": "STORE_NAME unittest",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) STORE_NAME 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [
+          "calculate_in_middle"
+        ],
+        "op": "LOAD_CONST calculate_in_middle",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) LOAD_CONST 3"
+      },
+      "after": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [
+          "calculate_in_middle"
+        ],
+        "op": "LOAD_CONST calculate_in_middle",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) LOAD_CONST 3"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [
+          "<function calculate_in_middle>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) MAKE_FUNCTION 0"
+      },
+      "after": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [
+          "<function calculate_in_middle>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) MAKE_FUNCTION 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [],
+        "op": "STORE_NAME calculate_in_middle",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) STORE_NAME 3"
+      },
+      "after": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [],
+        "op": "STORE_NAME calculate_in_middle",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) STORE_NAME 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [
+          "<function calculate_in_middle>"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 3"
+      },
+      "after": {
+        "node": "304488e0-b8b0-4ecc-b59e-3d80b9563ac9",
+        "values": [
+          "<function calculate_in_middle>"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 3"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "calculate_in_middle",
+          0
+        ],
+        "actual_op": "('calculate_in_middle', 0) LOAD_CONST 1"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c2718965-65df-47cc-b78b-eacf2fe6da08",
+        "values": [],
+        "op": "STORE_FAST count",
+        "op_id": [
+          "calculate_in_middle",
+          2
+        ],
+        "actual_op": "('calculate_in_middle', 2) STORE_FAST 2"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "7b3b1c37-ced3-4bd7-8bee-eaeb123e853a",
+        "values": [
+          "^[^(?:{mid})][a-zA-z]*(?:{mid})[a-zA-z]*[^(?:{mid})]$"
+        ],
+        "op": "LOAD_CONST ^[^(?:{mid})][a-zA-z]*(?:{mid})[a-zA-z]*[^(?:{mid})]$",
+        "op_id": [
+          "calculate_in_middle",
+          4
+        ],
+        "actual_op": "('calculate_in_middle', 4) LOAD_CONST 2"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "049ed39f-d909-42c5-9852-32c9e27451db",
+        "values": [
+          "\\b[A-Za-z]+"
+        ],
+        "op": "LOAD_CONST \\b[A-Za-z]+",
+        "op_id": [
+          "calculate_in_middle",
+          0
+        ],
+        "actual_op": "('calculate_in_middle', 0) LOAD_CONST 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "c1a70c51-bdc0-4907-a5aa-ce1815979ec9",
+        "values": [
+          "<module 're' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/re.py'>"
+        ],
+        "op": "LOAD_GLOBAL re",
+        "op_id": [
+          "calculate_in_middle",
+          2
+        ],
+        "actual_op": "('calculate_in_middle', 2) LOAD_GLOBAL 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "31a62ef9-761d-415d-abbc-e7dda51a3fdc",
+        "values": [],
+        "op": "LOAD_METHOD escape",
+        "op_id": [
+          "calculate_in_middle",
+          4
+        ],
+        "actual_op": "('calculate_in_middle', 4) LOAD_METHOD 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "a7f34bf8-8cae-49d6-9bcd-d55c463d19e6",
+        "values": [
+          "be"
+        ],
+        "op": "LOAD_FAST mid",
+        "op_id": [
+          "calculate_in_middle",
+          6
+        ],
+        "actual_op": "('calculate_in_middle', 6) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "31a62ef9-761d-415d-abbc-e7dda51a3fdc",
+        "values": [
+          "be"
+        ],
+        "op": "CALL_METHOD 1",
+        "op_id": [
+          "calculate_in_middle",
+          8
+        ],
+        "actual_op": "('calculate_in_middle', 8) CALL_METHOD 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ce57d38b-8dc1-4648-ad22-ae0043cdd3c6",
+        "values": [
+          "\\b[A-Za-z]+be"
+        ],
+        "op": "BINARY_ADD",
+        "op_id": [
+          "calculate_in_middle",
+          10
+        ],
+        "actual_op": "('calculate_in_middle', 10) BINARY_ADD 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "3f101446-fbc6-4a13-8c6a-067e01924aeb",
+        "values": [
+          "[A-Za-z]+\\b"
+        ],
+        "op": "LOAD_CONST [A-Za-z]+\\b",
+        "op_id": [
+          "calculate_in_middle",
+          12
+        ],
+        "actual_op": "('calculate_in_middle', 12) LOAD_CONST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "33099c6e-caa5-4134-b38f-8df6a317bbf9",
+        "values": [
+          "\\b[A-Za-z]+be[A-Za-z]+\\b"
+        ],
+        "op": "BINARY_ADD",
+        "op_id": [
+          "calculate_in_middle",
+          14
+        ],
+        "actual_op": "('calculate_in_middle', 14) BINARY_ADD 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "3d980774-5ac3-4b1b-9541-b68e51c586bd",
+        "values": [],
+        "op": "STORE_FAST expression",
+        "op_id": [
+          "calculate_in_middle",
+          6
+        ],
+        "actual_op": "('calculate_in_middle', 6) STORE_FAST 3"
+      },
+      "after": {
+        "node": "3d980774-5ac3-4b1b-9541-b68e51c586bd",
+        "values": [],
+        "op": "STORE_FAST expression",
+        "op_id": [
+          "calculate_in_middle",
+          16
+        ],
+        "actual_op": "('calculate_in_middle', 16) STORE_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea9b21ee-48df-4ca5-9fd6-32c4af1303d4",
+        "values": [
+          "[]"
+        ],
+        "op": "BUILD_LIST 0",
+        "op_id": [
+          "calculate_in_middle",
+          8
+        ],
+        "actual_op": "('calculate_in_middle', 8) BUILD_LIST 0"
+      },
+      "after": {
+        "node": "ea9b21ee-48df-4ca5-9fd6-32c4af1303d4",
+        "values": [
+          "[]"
+        ],
+        "op": "BUILD_LIST 0",
+        "op_id": [
+          "calculate_in_middle",
+          18
+        ],
+        "actual_op": "('calculate_in_middle', 18) BUILD_LIST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "b0751df0-0fd2-41f6-8980-eadfcbc668da",
+        "values": [],
+        "op": "STORE_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          10
+        ],
+        "actual_op": "('calculate_in_middle', 10) STORE_FAST 5"
+      },
+      "after": {
+        "node": "b0751df0-0fd2-41f6-8980-eadfcbc668da",
+        "values": [],
+        "op": "STORE_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          20
+        ],
+        "actual_op": "('calculate_in_middle', 20) STORE_FAST 4"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "SETUP_LOOP 56",
+        "op_id": [
+          "calculate_in_middle",
+          12
+        ],
+        "actual_op": "('calculate_in_middle', 12) SETUP_LOOP 70"
+      },
+      "after": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "SETUP_LOOP 76",
+        "op_id": [
+          "calculate_in_middle",
+          22
+        ],
+        "actual_op": "('calculate_in_middle', 22) SETUP_LOOP 92"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dde11742-6e60-4e11-8a92-95c4323c7c8d",
+        "values": [
+          "[\"be maybe Elizabeth's vibe - become a number.\"]"
+        ],
+        "op": "LOAD_FAST lines_list",
+        "op_id": [
+          "calculate_in_middle",
+          14
+        ],
+        "actual_op": "('calculate_in_middle', 14) LOAD_FAST 1"
+      },
+      "after": {
+        "node": "dde11742-6e60-4e11-8a92-95c4323c7c8d",
+        "values": [
+          "[\"be maybe Elizabeth's vibe - become a number.\"]"
+        ],
+        "op": "LOAD_FAST lines_list",
+        "op_id": [
+          "calculate_in_middle",
+          24
+        ],
+        "actual_op": "('calculate_in_middle', 24) LOAD_FAST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [
+          "<list_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "calculate_in_middle",
+          16
+        ],
+        "actual_op": "('calculate_in_middle', 16) GET_ITER 0"
+      },
+      "after": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [
+          "<list_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "calculate_in_middle",
+          26
+        ],
+        "actual_op": "('calculate_in_middle', 26) GET_ITER 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [
+          "<list_iterator object>",
+          "be maybe Elizabeth's vibe - become a number."
+        ],
+        "op": "FOR_ITER 54",
+        "op_id": [
+          "calculate_in_middle",
+          18
+        ],
+        "actual_op": "('calculate_in_middle', 18) FOR_ITER 58"
+      },
+      "after": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [
+          "<list_iterator object>",
+          "be maybe Elizabeth's vibe - become a number."
+        ],
+        "op": "FOR_ITER 74",
+        "op_id": [
+          "calculate_in_middle",
+          28
+        ],
+        "actual_op": "('calculate_in_middle', 28) FOR_ITER 80"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "7e0b730d-bf57-46bb-adbb-dabbf1face4a",
+        "values": [],
+        "op": "STORE_FAST line",
+        "op_id": [
+          "calculate_in_middle",
+          20
+        ],
+        "actual_op": "('calculate_in_middle', 20) STORE_FAST 7"
+      },
+      "after": {
+        "node": "7e0b730d-bf57-46bb-adbb-dabbf1face4a",
+        "values": [],
+        "op": "STORE_FAST line",
+        "op_id": [
+          "calculate_in_middle",
+          30
+        ],
+        "actual_op": "('calculate_in_middle', 30) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "7e0b730d-bf57-46bb-adbb-dabbf1face4a",
+        "values": [
+          "be maybe Elizabeth's vibe - become a number."
+        ],
+        "op": "LOAD_FAST line",
+        "op_id": [
+          "calculate_in_middle",
+          22
+        ],
+        "actual_op": "('calculate_in_middle', 22) LOAD_FAST 7"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31a62ef9-761d-415d-abbc-e7dda51a3fdc",
+        "values": [],
+        "op": "LOAD_METHOD split",
+        "op_id": [
+          "calculate_in_middle",
+          24
+        ],
+        "actual_op": "('calculate_in_middle', 24) LOAD_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31a62ef9-761d-415d-abbc-e7dda51a3fdc",
+        "values": [
+          "['be', 'maybe', \"Elizabeth's\", 'vibe', '-', 'become', 'a', 'number.']"
+        ],
+        "op": "CALL_METHOD 0",
+        "op_id": [
+          "calculate_in_middle",
+          26
+        ],
+        "actual_op": "('calculate_in_middle', 26) CALL_METHOD 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9d2c6f9f-f1d3-4dc4-8dcd-3bd1fa3a762b",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "calculate_in_middle",
+          28
+        ],
+        "actual_op": "('calculate_in_middle', 28) POP_TOP 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d071e433-d7f8-4e79-ae54-206f7ad18a93",
+        "values": [
+          "<module 're' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/re.py'>"
+        ],
+        "op": "LOAD_GLOBAL re",
+        "op_id": [
+          "calculate_in_middle",
+          30
+        ],
+        "actual_op": "('calculate_in_middle', 30) LOAD_GLOBAL 1"
+      },
+      "after": {
+        "node": "d071e433-d7f8-4e79-ae54-206f7ad18a93",
+        "values": [
+          "<module 're' from '/Users/yanamal/.pyenv/versions/3.7.0/lib/python3.7/re.py'>"
+        ],
+        "op": "LOAD_GLOBAL re",
+        "op_id": [
+          "calculate_in_middle",
+          32
+        ],
+        "actual_op": "('calculate_in_middle', 32) LOAD_GLOBAL 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0e72c7c6-a1b4-4862-9f3b-f10ede06d868",
+        "values": [],
+        "op": "LOAD_METHOD findall",
+        "op_id": [
+          "calculate_in_middle",
+          32
+        ],
+        "actual_op": "('calculate_in_middle', 32) LOAD_METHOD 2"
+      },
+      "after": {
+        "node": "0e72c7c6-a1b4-4862-9f3b-f10ede06d868",
+        "values": [],
+        "op": "LOAD_METHOD findall",
+        "op_id": [
+          "calculate_in_middle",
+          34
+        ],
+        "actual_op": "('calculate_in_middle', 34) LOAD_METHOD 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2c3b5bab-c7fa-410b-94fc-37c1bde99e24",
+        "values": [
+          "^[^(?:{mid})][a-zA-z]*(?:{mid})[a-zA-z]*[^(?:{mid})]$"
+        ],
+        "op": "LOAD_FAST expression",
+        "op_id": [
+          "calculate_in_middle",
+          34
+        ],
+        "actual_op": "('calculate_in_middle', 34) LOAD_FAST 3"
+      },
+      "after": {
+        "node": "2c3b5bab-c7fa-410b-94fc-37c1bde99e24",
+        "values": [
+          "\\b[A-Za-z]+be[A-Za-z]+\\b"
+        ],
+        "op": "LOAD_FAST expression",
+        "op_id": [
+          "calculate_in_middle",
+          36
+        ],
+        "actual_op": "('calculate_in_middle', 36) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "7e0b730d-bf57-46bb-adbb-dabbf1face4a",
+        "values": [
+          "be maybe Elizabeth's vibe - become a number."
+        ],
+        "op": "LOAD_FAST line",
+        "op_id": [
+          "calculate_in_middle",
+          36
+        ],
+        "actual_op": "('calculate_in_middle', 36) LOAD_FAST 7"
+      },
+      "after": {
+        "node": "7e0b730d-bf57-46bb-adbb-dabbf1face4a",
+        "values": [
+          "be maybe Elizabeth's vibe - become a number."
+        ],
+        "op": "LOAD_FAST line",
+        "op_id": [
+          "calculate_in_middle",
+          38
+        ],
+        "actual_op": "('calculate_in_middle', 38) LOAD_FAST 6"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0e72c7c6-a1b4-4862-9f3b-f10ede06d868",
+        "values": [
+          "[]"
+        ],
+        "op": "CALL_METHOD 2",
+        "op_id": [
+          "calculate_in_middle",
+          38
+        ],
+        "actual_op": "('calculate_in_middle', 38) CALL_METHOD 2"
+      },
+      "after": {
+        "node": "0e72c7c6-a1b4-4862-9f3b-f10ede06d868",
+        "values": [
+          "['Elizabeth', 'number']"
+        ],
+        "op": "CALL_METHOD 2",
+        "op_id": [
+          "calculate_in_middle",
+          40
+        ],
+        "actual_op": "('calculate_in_middle', 40) CALL_METHOD 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fbe46843-a654-4861-b10e-81d3ebc88c7e",
+        "values": [],
+        "op": "STORE_FAST mid_word",
+        "op_id": [
+          "calculate_in_middle",
+          40
+        ],
+        "actual_op": "('calculate_in_middle', 40) STORE_FAST 8"
+      },
+      "after": {
+        "node": "fbe46843-a654-4861-b10e-81d3ebc88c7e",
+        "values": [],
+        "op": "STORE_FAST mid_word",
+        "op_id": [
+          "calculate_in_middle",
+          42
+        ],
+        "actual_op": "('calculate_in_middle', 42) STORE_FAST 7"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [],
+        "op": "SETUP_LOOP 72",
+        "op_id": [
+          "calculate_in_middle",
+          44
+        ],
+        "actual_op": "('calculate_in_middle', 44) SETUP_LOOP 46"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "51ccbd77-da4b-4bd0-8151-42fe9d2f59cd",
+        "values": [
+          "['Elizabeth', 'number']"
+        ],
+        "op": "LOAD_FAST mid_word",
+        "op_id": [
+          "calculate_in_middle",
+          46
+        ],
+        "actual_op": "('calculate_in_middle', 46) LOAD_FAST 7"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [
+          "<list_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "calculate_in_middle",
+          48
+        ],
+        "actual_op": "('calculate_in_middle', 48) GET_ITER 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [
+          "<list_iterator object>",
+          "Elizabeth"
+        ],
+        "op": "FOR_ITER 70",
+        "op_id": [
+          "calculate_in_middle",
+          50
+        ],
+        "actual_op": "('calculate_in_middle', 50) FOR_ITER 34"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a0801c4-516a-4fb0-8117-12d40fd4d1fd",
+        "values": [],
+        "op": "STORE_FAST i",
+        "op_id": [
+          "calculate_in_middle",
+          52
+        ],
+        "actual_op": "('calculate_in_middle', 52) STORE_FAST 8"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fef93b35-a2ef-47f4-99ff-50575e0b1573",
+        "values": [
+          "[]"
+        ],
+        "op": "LOAD_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          42
+        ],
+        "actual_op": "('calculate_in_middle', 42) LOAD_FAST 5"
+      },
+      "after": {
+        "node": "fef93b35-a2ef-47f4-99ff-50575e0b1573",
+        "values": [
+          "[]"
+        ],
+        "op": "LOAD_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          54
+        ],
+        "actual_op": "('calculate_in_middle', 54) LOAD_FAST 4"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "aec102cf-28f6-4594-810e-bd48574c2566",
+        "values": [],
+        "op": "LOAD_METHOD extend",
+        "op_id": [
+          "calculate_in_middle",
+          44
+        ],
+        "actual_op": "('calculate_in_middle', 44) LOAD_METHOD 3"
+      },
+      "after": {
+        "node": "aec102cf-28f6-4594-810e-bd48574c2566",
+        "values": [],
+        "op": "LOAD_METHOD extend",
+        "op_id": [
+          "calculate_in_middle",
+          56
+        ],
+        "actual_op": "('calculate_in_middle', 56) LOAD_METHOD 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "cad3d811-db0e-4f89-87b9-e4e4c14d50be",
+        "values": [
+          "[]"
+        ],
+        "op": "LOAD_FAST mid_word",
+        "op_id": [
+          "calculate_in_middle",
+          46
+        ],
+        "actual_op": "('calculate_in_middle', 46) LOAD_FAST 8"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a0801c4-516a-4fb0-8117-12d40fd4d1fd",
+        "values": [
+          "Elizabeth"
+        ],
+        "op": "LOAD_FAST i",
+        "op_id": [
+          "calculate_in_middle",
+          58
+        ],
+        "actual_op": "('calculate_in_middle', 58) LOAD_FAST 8"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "calculate_in_middle",
+          60
+        ],
+        "actual_op": "('calculate_in_middle', 60) LOAD_CONST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ea89991e-ae4f-4e7a-94db-6cdbdad97c2e",
+        "values": [
+          "E"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "calculate_in_middle",
+          62
+        ],
+        "actual_op": "('calculate_in_middle', 62) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "aec102cf-28f6-4594-810e-bd48574c2566",
+        "values": [
+          "None"
+        ],
+        "op": "CALL_METHOD 1",
+        "op_id": [
+          "calculate_in_middle",
+          48
+        ],
+        "actual_op": "('calculate_in_middle', 48) CALL_METHOD 1"
+      },
+      "after": {
+        "node": "aec102cf-28f6-4594-810e-bd48574c2566",
+        "values": [
+          "None"
+        ],
+        "op": "CALL_METHOD 1",
+        "op_id": [
+          "calculate_in_middle",
+          64
+        ],
+        "actual_op": "('calculate_in_middle', 64) CALL_METHOD 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "calculate_in_middle",
+          50
+        ],
+        "actual_op": "('calculate_in_middle', 50) POP_TOP 0"
+      },
+      "after": {
+        "node": "79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "calculate_in_middle",
+          66
+        ],
+        "actual_op": "('calculate_in_middle', 66) POP_TOP 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 50",
+        "op_id": [
+          "calculate_in_middle",
+          68
+        ],
+        "actual_op": "('calculate_in_middle', 68) JUMP_ABSOLUTE 94"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [
+          "<list_iterator object>",
+          "number"
+        ],
+        "op": "FOR_ITER 70",
+        "op_id": [
+          "calculate_in_middle",
+          50
+        ],
+        "actual_op": "('calculate_in_middle', 50) FOR_ITER 34"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a0801c4-516a-4fb0-8117-12d40fd4d1fd",
+        "values": [],
+        "op": "STORE_FAST i",
+        "op_id": [
+          "calculate_in_middle",
+          52
+        ],
+        "actual_op": "('calculate_in_middle', 52) STORE_FAST 8"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "fef93b35-a2ef-47f4-99ff-50575e0b1573",
+        "values": [
+          "['E']"
+        ],
+        "op": "LOAD_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          54
+        ],
+        "actual_op": "('calculate_in_middle', 54) LOAD_FAST 4"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "aec102cf-28f6-4594-810e-bd48574c2566",
+        "values": [],
+        "op": "LOAD_METHOD extend",
+        "op_id": [
+          "calculate_in_middle",
+          56
+        ],
+        "actual_op": "('calculate_in_middle', 56) LOAD_METHOD 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8a0801c4-516a-4fb0-8117-12d40fd4d1fd",
+        "values": [
+          "number"
+        ],
+        "op": "LOAD_FAST i",
+        "op_id": [
+          "calculate_in_middle",
+          58
+        ],
+        "actual_op": "('calculate_in_middle', 58) LOAD_FAST 8"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "bce6dc4a-b3c2-4a9f-97e1-9a8799205cbc",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "calculate_in_middle",
+          60
+        ],
+        "actual_op": "('calculate_in_middle', 60) LOAD_CONST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ea89991e-ae4f-4e7a-94db-6cdbdad97c2e",
+        "values": [
+          "n"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "calculate_in_middle",
+          62
+        ],
+        "actual_op": "('calculate_in_middle', 62) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "aec102cf-28f6-4594-810e-bd48574c2566",
+        "values": [
+          "None"
+        ],
+        "op": "CALL_METHOD 1",
+        "op_id": [
+          "calculate_in_middle",
+          64
+        ],
+        "actual_op": "('calculate_in_middle', 64) CALL_METHOD 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "79c1dd02-9fc5-40ca-9d46-4ca567fb6ff9",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "calculate_in_middle",
+          66
+        ],
+        "actual_op": "('calculate_in_middle', 66) POP_TOP 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 50",
+        "op_id": [
+          "calculate_in_middle",
+          68
+        ],
+        "actual_op": "('calculate_in_middle', 68) JUMP_ABSOLUTE 94"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [],
+        "op": "FOR_ITER 70",
+        "op_id": [
+          "calculate_in_middle",
+          50
+        ],
+        "actual_op": "('calculate_in_middle', 50) FOR_ITER 34"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "7cb179ee-14e8-40ae-99ca-6c3092fa0e33",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "calculate_in_middle",
+          70
+        ],
+        "actual_op": "('calculate_in_middle', 70) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 18",
+        "op_id": [
+          "calculate_in_middle",
+          52
+        ],
+        "actual_op": "('calculate_in_middle', 52) JUMP_ABSOLUTE 26"
+      },
+      "after": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 28",
+        "op_id": [
+          "calculate_in_middle",
+          72
+        ],
+        "actual_op": "('calculate_in_middle', 72) JUMP_ABSOLUTE 52"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "FOR_ITER 54",
+        "op_id": [
+          "calculate_in_middle",
+          18
+        ],
+        "actual_op": "('calculate_in_middle', 18) FOR_ITER 58"
+      },
+      "after": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "FOR_ITER 74",
+        "op_id": [
+          "calculate_in_middle",
+          28
+        ],
+        "actual_op": "('calculate_in_middle', 28) FOR_ITER 80"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "calculate_in_middle",
+          54
+        ],
+        "actual_op": "('calculate_in_middle', 54) POP_BLOCK 0"
+      },
+      "after": {
+        "node": "71243f48-f3b6-41b7-89fc-ac6cf221133f",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "calculate_in_middle",
+          74
+        ],
+        "actual_op": "('calculate_in_middle', 74) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "54fe8693-aede-426d-b1b2-0b275aff6c45",
+        "values": [
+          "<built-in function len>"
+        ],
+        "op": "LOAD_GLOBAL len",
+        "op_id": [
+          "calculate_in_middle",
+          56
+        ],
+        "actual_op": "('calculate_in_middle', 56) LOAD_GLOBAL 4"
+      },
+      "after": {
+        "node": "54fe8693-aede-426d-b1b2-0b275aff6c45",
+        "values": [
+          "<built-in function len>"
+        ],
+        "op": "LOAD_GLOBAL len",
+        "op_id": [
+          "calculate_in_middle",
+          76
+        ],
+        "actual_op": "('calculate_in_middle', 76) LOAD_GLOBAL 4"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "f6f0e9a1-e923-43cf-a50e-aec093b01a2b",
+        "values": [
+          "[]"
+        ],
+        "op": "LOAD_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          58
+        ],
+        "actual_op": "('calculate_in_middle', 58) LOAD_FAST 5"
+      },
+      "after": {
+        "node": "f6f0e9a1-e923-43cf-a50e-aec093b01a2b",
+        "values": [
+          "['E', 'n']"
+        ],
+        "op": "LOAD_FAST mid_list",
+        "op_id": [
+          "calculate_in_middle",
+          78
+        ],
+        "actual_op": "('calculate_in_middle', 78) LOAD_FAST 4"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "47c9aa66-243b-44f8-8881-793cd1c5b47a",
+        "values": [
+          "0"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "calculate_in_middle",
+          60
+        ],
+        "actual_op": "('calculate_in_middle', 60) CALL_FUNCTION 1"
+      },
+      "after": {
+        "node": "47c9aa66-243b-44f8-8881-793cd1c5b47a",
+        "values": [
+          "2"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "calculate_in_middle",
+          80
+        ],
+        "actual_op": "('calculate_in_middle', 80) CALL_FUNCTION 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "80a92bfa-47b4-4dfa-a92e-0073889fcc8d",
+        "values": [],
+        "op": "STORE_FAST count",
+        "op_id": [
+          "calculate_in_middle",
+          62
+        ],
+        "actual_op": "('calculate_in_middle', 62) STORE_FAST 2"
+      },
+      "after": {
+        "node": "80a92bfa-47b4-4dfa-a92e-0073889fcc8d",
+        "values": [],
+        "op": "STORE_FAST count",
+        "op_id": [
+          "calculate_in_middle",
+          82
+        ],
+        "actual_op": "('calculate_in_middle', 82) STORE_FAST 9"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "500ee554-e705-43cc-9461-43e1061fcf6b",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_FAST count",
+        "op_id": [
+          "calculate_in_middle",
+          64
+        ],
+        "actual_op": "('calculate_in_middle', 64) LOAD_FAST 2"
+      },
+      "after": {
+        "node": "500ee554-e705-43cc-9461-43e1061fcf6b",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST count",
+        "op_id": [
+          "calculate_in_middle",
+          84
+        ],
+        "actual_op": "('calculate_in_middle', 84) LOAD_FAST 9"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dfc5644f-02fb-4bee-8cce-537b4d9eaf62",
+        "values": [
+          "0"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "calculate_in_middle",
+          66
+        ],
+        "actual_op": "('calculate_in_middle', 66) RETURN_VALUE 0"
+      },
+      "after": {
+        "node": "dfc5644f-02fb-4bee-8cce-537b4d9eaf62",
+        "values": [
+          "2"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "calculate_in_middle",
+          86
+        ],
+        "actual_op": "('calculate_in_middle', 86) RETURN_VALUE 0"
+      },
+      "value_matches": false
+    }
+  ],
+  "points_of_interest": {
+    "last_matching_before_fix": 74,
+    "first_wrong_before_fix": 75,
+    "last_matching_after_fix": 79
+  },
+  "effect_summary": "The fixed version of the code performed better than the old version: \nThe test passed in the fixed version, but not in the old version."
+}
+</script>
+                
+</body>

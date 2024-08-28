@@ -1,0 +1,237 @@
+{
+  "source": "<span class=\"ast-node\" id=\"student_code_6fdbfb9b-991b-433d-afd2-69bd43bd2b78\" data-node-id=\"6fdbfb9b-991b-433d-afd2-69bd43bd2b78\" data-node-name=\"Module\"><span class=\"ast-node\" id=\"student_code_78d70525-4809-4e1a-bccc-40c232ec65e4\" data-node-id=\"78d70525-4809-4e1a-bccc-40c232ec65e4\" data-node-name=\"FunctionDef name: helloWorld\" data-key=0 data-parent-list-id=\"392e57c6-136c-4861-96a7-e3e069b4839f\"><span class=\"ast-node\" id=\"student_code_d479a64f-a066-4df5-91be-e6a9d851ff27\" data-node-id=\"d479a64f-a066-4df5-91be-e6a9d851ff27\" data-node-name=\"arguments\" data-key=args>def</span> helloWorld():\n    <span class=\"ast-node delete-node\" id=\"student_code_482e232a-c88e-463a-9e02-b79c21bb6045\" data-node-id=\"482e232a-c88e-463a-9e02-b79c21bb6045\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"a597a95a-7969-4b91-a82d-f79a04a99a7c\"><span class=\"ast-node delete-node\" id=\"student_code_8d3c75d6-19aa-4e10-bf01-75615bae33ab\" data-node-id=\"8d3c75d6-19aa-4e10-bf01-75615bae33ab\" data-node-name=\"Call\" data-key=value><span class=\"ast-node delete-node\" id=\"student_code_f8645c4f-b39e-42da-a875-c5d421aa3334\" data-node-id=\"f8645c4f-b39e-42da-a875-c5d421aa3334\" data-node-name=\"Load identifier print\" data-key=func>print</span>(<span class=\"ast-node move-node\" id=\"student_code_2269e126-9926-4fe2-85d6-13f7fe83e8b4\" data-node-id=\"2269e126-9926-4fe2-85d6-13f7fe83e8b4\" data-node-name=\"Str(s = Hello World!)\" data-key=0 data-parent-list-id=\"de2440fc-795f-433f-9764-fcb0e676dc99\">'Hello World!'</span>)</span></span></span></span>",
+  "dest": "<span class=\"ast-node\" id=\"corrected_code_6fdbfb9b-991b-433d-afd2-69bd43bd2b78\" data-node-id=\"6fdbfb9b-991b-433d-afd2-69bd43bd2b78\" data-node-name=\"Module\"><span class=\"ast-node\" id=\"corrected_code_78d70525-4809-4e1a-bccc-40c232ec65e4\" data-node-id=\"78d70525-4809-4e1a-bccc-40c232ec65e4\" data-node-name=\"FunctionDef name: helloWorld\" data-key=0 data-parent-list-id=\"392e57c6-136c-4861-96a7-e3e069b4839f\"><span class=\"ast-node\" id=\"corrected_code_d479a64f-a066-4df5-91be-e6a9d851ff27\" data-node-id=\"d479a64f-a066-4df5-91be-e6a9d851ff27\" data-node-name=\"arguments\" data-key=args>def</span> helloWorld():\n    <span class=\"ast-node insert-node\" id=\"corrected_code_1d5d0ee8-bf9b-4429-a978-baed2a18942d\" data-node-id=\"1d5d0ee8-bf9b-4429-a978-baed2a18942d\" data-node-name=\"Return\" data-key=0 data-parent-list-id=\"a597a95a-7969-4b91-a82d-f79a04a99a7c\">return <span class=\"ast-node move-node\" id=\"corrected_code_2269e126-9926-4fe2-85d6-13f7fe83e8b4\" data-node-id=\"2269e126-9926-4fe2-85d6-13f7fe83e8b4\" data-node-name=\"Str(s = Hello World!)\" data-key=value>'Hello World!'</span></span></span></span>",
+  "unit_test_string": "helloWorld() == \"Hello World!\"",
+  "synced_trace": [
+    {
+      "before": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "<code object helloWorld>"
+        ],
+        "op": "LOAD_CONST <code object helloWorld at 0x12f78ed20, file \"\", line 1>",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "<code object helloWorld>"
+        ],
+        "op": "LOAD_CONST <code object helloWorld at 0x12f799b70, file \"\", line 1>",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "helloWorld"
+        ],
+        "op": "LOAD_CONST helloWorld",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "helloWorld"
+        ],
+        "op": "LOAD_CONST helloWorld",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "<function helloWorld>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) MAKE_FUNCTION 0"
+      },
+      "after": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "<function helloWorld>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) MAKE_FUNCTION 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [],
+        "op": "STORE_NAME helloWorld",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "after": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [],
+        "op": "STORE_NAME helloWorld",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "f8645c4f-b39e-42da-a875-c5d421aa3334",
+        "values": [
+          "<built-in function print>"
+        ],
+        "op": "LOAD_GLOBAL print",
+        "op_id": [
+          "helloWorld",
+          0
+        ],
+        "actual_op": "('helloWorld', 0) LOAD_GLOBAL 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2269e126-9926-4fe2-85d6-13f7fe83e8b4",
+        "values": [
+          "Hello World!"
+        ],
+        "op": "LOAD_CONST Hello World!",
+        "op_id": [
+          "helloWorld",
+          2
+        ],
+        "actual_op": "('helloWorld', 2) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "2269e126-9926-4fe2-85d6-13f7fe83e8b4",
+        "values": [
+          "Hello World!"
+        ],
+        "op": "LOAD_CONST Hello World!",
+        "op_id": [
+          "helloWorld",
+          0
+        ],
+        "actual_op": "('helloWorld', 0) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "8d3c75d6-19aa-4e10-bf01-75615bae33ab",
+        "values": [
+          "None"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "helloWorld",
+          4
+        ],
+        "actual_op": "('helloWorld', 4) CALL_FUNCTION 1"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "482e232a-c88e-463a-9e02-b79c21bb6045",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "helloWorld",
+          6
+        ],
+        "actual_op": "('helloWorld', 6) POP_TOP 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "None"
+        ],
+        "op": "LOAD_CONST None",
+        "op_id": [
+          "helloWorld",
+          8
+        ],
+        "actual_op": "('helloWorld', 8) LOAD_CONST 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "78d70525-4809-4e1a-bccc-40c232ec65e4",
+        "values": [
+          "None"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "helloWorld",
+          10
+        ],
+        "actual_op": "('helloWorld', 10) RETURN_VALUE 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "1d5d0ee8-bf9b-4429-a978-baed2a18942d",
+        "values": [
+          "Hello World!"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "helloWorld",
+          2
+        ],
+        "actual_op": "('helloWorld', 2) RETURN_VALUE 0"
+      },
+      "value_matches": false
+    }
+  ],
+  "points_of_interest": {
+    "last_matching_before_fix": 5,
+    "last_matching_after_fix": 10
+  },
+  "effect_summary": "The fixed version of the code performed better than the old version: \nThe test passed in the fixed version, but not in the old version."
+}

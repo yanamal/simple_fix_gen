@@ -1,0 +1,1516 @@
+
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="fixes.js"></script>
+    <link rel="stylesheet" type="text/css" href="fixes.css">
+</head>
+<body>
+<div class="code-block side-by-side before" id="before_block"><pre><span class="ast-node" id="student_code_e916c9b2-bc88-4165-9096-d722b36d4ece" data-node-id="e916c9b2-bc88-4165-9096-d722b36d4ece" data-node-name="Module"><span class="ast-node" id="student_code_3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d" data-node-id="3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d" data-node-name="FunctionDef name: get_index_min" data-key=0 data-parent-list-id="701b3812-a593-4821-8bf1-3f659412a6c1">def get_index_min(<span class="ast-node" id="student_code_d5925db9-e4c3-4bfa-b267-fa4f8acaaaaa" data-node-id="d5925db9-e4c3-4bfa-b267-fa4f8acaaaaa" data-node-name="arguments" data-key=args><span class="ast-node" id="student_code_c243fbde-c671-44f1-88c9-b4e4cf89c7e2" data-node-id="c243fbde-c671-44f1-88c9-b4e4cf89c7e2" data-node-name="arg(arg = nums)" data-key=0 data-parent-list-id="d6e5e6dc-3281-4eaa-8cc5-e32bd17f8411">nums</span></span>):
+    <span class="ast-node" id="student_code_9f6b28f3-2d2a-41e3-a831-987ff066229f" data-node-id="9f6b28f3-2d2a-41e3-a831-987ff066229f" data-node-name="Assign" data-key=0 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86"><span class="ast-node" id="student_code_7a060d64-78cf-4605-bf0e-3f44dfa1b195" data-node-id="7a060d64-78cf-4605-bf0e-3f44dfa1b195" data-node-name="Store identifier min" data-key=0 data-parent-list-id="a860a513-1727-47fe-9d81-2697b95474c1">min</span> = <span class="ast-node move-node" id="student_code_4f7d369c-d825-41f4-afe8-450f52b14b24" data-node-id="4f7d369c-d825-41f4-afe8-450f52b14b24" data-node-name="Num(n = 0)" data-key=value>0</span></span>
+    <span class="ast-node" id="student_code_9a278491-5f8e-471f-8760-a0e40c19c6ef" data-node-id="9a278491-5f8e-471f-8760-a0e40c19c6ef" data-node-name="Assign" data-key=1 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86"><span class="ast-node" id="student_code_5569e2b6-15a5-4ea8-b476-09a322614015" data-node-id="5569e2b6-15a5-4ea8-b476-09a322614015" data-node-name="Store identifier min_index" data-key=0 data-parent-list-id="fd2a3611-08a5-4422-ad61-aef07675e162">min_index</span> = <span class="ast-node" id="student_code_36490c43-023d-4e96-9f41-f6d592f2f000" data-node-id="36490c43-023d-4e96-9f41-f6d592f2f000" data-node-name="Num(n = 0)" data-key=value>0</span></span>
+    <span class="ast-node" id="student_code_4a373670-c01b-4b83-93eb-a70db9a17f6e" data-node-id="4a373670-c01b-4b83-93eb-a70db9a17f6e" data-node-name="For" data-key=2 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86">for <span class="ast-node" id="student_code_ea16bd96-0537-4b47-a6ad-2b04fc092965" data-node-id="ea16bd96-0537-4b47-a6ad-2b04fc092965" data-node-name="Store identifier index" data-key=target>index</span> in <span class="ast-node move-node" id="student_code_32030db9-ac4c-4c5d-a50f-978192ea03a4" data-node-id="32030db9-ac4c-4c5d-a50f-978192ea03a4" data-node-name="Load identifier nums" data-key=iter>nums</span>:
+        <span class="ast-node" id="student_code_bea8a2a4-8100-4e2d-9b02-1e12159cefd6" data-node-id="bea8a2a4-8100-4e2d-9b02-1e12159cefd6" data-node-name="Assign" data-key=0 data-parent-list-id="abdfb801-4a79-496e-98a8-81217f09f7bb"><span class="ast-node" id="student_code_e5b436d6-24c2-40c7-8f53-06bc27e267c3" data-node-id="e5b436d6-24c2-40c7-8f53-06bc27e267c3" data-node-name="Store identifier current" data-key=0 data-parent-list-id="dc836e9b-e186-445d-b2e8-d63eb83db939">current</span> = <span class="ast-node" id="student_code_a8f0e153-b4f9-4c8f-8c88-fd73c6b6cf18" data-node-id="a8f0e153-b4f9-4c8f-8c88-fd73c6b6cf18" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node" id="student_code_add72d7c-2cfa-45f0-9958-9d8c4816ce68" data-node-id="add72d7c-2cfa-45f0-9958-9d8c4816ce68" data-node-name="Load identifier nums" data-key=value>nums</span>[<span class="ast-node" id="student_code_39654582-33d5-4070-b943-edfaef2c92df" data-node-id="39654582-33d5-4070-b943-edfaef2c92df" data-node-name="Index" data-key=slice><span class="ast-node" id="student_code_7d565102-2a37-4b3e-b188-243825be4147" data-node-id="7d565102-2a37-4b3e-b188-243825be4147" data-node-name="Load identifier index" data-key=value>index</span></span>]</span></span>
+        <span class="ast-node" id="student_code_dd3cabfd-5747-42c3-921f-27082f5d37ed" data-node-id="dd3cabfd-5747-42c3-921f-27082f5d37ed" data-node-name="If" data-key=1 data-parent-list-id="abdfb801-4a79-496e-98a8-81217f09f7bb">if <span class="ast-node rename-node" id="student_code_40c1d272-ca53-4266-9b33-4a69dae58b07" data-node-id="40c1d272-ca53-4266-9b33-4a69dae58b07" data-node-name="Compare operators: ['Gt']" data-key=test><span class="ast-node" id="student_code_c3c52846-606b-43f4-a4f1-a10909736f0a" data-node-id="c3c52846-606b-43f4-a4f1-a10909736f0a" data-node-name="Load identifier current" data-key=left>current</span> > <span class="ast-node" id="student_code_8ff5f34e-91d8-4765-aa68-c96d6872e4bc" data-node-id="8ff5f34e-91d8-4765-aa68-c96d6872e4bc" data-node-name="Load identifier min" data-key=0 data-parent-list-id="fd6ef183-c550-4fd7-b9d7-63a90ddb5a5d">min</span></span>:
+            <span class="ast-node" id="student_code_048995a6-a53a-48a3-a308-bfc275b298c2" data-node-id="048995a6-a53a-48a3-a308-bfc275b298c2" data-node-name="Assign" data-key=0 data-parent-list-id="b0661065-6203-40a1-98f0-c7389a236ab0"><span class="ast-node" id="student_code_e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5" data-node-id="e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5" data-node-name="Store identifier current" data-key=0 data-parent-list-id="96e31eb8-82c6-407f-ada7-96b77f4e2a89">current</span> = <span class="ast-node" id="student_code_237586ba-f01d-4d36-9217-3186b8d4ca84" data-node-id="237586ba-f01d-4d36-9217-3186b8d4ca84" data-node-name="Load identifier min" data-key=value>min</span></span>
+            <span class="ast-node" id="student_code_4ded95e8-c3e4-4f24-9cc8-5b5fa9e92143" data-node-id="4ded95e8-c3e4-4f24-9cc8-5b5fa9e92143" data-node-name="Assign" data-key=1 data-parent-list-id="b0661065-6203-40a1-98f0-c7389a236ab0"><span class="ast-node" id="student_code_6b3e5dd0-ffec-4428-965f-b005a30c3ddf" data-node-id="6b3e5dd0-ffec-4428-965f-b005a30c3ddf" data-node-name="Store identifier min_index" data-key=0 data-parent-list-id="d8649eaa-9013-40a0-96f9-e584c868ddab">min_index</span> = <span class="ast-node" id="student_code_07c2a516-9402-4946-94c3-1a0d66d0637a" data-node-id="07c2a516-9402-4946-94c3-1a0d66d0637a" data-node-name="Load identifier index" data-key=value>index</span></span></span></span>
+    <span class="ast-node" id="student_code_8c02956d-c593-484b-aa75-25b9020cca3a" data-node-id="8c02956d-c593-484b-aa75-25b9020cca3a" data-node-name="Return" data-key=3 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86">return <span class="ast-node rename-node" id="student_code_9cede5ad-a5a9-4e5d-b58c-99f4f9b2c557" data-node-id="9cede5ad-a5a9-4e5d-b58c-99f4f9b2c557" data-node-name="Load identifier current" data-key=value>current</span></span></span></span></pre></div><div class="code-block side-by-side after" id="after_block"><pre><span class="ast-node" id="corrected_code_e916c9b2-bc88-4165-9096-d722b36d4ece" data-node-id="e916c9b2-bc88-4165-9096-d722b36d4ece" data-node-name="Module"><span class="ast-node" id="corrected_code_3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d" data-node-id="3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d" data-node-name="FunctionDef name: get_index_min" data-key=0 data-parent-list-id="701b3812-a593-4821-8bf1-3f659412a6c1">def get_index_min(<span class="ast-node" id="corrected_code_d5925db9-e4c3-4bfa-b267-fa4f8acaaaaa" data-node-id="d5925db9-e4c3-4bfa-b267-fa4f8acaaaaa" data-node-name="arguments" data-key=args><span class="ast-node" id="corrected_code_c243fbde-c671-44f1-88c9-b4e4cf89c7e2" data-node-id="c243fbde-c671-44f1-88c9-b4e4cf89c7e2" data-node-name="arg(arg = nums)" data-key=0 data-parent-list-id="d6e5e6dc-3281-4eaa-8cc5-e32bd17f8411">nums</span></span>):
+    <span class="ast-node insert-node" id="corrected_code_b306a48e-407b-4524-a370-5f56727d2aa9" data-node-id="b306a48e-407b-4524-a370-5f56727d2aa9" data-node-name="If" data-key=0 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86">if <span class="ast-node insert-node" id="corrected_code_2c52d951-5c05-44ed-9332-9a4a1243c46e" data-node-id="2c52d951-5c05-44ed-9332-9a4a1243c46e" data-node-name="Compare operators: ['Eq']" data-key=test><span class="ast-node insert-node" id="corrected_code_c448f032-1740-4f25-b8a9-d29a3772ce74" data-node-id="c448f032-1740-4f25-b8a9-d29a3772ce74" data-node-name="Call" data-key=left><span class="ast-node insert-node" id="corrected_code_f9a81d39-d331-4471-b381-41c4ede52a78" data-node-id="f9a81d39-d331-4471-b381-41c4ede52a78" data-node-name="Load identifier len" data-key=func>len</span>(<span class="ast-node insert-node" id="corrected_code_d1179361-7d3c-4524-bcf3-6db142a80381" data-node-id="d1179361-7d3c-4524-bcf3-6db142a80381" data-node-name="Load identifier nums" data-key=0 data-parent-list-id="2a57a204-6bd0-4388-bcdc-8118bcbedce5">nums</span>)</span> == <span class="ast-node insert-node" id="corrected_code_8c090cf0-1338-49e9-b1ad-d913f7b94237" data-node-id="8c090cf0-1338-49e9-b1ad-d913f7b94237" data-node-name="Num(n = 0)" data-key=0 data-parent-list-id="6a01f9fd-907e-466d-95bd-a70d71503e60">0</span></span>:
+        <span class="ast-node insert-node" id="corrected_code_9e239341-9250-462c-83a5-8e59cd22c7d3" data-node-id="9e239341-9250-462c-83a5-8e59cd22c7d3" data-node-name="Return" data-key=0 data-parent-list-id="562f4230-8080-4f5a-b0ee-4d94f1b9fc85">return <span class="ast-node insert-node" id="corrected_code_1b3d0b03-e411-4534-9a06-2440fcaeb789" data-node-id="1b3d0b03-e411-4534-9a06-2440fcaeb789" data-node-name="UnaryOp -" data-key=value>-<span class="ast-node insert-node" id="corrected_code_2a1a55b9-db77-499e-845a-548b4155a975" data-node-id="2a1a55b9-db77-499e-845a-548b4155a975" data-node-name="Num(n = 1)" data-key=operand>1</span></span></span></span>
+    <span class="ast-node" id="corrected_code_9f6b28f3-2d2a-41e3-a831-987ff066229f" data-node-id="9f6b28f3-2d2a-41e3-a831-987ff066229f" data-node-name="Assign" data-key=1 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86"><span class="ast-node" id="corrected_code_7a060d64-78cf-4605-bf0e-3f44dfa1b195" data-node-id="7a060d64-78cf-4605-bf0e-3f44dfa1b195" data-node-name="Store identifier min" data-key=0 data-parent-list-id="a860a513-1727-47fe-9d81-2697b95474c1">min</span> = <span class="ast-node insert-node" id="corrected_code_fc23d544-c683-4a3b-89e4-8fe72b96e5d6" data-node-id="fc23d544-c683-4a3b-89e4-8fe72b96e5d6" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node insert-node" id="corrected_code_52f3317a-00e8-4fa2-80d0-803b41b77d0b" data-node-id="52f3317a-00e8-4fa2-80d0-803b41b77d0b" data-node-name="Load identifier nums" data-key=value>nums</span>[<span class="ast-node insert-node" id="corrected_code_917c8e2a-40f7-49b6-8563-5c1a7cbf8f6a" data-node-id="917c8e2a-40f7-49b6-8563-5c1a7cbf8f6a" data-node-name="Index" data-key=slice><span class="ast-node move-node" id="corrected_code_4f7d369c-d825-41f4-afe8-450f52b14b24" data-node-id="4f7d369c-d825-41f4-afe8-450f52b14b24" data-node-name="Num(n = 0)" data-key=value>0</span></span>]</span></span>
+    <span class="ast-node" id="corrected_code_9a278491-5f8e-471f-8760-a0e40c19c6ef" data-node-id="9a278491-5f8e-471f-8760-a0e40c19c6ef" data-node-name="Assign" data-key=2 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86"><span class="ast-node" id="corrected_code_5569e2b6-15a5-4ea8-b476-09a322614015" data-node-id="5569e2b6-15a5-4ea8-b476-09a322614015" data-node-name="Store identifier min_index" data-key=0 data-parent-list-id="fd2a3611-08a5-4422-ad61-aef07675e162">min_index</span> = <span class="ast-node" id="corrected_code_36490c43-023d-4e96-9f41-f6d592f2f000" data-node-id="36490c43-023d-4e96-9f41-f6d592f2f000" data-node-name="Num(n = 0)" data-key=value>0</span></span>
+    <span class="ast-node" id="corrected_code_4a373670-c01b-4b83-93eb-a70db9a17f6e" data-node-id="4a373670-c01b-4b83-93eb-a70db9a17f6e" data-node-name="For" data-key=3 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86">for <span class="ast-node" id="corrected_code_ea16bd96-0537-4b47-a6ad-2b04fc092965" data-node-id="ea16bd96-0537-4b47-a6ad-2b04fc092965" data-node-name="Store identifier index" data-key=target>index</span> in <span class="ast-node insert-node" id="corrected_code_dc390a88-a93e-4098-bfad-5da532999697" data-node-id="dc390a88-a93e-4098-bfad-5da532999697" data-node-name="Call" data-key=iter><span class="ast-node insert-node" id="corrected_code_ca679b68-77fe-4154-93d3-4d313bf6a94d" data-node-id="ca679b68-77fe-4154-93d3-4d313bf6a94d" data-node-name="Load identifier range" data-key=func>range</span>(<span class="ast-node insert-node" id="corrected_code_48214328-c55d-4bb5-9f60-d8623a6979a6" data-node-id="48214328-c55d-4bb5-9f60-d8623a6979a6" data-node-name="Call" data-key=0 data-parent-list-id="d5583f41-c1b1-4ec0-aa95-81f9b7c7be25"><span class="ast-node insert-node" id="corrected_code_fcabc97c-062e-48b4-9606-a24ee001fdea" data-node-id="fcabc97c-062e-48b4-9606-a24ee001fdea" data-node-name="Load identifier len" data-key=func>len</span>(<span class="ast-node move-node" id="corrected_code_32030db9-ac4c-4c5d-a50f-978192ea03a4" data-node-id="32030db9-ac4c-4c5d-a50f-978192ea03a4" data-node-name="Load identifier nums" data-key=0 data-parent-list-id="b49ba33f-dfc7-48d6-bb4f-a29cd7b67b3d">nums</span>)</span>)</span>:
+        <span class="ast-node" id="corrected_code_bea8a2a4-8100-4e2d-9b02-1e12159cefd6" data-node-id="bea8a2a4-8100-4e2d-9b02-1e12159cefd6" data-node-name="Assign" data-key=0 data-parent-list-id="abdfb801-4a79-496e-98a8-81217f09f7bb"><span class="ast-node" id="corrected_code_e5b436d6-24c2-40c7-8f53-06bc27e267c3" data-node-id="e5b436d6-24c2-40c7-8f53-06bc27e267c3" data-node-name="Store identifier current" data-key=0 data-parent-list-id="dc836e9b-e186-445d-b2e8-d63eb83db939">current</span> = <span class="ast-node" id="corrected_code_a8f0e153-b4f9-4c8f-8c88-fd73c6b6cf18" data-node-id="a8f0e153-b4f9-4c8f-8c88-fd73c6b6cf18" data-node-name="Subscript(ctx=Load)" data-key=value><span class="ast-node" id="corrected_code_add72d7c-2cfa-45f0-9958-9d8c4816ce68" data-node-id="add72d7c-2cfa-45f0-9958-9d8c4816ce68" data-node-name="Load identifier nums" data-key=value>nums</span>[<span class="ast-node" id="corrected_code_39654582-33d5-4070-b943-edfaef2c92df" data-node-id="39654582-33d5-4070-b943-edfaef2c92df" data-node-name="Index" data-key=slice><span class="ast-node" id="corrected_code_7d565102-2a37-4b3e-b188-243825be4147" data-node-id="7d565102-2a37-4b3e-b188-243825be4147" data-node-name="Load identifier index" data-key=value>index</span></span>]</span></span>
+        <span class="ast-node" id="corrected_code_dd3cabfd-5747-42c3-921f-27082f5d37ed" data-node-id="dd3cabfd-5747-42c3-921f-27082f5d37ed" data-node-name="If" data-key=1 data-parent-list-id="abdfb801-4a79-496e-98a8-81217f09f7bb">if <span class="ast-node rename-node" id="corrected_code_40c1d272-ca53-4266-9b33-4a69dae58b07" data-node-id="40c1d272-ca53-4266-9b33-4a69dae58b07" data-node-name="Compare operators: ['Lt']" data-key=test><span class="ast-node" id="corrected_code_c3c52846-606b-43f4-a4f1-a10909736f0a" data-node-id="c3c52846-606b-43f4-a4f1-a10909736f0a" data-node-name="Load identifier current" data-key=left>current</span> < <span class="ast-node" id="corrected_code_8ff5f34e-91d8-4765-aa68-c96d6872e4bc" data-node-id="8ff5f34e-91d8-4765-aa68-c96d6872e4bc" data-node-name="Load identifier min" data-key=0 data-parent-list-id="fd6ef183-c550-4fd7-b9d7-63a90ddb5a5d">min</span></span>:
+            <span class="ast-node" id="corrected_code_048995a6-a53a-48a3-a308-bfc275b298c2" data-node-id="048995a6-a53a-48a3-a308-bfc275b298c2" data-node-name="Assign" data-key=0 data-parent-list-id="b0661065-6203-40a1-98f0-c7389a236ab0"><span class="ast-node" id="corrected_code_e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5" data-node-id="e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5" data-node-name="Store identifier current" data-key=0 data-parent-list-id="96e31eb8-82c6-407f-ada7-96b77f4e2a89">current</span> = <span class="ast-node" id="corrected_code_237586ba-f01d-4d36-9217-3186b8d4ca84" data-node-id="237586ba-f01d-4d36-9217-3186b8d4ca84" data-node-name="Load identifier min" data-key=value>min</span></span>
+            <span class="ast-node" id="corrected_code_4ded95e8-c3e4-4f24-9cc8-5b5fa9e92143" data-node-id="4ded95e8-c3e4-4f24-9cc8-5b5fa9e92143" data-node-name="Assign" data-key=1 data-parent-list-id="b0661065-6203-40a1-98f0-c7389a236ab0"><span class="ast-node" id="corrected_code_6b3e5dd0-ffec-4428-965f-b005a30c3ddf" data-node-id="6b3e5dd0-ffec-4428-965f-b005a30c3ddf" data-node-name="Store identifier min_index" data-key=0 data-parent-list-id="d8649eaa-9013-40a0-96f9-e584c868ddab">min_index</span> = <span class="ast-node" id="corrected_code_07c2a516-9402-4946-94c3-1a0d66d0637a" data-node-id="07c2a516-9402-4946-94c3-1a0d66d0637a" data-node-name="Load identifier index" data-key=value>index</span></span></span></span>
+    <span class="ast-node" id="corrected_code_8c02956d-c593-484b-aa75-25b9020cca3a" data-node-id="8c02956d-c593-484b-aa75-25b9020cca3a" data-node-name="Return" data-key=4 data-parent-list-id="17eb70da-1b70-456c-bf21-f96c58039c86">return <span class="ast-node rename-node" id="corrected_code_9cede5ad-a5a9-4e5d-b58c-99f4f9b2c557" data-node-id="9cede5ad-a5a9-4e5d-b58c-99f4f9b2c557" data-node-name="Load identifier min_index" data-key=value>min_index</span></span></span></span></pre></div>
+<script>
+  correction_data={
+  "unit_test_string": "get_index_min([2, -3, 5]) == 1",
+  "synced_trace": [
+    {
+      "before": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [
+          "<code object get_index_min>"
+        ],
+        "op": "LOAD_CONST <code object get_index_min at 0x1250bb660, file \"\", line 1>",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [
+          "<code object get_index_min>"
+        ],
+        "op": "LOAD_CONST <code object get_index_min at 0x1250bbc00, file \"\", line 1>",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_CONST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [
+          "get_index_min"
+        ],
+        "op": "LOAD_CONST get_index_min",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [
+          "get_index_min"
+        ],
+        "op": "LOAD_CONST get_index_min",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [
+          "<function get_index_min>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) MAKE_FUNCTION 0"
+      },
+      "after": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [
+          "<function get_index_min>"
+        ],
+        "op": "MAKE_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) MAKE_FUNCTION 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [],
+        "op": "STORE_NAME get_index_min",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "after": {
+        "node": "3e2dc6eb-6171-40a0-b9e5-efdd157e7a2d",
+        "values": [],
+        "op": "STORE_NAME get_index_min",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) STORE_NAME 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "f9a81d39-d331-4471-b381-41c4ede52a78",
+        "values": [
+          "<built-in function len>"
+        ],
+        "op": "LOAD_GLOBAL len",
+        "op_id": [
+          "get_index_min",
+          0
+        ],
+        "actual_op": "('get_index_min', 0) LOAD_GLOBAL 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "d1179361-7d3c-4524-bcf3-6db142a80381",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          2
+        ],
+        "actual_op": "('get_index_min', 2) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "c448f032-1740-4f25-b8a9-d29a3772ce74",
+        "values": [
+          "3"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "get_index_min",
+          4
+        ],
+        "actual_op": "('get_index_min', 4) CALL_FUNCTION 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8c090cf0-1338-49e9-b1ad-d913f7b94237",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "get_index_min",
+          6
+        ],
+        "actual_op": "('get_index_min', 6) LOAD_CONST 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "2c52d951-5c05-44ed-9332-9a4a1243c46e",
+        "values": [
+          "False"
+        ],
+        "op": "COMPARE_OP ==",
+        "op_id": [
+          "get_index_min",
+          8
+        ],
+        "actual_op": "('get_index_min', 8) COMPARE_OP 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "b306a48e-407b-4524-a370-5f56727d2aa9",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 16",
+        "op_id": [
+          "get_index_min",
+          10
+        ],
+        "actual_op": "('get_index_min', 10) POP_JUMP_IF_FALSE 28"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "52f3317a-00e8-4fa2-80d0-803b41b77d0b",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          16
+        ],
+        "actual_op": "('get_index_min', 16) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4f7d369c-d825-41f4-afe8-450f52b14b24",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "get_index_min",
+          0
+        ],
+        "actual_op": "('get_index_min', 0) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "4f7d369c-d825-41f4-afe8-450f52b14b24",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "get_index_min",
+          18
+        ],
+        "actual_op": "('get_index_min', 18) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "917c8e2a-40f7-49b6-8563-5c1a7cbf8f6a",
+        "values": [
+          "2"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          20
+        ],
+        "actual_op": "('get_index_min', 20) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "7a060d64-78cf-4605-bf0e-3f44dfa1b195",
+        "values": [],
+        "op": "STORE_FAST min",
+        "op_id": [
+          "get_index_min",
+          2
+        ],
+        "actual_op": "('get_index_min', 2) STORE_FAST 1"
+      },
+      "after": {
+        "node": "7a060d64-78cf-4605-bf0e-3f44dfa1b195",
+        "values": [],
+        "op": "STORE_FAST min",
+        "op_id": [
+          "get_index_min",
+          22
+        ],
+        "actual_op": "('get_index_min', 22) STORE_FAST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "36490c43-023d-4e96-9f41-f6d592f2f000",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "get_index_min",
+          4
+        ],
+        "actual_op": "('get_index_min', 4) LOAD_CONST 1"
+      },
+      "after": {
+        "node": "36490c43-023d-4e96-9f41-f6d592f2f000",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_CONST 0",
+        "op_id": [
+          "get_index_min",
+          24
+        ],
+        "actual_op": "('get_index_min', 24) LOAD_CONST 1"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5569e2b6-15a5-4ea8-b476-09a322614015",
+        "values": [],
+        "op": "STORE_FAST min_index",
+        "op_id": [
+          "get_index_min",
+          6
+        ],
+        "actual_op": "('get_index_min', 6) STORE_FAST 2"
+      },
+      "after": {
+        "node": "5569e2b6-15a5-4ea8-b476-09a322614015",
+        "values": [],
+        "op": "STORE_FAST min_index",
+        "op_id": [
+          "get_index_min",
+          26
+        ],
+        "actual_op": "('get_index_min', 26) STORE_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "SETUP_LOOP 46",
+        "op_id": [
+          "get_index_min",
+          8
+        ],
+        "actual_op": "('get_index_min', 8) SETUP_LOOP 56"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "SETUP_LOOP 74",
+        "op_id": [
+          "get_index_min",
+          28
+        ],
+        "actual_op": "('get_index_min', 28) SETUP_LOOP 80"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ca679b68-77fe-4154-93d3-4d313bf6a94d",
+        "values": [
+          "<class 'range'>"
+        ],
+        "op": "LOAD_GLOBAL range",
+        "op_id": [
+          "get_index_min",
+          30
+        ],
+        "actual_op": "('get_index_min', 30) LOAD_GLOBAL 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "fcabc97c-062e-48b4-9606-a24ee001fdea",
+        "values": [
+          "<built-in function len>"
+        ],
+        "op": "LOAD_GLOBAL len",
+        "op_id": [
+          "get_index_min",
+          32
+        ],
+        "actual_op": "('get_index_min', 32) LOAD_GLOBAL 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "32030db9-ac4c-4c5d-a50f-978192ea03a4",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          10
+        ],
+        "actual_op": "('get_index_min', 10) LOAD_FAST 0"
+      },
+      "after": {
+        "node": "32030db9-ac4c-4c5d-a50f-978192ea03a4",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          34
+        ],
+        "actual_op": "('get_index_min', 34) LOAD_FAST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "48214328-c55d-4bb5-9f60-d8623a6979a6",
+        "values": [
+          "3"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "get_index_min",
+          36
+        ],
+        "actual_op": "('get_index_min', 36) CALL_FUNCTION 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "dc390a88-a93e-4098-bfad-5da532999697",
+        "values": [
+          "range(0, 3)"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "get_index_min",
+          38
+        ],
+        "actual_op": "('get_index_min', 38) CALL_FUNCTION 1"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<list_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "get_index_min",
+          12
+        ],
+        "actual_op": "('get_index_min', 12) GET_ITER 0"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<range_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "get_index_min",
+          40
+        ],
+        "actual_op": "('get_index_min', 40) GET_ITER 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<range_iterator object>",
+          "0"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "get_index_min",
+          42
+        ],
+        "actual_op": "('get_index_min', 42) FOR_ITER 44"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [],
+        "op": "STORE_FAST index",
+        "op_id": [
+          "get_index_min",
+          44
+        ],
+        "actual_op": "('get_index_min', 44) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "add72d7c-2cfa-45f0-9958-9d8c4816ce68",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          46
+        ],
+        "actual_op": "('get_index_min', 46) LOAD_FAST 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          48
+        ],
+        "actual_op": "('get_index_min', 48) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "39654582-33d5-4070-b943-edfaef2c92df",
+        "values": [
+          "2"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          50
+        ],
+        "actual_op": "('get_index_min', 50) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "e5b436d6-24c2-40c7-8f53-06bc27e267c3",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          52
+        ],
+        "actual_op": "('get_index_min', 52) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "c3c52846-606b-43f4-a4f1-a10909736f0a",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST current",
+        "op_id": [
+          "get_index_min",
+          54
+        ],
+        "actual_op": "('get_index_min', 54) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8ff5f34e-91d8-4765-aa68-c96d6872e4bc",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          56
+        ],
+        "actual_op": "('get_index_min', 56) LOAD_FAST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "40c1d272-ca53-4266-9b33-4a69dae58b07",
+        "values": [
+          "False"
+        ],
+        "op": "COMPARE_OP <",
+        "op_id": [
+          "get_index_min",
+          58
+        ],
+        "actual_op": "('get_index_min', 58) COMPARE_OP 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "dd3cabfd-5747-42c3-921f-27082f5d37ed",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 42",
+        "op_id": [
+          "get_index_min",
+          60
+        ],
+        "actual_op": "('get_index_min', 60) POP_JUMP_IF_FALSE 78"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<list_iterator object>",
+          "2"
+        ],
+        "op": "FOR_ITER 44",
+        "op_id": [
+          "get_index_min",
+          14
+        ],
+        "actual_op": "('get_index_min', 14) FOR_ITER 44"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<range_iterator object>",
+          "1"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "get_index_min",
+          42
+        ],
+        "actual_op": "('get_index_min', 42) FOR_ITER 44"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [],
+        "op": "STORE_FAST index",
+        "op_id": [
+          "get_index_min",
+          16
+        ],
+        "actual_op": "('get_index_min', 16) STORE_FAST 5"
+      },
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [],
+        "op": "STORE_FAST index",
+        "op_id": [
+          "get_index_min",
+          44
+        ],
+        "actual_op": "('get_index_min', 44) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "add72d7c-2cfa-45f0-9958-9d8c4816ce68",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          18
+        ],
+        "actual_op": "('get_index_min', 18) LOAD_FAST 0"
+      },
+      "after": {
+        "node": "add72d7c-2cfa-45f0-9958-9d8c4816ce68",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          46
+        ],
+        "actual_op": "('get_index_min', 46) LOAD_FAST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          20
+        ],
+        "actual_op": "('get_index_min', 20) LOAD_FAST 5"
+      },
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "1"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          48
+        ],
+        "actual_op": "('get_index_min', 48) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "39654582-33d5-4070-b943-edfaef2c92df",
+        "values": [
+          "5"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          22
+        ],
+        "actual_op": "('get_index_min', 22) BINARY_SUBSCR 0"
+      },
+      "after": {
+        "node": "39654582-33d5-4070-b943-edfaef2c92df",
+        "values": [
+          "-3"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          50
+        ],
+        "actual_op": "('get_index_min', 50) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "e5b436d6-24c2-40c7-8f53-06bc27e267c3",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          24
+        ],
+        "actual_op": "('get_index_min', 24) STORE_FAST 6"
+      },
+      "after": {
+        "node": "e5b436d6-24c2-40c7-8f53-06bc27e267c3",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          52
+        ],
+        "actual_op": "('get_index_min', 52) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c3c52846-606b-43f4-a4f1-a10909736f0a",
+        "values": [
+          "5"
+        ],
+        "op": "LOAD_FAST current",
+        "op_id": [
+          "get_index_min",
+          26
+        ],
+        "actual_op": "('get_index_min', 26) LOAD_FAST 6"
+      },
+      "after": {
+        "node": "c3c52846-606b-43f4-a4f1-a10909736f0a",
+        "values": [
+          "-3"
+        ],
+        "op": "LOAD_FAST current",
+        "op_id": [
+          "get_index_min",
+          54
+        ],
+        "actual_op": "('get_index_min', 54) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8ff5f34e-91d8-4765-aa68-c96d6872e4bc",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          28
+        ],
+        "actual_op": "('get_index_min', 28) LOAD_FAST 1"
+      },
+      "after": {
+        "node": "8ff5f34e-91d8-4765-aa68-c96d6872e4bc",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          56
+        ],
+        "actual_op": "('get_index_min', 56) LOAD_FAST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "40c1d272-ca53-4266-9b33-4a69dae58b07",
+        "values": [
+          "True"
+        ],
+        "op": "COMPARE_OP >",
+        "op_id": [
+          "get_index_min",
+          30
+        ],
+        "actual_op": "('get_index_min', 30) COMPARE_OP 4"
+      },
+      "after": {
+        "node": "40c1d272-ca53-4266-9b33-4a69dae58b07",
+        "values": [
+          "True"
+        ],
+        "op": "COMPARE_OP <",
+        "op_id": [
+          "get_index_min",
+          58
+        ],
+        "actual_op": "('get_index_min', 58) COMPARE_OP 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "dd3cabfd-5747-42c3-921f-27082f5d37ed",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 14",
+        "op_id": [
+          "get_index_min",
+          32
+        ],
+        "actual_op": "('get_index_min', 32) POP_JUMP_IF_FALSE 18"
+      },
+      "after": {
+        "node": "dd3cabfd-5747-42c3-921f-27082f5d37ed",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 42",
+        "op_id": [
+          "get_index_min",
+          60
+        ],
+        "actual_op": "('get_index_min', 60) POP_JUMP_IF_FALSE 78"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "237586ba-f01d-4d36-9217-3186b8d4ca84",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          34
+        ],
+        "actual_op": "('get_index_min', 34) LOAD_FAST 1"
+      },
+      "after": {
+        "node": "237586ba-f01d-4d36-9217-3186b8d4ca84",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          62
+        ],
+        "actual_op": "('get_index_min', 62) LOAD_FAST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          36
+        ],
+        "actual_op": "('get_index_min', 36) STORE_FAST 6"
+      },
+      "after": {
+        "node": "e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          64
+        ],
+        "actual_op": "('get_index_min', 64) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          38
+        ],
+        "actual_op": "('get_index_min', 38) LOAD_FAST 5"
+      },
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "1"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          66
+        ],
+        "actual_op": "('get_index_min', 66) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "6b3e5dd0-ffec-4428-965f-b005a30c3ddf",
+        "values": [],
+        "op": "STORE_FAST min_index",
+        "op_id": [
+          "get_index_min",
+          40
+        ],
+        "actual_op": "('get_index_min', 40) STORE_FAST 2"
+      },
+      "after": {
+        "node": "6b3e5dd0-ffec-4428-965f-b005a30c3ddf",
+        "values": [],
+        "op": "STORE_FAST min_index",
+        "op_id": [
+          "get_index_min",
+          68
+        ],
+        "actual_op": "('get_index_min', 68) STORE_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 14",
+        "op_id": [
+          "get_index_min",
+          42
+        ],
+        "actual_op": "('get_index_min', 42) JUMP_ABSOLUTE 18"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 42",
+        "op_id": [
+          "get_index_min",
+          70
+        ],
+        "actual_op": "('get_index_min', 70) JUMP_ABSOLUTE 78"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<list_iterator object>",
+          "-3"
+        ],
+        "op": "FOR_ITER 44",
+        "op_id": [
+          "get_index_min",
+          14
+        ],
+        "actual_op": "('get_index_min', 14) FOR_ITER 44"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<range_iterator object>",
+          "2"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "get_index_min",
+          42
+        ],
+        "actual_op": "('get_index_min', 42) FOR_ITER 44"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [],
+        "op": "STORE_FAST index",
+        "op_id": [
+          "get_index_min",
+          16
+        ],
+        "actual_op": "('get_index_min', 16) STORE_FAST 5"
+      },
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [],
+        "op": "STORE_FAST index",
+        "op_id": [
+          "get_index_min",
+          44
+        ],
+        "actual_op": "('get_index_min', 44) STORE_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "add72d7c-2cfa-45f0-9958-9d8c4816ce68",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          18
+        ],
+        "actual_op": "('get_index_min', 18) LOAD_FAST 0"
+      },
+      "after": {
+        "node": "add72d7c-2cfa-45f0-9958-9d8c4816ce68",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          46
+        ],
+        "actual_op": "('get_index_min', 46) LOAD_FAST 0"
+      },
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "-3"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          20
+        ],
+        "actual_op": "('get_index_min', 20) LOAD_FAST 5"
+      },
+      "after": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          48
+        ],
+        "actual_op": "('get_index_min', 48) LOAD_FAST 5"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "39654582-33d5-4070-b943-edfaef2c92df",
+        "values": [
+          "2"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          22
+        ],
+        "actual_op": "('get_index_min', 22) BINARY_SUBSCR 0"
+      },
+      "after": {
+        "node": "39654582-33d5-4070-b943-edfaef2c92df",
+        "values": [
+          "5"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          50
+        ],
+        "actual_op": "('get_index_min', 50) BINARY_SUBSCR 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "e5b436d6-24c2-40c7-8f53-06bc27e267c3",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          24
+        ],
+        "actual_op": "('get_index_min', 24) STORE_FAST 6"
+      },
+      "after": {
+        "node": "e5b436d6-24c2-40c7-8f53-06bc27e267c3",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          52
+        ],
+        "actual_op": "('get_index_min', 52) STORE_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c3c52846-606b-43f4-a4f1-a10909736f0a",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST current",
+        "op_id": [
+          "get_index_min",
+          26
+        ],
+        "actual_op": "('get_index_min', 26) LOAD_FAST 6"
+      },
+      "after": {
+        "node": "c3c52846-606b-43f4-a4f1-a10909736f0a",
+        "values": [
+          "5"
+        ],
+        "op": "LOAD_FAST current",
+        "op_id": [
+          "get_index_min",
+          54
+        ],
+        "actual_op": "('get_index_min', 54) LOAD_FAST 6"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "8ff5f34e-91d8-4765-aa68-c96d6872e4bc",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          28
+        ],
+        "actual_op": "('get_index_min', 28) LOAD_FAST 1"
+      },
+      "after": {
+        "node": "8ff5f34e-91d8-4765-aa68-c96d6872e4bc",
+        "values": [
+          "2"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          56
+        ],
+        "actual_op": "('get_index_min', 56) LOAD_FAST 2"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "40c1d272-ca53-4266-9b33-4a69dae58b07",
+        "values": [
+          "True"
+        ],
+        "op": "COMPARE_OP >",
+        "op_id": [
+          "get_index_min",
+          30
+        ],
+        "actual_op": "('get_index_min', 30) COMPARE_OP 4"
+      },
+      "after": {
+        "node": "40c1d272-ca53-4266-9b33-4a69dae58b07",
+        "values": [
+          "False"
+        ],
+        "op": "COMPARE_OP <",
+        "op_id": [
+          "get_index_min",
+          58
+        ],
+        "actual_op": "('get_index_min', 58) COMPARE_OP 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dd3cabfd-5747-42c3-921f-27082f5d37ed",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 14",
+        "op_id": [
+          "get_index_min",
+          32
+        ],
+        "actual_op": "('get_index_min', 32) POP_JUMP_IF_FALSE 18"
+      },
+      "after": {
+        "node": "dd3cabfd-5747-42c3-921f-27082f5d37ed",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 42",
+        "op_id": [
+          "get_index_min",
+          60
+        ],
+        "actual_op": "('get_index_min', 60) POP_JUMP_IF_FALSE 78"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "237586ba-f01d-4d36-9217-3186b8d4ca84",
+        "values": [
+          "0"
+        ],
+        "op": "LOAD_FAST min",
+        "op_id": [
+          "get_index_min",
+          34
+        ],
+        "actual_op": "('get_index_min', 34) LOAD_FAST 1"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "e1c4fa5e-0c19-465f-8f28-cf064a2ad6e5",
+        "values": [],
+        "op": "STORE_FAST current",
+        "op_id": [
+          "get_index_min",
+          36
+        ],
+        "actual_op": "('get_index_min', 36) STORE_FAST 6"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "-3"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          38
+        ],
+        "actual_op": "('get_index_min', 38) LOAD_FAST 5"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "6b3e5dd0-ffec-4428-965f-b005a30c3ddf",
+        "values": [],
+        "op": "STORE_FAST min_index",
+        "op_id": [
+          "get_index_min",
+          40
+        ],
+        "actual_op": "('get_index_min', 40) STORE_FAST 2"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 14",
+        "op_id": [
+          "get_index_min",
+          42
+        ],
+        "actual_op": "('get_index_min', 42) JUMP_ABSOLUTE 18"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "get_index_min",
+          42
+        ],
+        "actual_op": "('get_index_min', 42) FOR_ITER 44"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [
+          "<list_iterator object>",
+          "5"
+        ],
+        "op": "FOR_ITER 44",
+        "op_id": [
+          "get_index_min",
+          14
+        ],
+        "actual_op": "('get_index_min', 14) FOR_ITER 44"
+      },
+      "after": {
+        "node": "4a373670-c01b-4b83-93eb-a70db9a17f6e",
+        "values": [],
+        "op": "POP_BLOCK",
+        "op_id": [
+          "get_index_min",
+          72
+        ],
+        "actual_op": "('get_index_min', 72) POP_BLOCK 0"
+      },
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [],
+        "op": "STORE_FAST index",
+        "op_id": [
+          "get_index_min",
+          16
+        ],
+        "actual_op": "('get_index_min', 16) STORE_FAST 5"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "add72d7c-2cfa-45f0-9958-9d8c4816ce68",
+        "values": [
+          "[2, -3, 5]"
+        ],
+        "op": "LOAD_FAST nums",
+        "op_id": [
+          "get_index_min",
+          18
+        ],
+        "actual_op": "('get_index_min', 18) LOAD_FAST 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ea16bd96-0537-4b47-a6ad-2b04fc092965",
+        "values": [
+          "5"
+        ],
+        "op": "LOAD_FAST index",
+        "op_id": [
+          "get_index_min",
+          20
+        ],
+        "actual_op": "('get_index_min', 20) LOAD_FAST 5"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "39654582-33d5-4070-b943-edfaef2c92df",
+        "values": [
+          "Exception: list index out of range"
+        ],
+        "op": "BINARY_SUBSCR",
+        "op_id": [
+          "get_index_min",
+          22
+        ],
+        "actual_op": "('get_index_min', 22) BINARY_SUBSCR 0"
+      },
+      "after": null,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "9cede5ad-a5a9-4e5d-b58c-99f4f9b2c557",
+        "values": [
+          "1"
+        ],
+        "op": "LOAD_FAST min_index",
+        "op_id": [
+          "get_index_min",
+          74
+        ],
+        "actual_op": "('get_index_min', 74) LOAD_FAST 3"
+      },
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "8c02956d-c593-484b-aa75-25b9020cca3a",
+        "values": [
+          "1"
+        ],
+        "op": "RETURN_VALUE",
+        "op_id": [
+          "get_index_min",
+          76
+        ],
+        "actual_op": "('get_index_min', 76) RETURN_VALUE 0"
+      },
+      "value_matches": false
+    }
+  ],
+  "points_of_interest": {
+    "last_matching_before_fix": 50,
+    "first_wrong_before_fix": 51,
+    "exception_before_fix": 67,
+    "last_matching_after_fix": 69
+  },
+  "effect_summary": "The fixed version of the code performed better than the old version: \nThe run completed in the fixed version, but did not complete in the old version (list index out of range)."
+}
+</script>
+                
+</body>
