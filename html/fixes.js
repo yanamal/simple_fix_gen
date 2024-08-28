@@ -125,6 +125,9 @@ function generate_trace(step_data) {
             }
             else {
                 before_line_class = "bad-value-op-line"
+                if(op['after']){
+                    before_line_class = "value-mismatch-op-line"
+                }
             }
         }
 
@@ -135,6 +138,9 @@ function generate_trace(step_data) {
             }
             else {
                 after_line_class = "bad-value-op-line"
+                if(op['before']){
+                    after_line_class = "value-mismatch-op-line"
+                }
             }
         }
 

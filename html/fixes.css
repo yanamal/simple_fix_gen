@@ -188,7 +188,7 @@ input[name="test[]"] {
 }
 
 .op-line {
-    stroke:rgb(25,25,25);
+    stroke:rgba(25,25,25, 0.5);
     stroke-width:1
 }
 
@@ -200,6 +200,11 @@ input[name="test[]"] {
 .bad-value-op-line {
     stroke:rgba(255,0,0,1);
     stroke-width:1
+}
+
+.value-mismatch-op-line {
+    stroke:rgba(255,0,0,1);
+    stroke-width:3
 }
 
 .ui-slider-handle {
