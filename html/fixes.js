@@ -159,6 +159,41 @@ function generate_trace(step_data) {
 }
 
 
+function get_short_trace_info(){
+  short_trace = correction_data['synced_trace'].map((step) => {
+    let before = null
+    if(step['before']) {
+      before = {
+        'values': step['before']['values'],
+        'code': $('#student_code_'+ step['before']['node'] +' .text-span').text()
+      }
+    }
+    let after = null
+
+    if(step['after']) {
+      after = {
+        'values': step['after']['values'],
+        'code': $('#corrected_code_'+ step['after']['node'] +' .text-span').text()
+      }
+    }
+    return {
+      'before': before,
+      'after': after,
+      'value_matches': step['value_matches'],
+      'value_mismatch': step['value_mismatch']
+    }
+  });
+
+
+  result =  {
+      'trace': short_trace,
+      'points_of_interest': correction_data['points_of_interest']
+  }
+
+
+  return result
+}
+
 
 $(document).ready(function() {
     wrap_text_in_spans($('pre'), 'text-span')
