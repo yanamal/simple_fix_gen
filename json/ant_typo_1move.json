@@ -1,0 +1,5020 @@
+{
+  "source": "<span class=\"ast-node\" id=\"student_code_51cb4171-a8c2-4b36-8aca-55776a9b697c\" data-node-id=\"51cb4171-a8c2-4b36-8aca-55776a9b697c\" data-node-name=\"Module\"><span class=\"ast-node\" id=\"student_code_9886563e-db96-4829-851a-914f1e7de3ed\" data-node-id=\"9886563e-db96-4829-851a-914f1e7de3ed\" data-node-name=\"For\" data-key=0 data-parent-list-id=\"d743a287-cec0-4ef0-b02b-f4e0b8e10d45\">for <span class=\"ast-node\" id=\"student_code_6986ac41-5296-46d1-b538-d6b4f4a58a5c\" data-node-id=\"6986ac41-5296-46d1-b538-d6b4f4a58a5c\" data-node-name=\"Store identifier i\" data-key=target>i</span> in <span class=\"ast-node\" id=\"student_code_eed1f4e9-dede-42ab-8701-d0f44244a0a4\" data-node-id=\"eed1f4e9-dede-42ab-8701-d0f44244a0a4\" data-node-name=\"Call\" data-key=iter><span class=\"ast-node\" id=\"student_code_9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9\" data-node-id=\"9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9\" data-node-name=\"Load identifier range\" data-key=func>range</span>(<span class=\"ast-node\" id=\"student_code_788240b8-a792-42d0-9009-091cf13c3a71\" data-node-id=\"788240b8-a792-42d0-9009-091cf13c3a71\" data-node-name=\"Constant(value = 10)\" data-key=0 data-parent-list-id=\"edb5cf27-b1c5-4ab2-a3a4-663d68f63d53\">10</span>)</span>:\n    <span class=\"ast-node\" id=\"student_code_efff57a4-8a4b-40d9-b6ec-5fc394fc2c46\" data-node-id=\"efff57a4-8a4b-40d9-b6ec-5fc394fc2c46\" data-node-name=\"If\" data-key=0 data-parent-list-id=\"a7d9751b-1bc2-432c-ba1a-5554b1fc420c\">if <span class=\"ast-node\" id=\"student_code_a19e517e-242a-4c60-bcf6-ecdc54f787ba\" data-node-id=\"a19e517e-242a-4c60-bcf6-ecdc54f787ba\" data-node-name=\"Call\" data-key=test><span class=\"ast-node\" id=\"student_code_31727e12-1053-4209-ae42-c12190e0d677\" data-node-id=\"31727e12-1053-4209-ae42-c12190e0d677\" data-node-name=\"Load identifier is_yellow\" data-key=func>is_yellow</span>()</span>:\n        <span class=\"ast-node\" id=\"student_code_efef6eaa-fd56-4f6d-897d-068aedfa7f8f\" data-node-id=\"efef6eaa-fd56-4f6d-897d-068aedfa7f8f\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"5abb1ac1-dadc-46d7-9836-a732c2e2665d\"><span class=\"ast-node\" id=\"student_code_44fa5b23-93e1-4f74-812a-09acec614857\" data-node-id=\"44fa5b23-93e1-4f74-812a-09acec614857\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_bb1e99dd-71ce-4b63-afc1-7f5d8dddce54\" data-node-id=\"bb1e99dd-71ce-4b63-afc1-7f5d8dddce54\" data-node-name=\"Load identifier paint_blue\" data-key=func>paint_blue</span>()</span></span>\n        <span class=\"ast-node\" id=\"student_code_fcbc17ba-52ae-4c8f-b1d3-792a534f910e\" data-node-id=\"fcbc17ba-52ae-4c8f-b1d3-792a534f910e\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"5abb1ac1-dadc-46d7-9836-a732c2e2665d\"><span class=\"ast-node\" id=\"student_code_5ffe32dd-9700-4cff-b2f5-4c09170eca01\" data-node-id=\"5ffe32dd-9700-4cff-b2f5-4c09170eca01\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_683a2680-5453-41c8-9b68-bb4983d6d13b\" data-node-id=\"683a2680-5453-41c8-9b68-bb4983d6d13b\" data-node-name=\"Load identifier turn_left\" data-key=func>turn_left</span>()</span></span>\n    <span class=\"ast-node\" id=\"student_code_41f4c983-89a0-4f06-aa5a-4d5a55478909\" data-node-id=\"41f4c983-89a0-4f06-aa5a-4d5a55478909\" data-node-name=\"If\" data-key=0 data-parent-list-id=\"67b27806-6428-4b73-a21a-be2fcc4e1990\">elif <span class=\"ast-node\" id=\"student_code_0919079e-d314-4c86-b976-dcfa117b9f51\" data-node-id=\"0919079e-d314-4c86-b976-dcfa117b9f51\" data-node-name=\"Call\" data-key=test><span class=\"ast-node\" id=\"student_code_dcfce1e8-9eac-4d45-83bb-baafac92354f\" data-node-id=\"dcfce1e8-9eac-4d45-83bb-baafac92354f\" data-node-name=\"Load identifier is_blue\" data-key=func>is_blue</span>()</span>:\n        <span class=\"ast-node\" id=\"student_code_8d77be0e-e02e-4457-87ed-314828d71645\" data-node-id=\"8d77be0e-e02e-4457-87ed-314828d71645\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"734a2ec3-c0a9-4991-b09a-6bcf36aff97f\"><span class=\"ast-node\" id=\"student_code_9cf74d48-0e77-4da3-b1eb-546522cfa9ab\" data-node-id=\"9cf74d48-0e77-4da3-b1eb-546522cfa9ab\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_a222341f-b59c-4c18-80b6-0de7e4114964\" data-node-id=\"a222341f-b59c-4c18-80b6-0de7e4114964\" data-node-name=\"Load identifier erase\" data-key=func>erase</span>()</span></span>\n        <span class=\"ast-node\" id=\"student_code_c755f2c9-518d-40c8-b96b-ac5efca2f5c7\" data-node-id=\"c755f2c9-518d-40c8-b96b-ac5efca2f5c7\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"734a2ec3-c0a9-4991-b09a-6bcf36aff97f\"><span class=\"ast-node\" id=\"student_code_776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc\" data-node-id=\"776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_3fc04c7e-149b-4897-a4fa-e40371fabd86\" data-node-id=\"3fc04c7e-149b-4897-a4fa-e40371fabd86\" data-node-name=\"Load identifier turn_right\" data-key=func>turn_right</span>()</span></span>\n    else:\n        <span class=\"ast-node\" id=\"student_code_c59fe529-f8b6-4e62-880f-aea5524f8d64\" data-node-id=\"c59fe529-f8b6-4e62-880f-aea5524f8d64\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"f91ae808-29e8-4b57-bc5a-6891b60c6ae1\"><span class=\"ast-node\" id=\"student_code_ce996038-4dd7-4fe3-b13e-448a6e703b18\" data-node-id=\"ce996038-4dd7-4fe3-b13e-448a6e703b18\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_adf2b56a-7731-4890-85d8-43d98254b5eb\" data-node-id=\"adf2b56a-7731-4890-85d8-43d98254b5eb\" data-node-name=\"Load identifier paint_yellow\" data-key=func>paint_yellow</span>()</span></span>\n        <span class=\"ast-node\" id=\"student_code_948a48bc-4f5e-4f31-b354-2c89cb39b099\" data-node-id=\"948a48bc-4f5e-4f31-b354-2c89cb39b099\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"f91ae808-29e8-4b57-bc5a-6891b60c6ae1\"><span class=\"ast-node\" id=\"student_code_2d905cc7-ffdd-4270-b87b-c7af18100848\" data-node-id=\"2d905cc7-ffdd-4270-b87b-c7af18100848\" data-node-name=\"Call\" data-key=value><span class=\"ast-node rename-node\" id=\"student_code_991ef559-b9f8-40a8-abfc-d16fb03a8ead\" data-node-id=\"991ef559-b9f8-40a8-abfc-d16fb03a8ead\" data-node-name=\"Load identifier turn_left\" data-key=func>turn_left</span>()</span></span></span></span>\n    <span class=\"ast-node\" id=\"student_code_d93f5003-fed6-4092-8b2e-2e36d1b860b8\" data-node-id=\"d93f5003-fed6-4092-8b2e-2e36d1b860b8\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"a7d9751b-1bc2-432c-ba1a-5554b1fc420c\"><span class=\"ast-node\" id=\"student_code_5d87fa61-b5f8-4fc8-86ac-6425084dc98c\" data-node-id=\"5d87fa61-b5f8-4fc8-86ac-6425084dc98c\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_1ea3096d-1709-45d3-944e-b3a0e4f3e6ee\" data-node-id=\"1ea3096d-1709-45d3-944e-b3a0e4f3e6ee\" data-node-name=\"Load identifier move_forward\" data-key=func>move_forward</span>()</span></span></span></span>",
+  "dest": "<span class=\"ast-node\" id=\"corrected_code_51cb4171-a8c2-4b36-8aca-55776a9b697c\" data-node-id=\"51cb4171-a8c2-4b36-8aca-55776a9b697c\" data-node-name=\"Module\"><span class=\"ast-node\" id=\"corrected_code_9886563e-db96-4829-851a-914f1e7de3ed\" data-node-id=\"9886563e-db96-4829-851a-914f1e7de3ed\" data-node-name=\"For\" data-key=0 data-parent-list-id=\"d743a287-cec0-4ef0-b02b-f4e0b8e10d45\">for <span class=\"ast-node\" id=\"corrected_code_6986ac41-5296-46d1-b538-d6b4f4a58a5c\" data-node-id=\"6986ac41-5296-46d1-b538-d6b4f4a58a5c\" data-node-name=\"Store identifier i\" data-key=target>i</span> in <span class=\"ast-node\" id=\"corrected_code_eed1f4e9-dede-42ab-8701-d0f44244a0a4\" data-node-id=\"eed1f4e9-dede-42ab-8701-d0f44244a0a4\" data-node-name=\"Call\" data-key=iter><span class=\"ast-node\" id=\"corrected_code_9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9\" data-node-id=\"9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9\" data-node-name=\"Load identifier range\" data-key=func>range</span>(<span class=\"ast-node\" id=\"corrected_code_788240b8-a792-42d0-9009-091cf13c3a71\" data-node-id=\"788240b8-a792-42d0-9009-091cf13c3a71\" data-node-name=\"Constant(value = 10)\" data-key=0 data-parent-list-id=\"edb5cf27-b1c5-4ab2-a3a4-663d68f63d53\">10</span>)</span>:\n    <span class=\"ast-node\" id=\"corrected_code_efff57a4-8a4b-40d9-b6ec-5fc394fc2c46\" data-node-id=\"efff57a4-8a4b-40d9-b6ec-5fc394fc2c46\" data-node-name=\"If\" data-key=0 data-parent-list-id=\"a7d9751b-1bc2-432c-ba1a-5554b1fc420c\">if <span class=\"ast-node\" id=\"corrected_code_a19e517e-242a-4c60-bcf6-ecdc54f787ba\" data-node-id=\"a19e517e-242a-4c60-bcf6-ecdc54f787ba\" data-node-name=\"Call\" data-key=test><span class=\"ast-node\" id=\"corrected_code_31727e12-1053-4209-ae42-c12190e0d677\" data-node-id=\"31727e12-1053-4209-ae42-c12190e0d677\" data-node-name=\"Load identifier is_yellow\" data-key=func>is_yellow</span>()</span>:\n        <span class=\"ast-node\" id=\"corrected_code_efef6eaa-fd56-4f6d-897d-068aedfa7f8f\" data-node-id=\"efef6eaa-fd56-4f6d-897d-068aedfa7f8f\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"5abb1ac1-dadc-46d7-9836-a732c2e2665d\"><span class=\"ast-node\" id=\"corrected_code_44fa5b23-93e1-4f74-812a-09acec614857\" data-node-id=\"44fa5b23-93e1-4f74-812a-09acec614857\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"corrected_code_bb1e99dd-71ce-4b63-afc1-7f5d8dddce54\" data-node-id=\"bb1e99dd-71ce-4b63-afc1-7f5d8dddce54\" data-node-name=\"Load identifier paint_blue\" data-key=func>paint_blue</span>()</span></span>\n        <span class=\"ast-node\" id=\"corrected_code_fcbc17ba-52ae-4c8f-b1d3-792a534f910e\" data-node-id=\"fcbc17ba-52ae-4c8f-b1d3-792a534f910e\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"5abb1ac1-dadc-46d7-9836-a732c2e2665d\"><span class=\"ast-node\" id=\"corrected_code_5ffe32dd-9700-4cff-b2f5-4c09170eca01\" data-node-id=\"5ffe32dd-9700-4cff-b2f5-4c09170eca01\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"corrected_code_683a2680-5453-41c8-9b68-bb4983d6d13b\" data-node-id=\"683a2680-5453-41c8-9b68-bb4983d6d13b\" data-node-name=\"Load identifier turn_left\" data-key=func>turn_left</span>()</span></span>\n    <span class=\"ast-node\" id=\"corrected_code_41f4c983-89a0-4f06-aa5a-4d5a55478909\" data-node-id=\"41f4c983-89a0-4f06-aa5a-4d5a55478909\" data-node-name=\"If\" data-key=0 data-parent-list-id=\"67b27806-6428-4b73-a21a-be2fcc4e1990\">elif <span class=\"ast-node\" id=\"corrected_code_0919079e-d314-4c86-b976-dcfa117b9f51\" data-node-id=\"0919079e-d314-4c86-b976-dcfa117b9f51\" data-node-name=\"Call\" data-key=test><span class=\"ast-node\" id=\"corrected_code_dcfce1e8-9eac-4d45-83bb-baafac92354f\" data-node-id=\"dcfce1e8-9eac-4d45-83bb-baafac92354f\" data-node-name=\"Load identifier is_blue\" data-key=func>is_blue</span>()</span>:\n        <span class=\"ast-node\" id=\"corrected_code_8d77be0e-e02e-4457-87ed-314828d71645\" data-node-id=\"8d77be0e-e02e-4457-87ed-314828d71645\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"734a2ec3-c0a9-4991-b09a-6bcf36aff97f\"><span class=\"ast-node\" id=\"corrected_code_9cf74d48-0e77-4da3-b1eb-546522cfa9ab\" data-node-id=\"9cf74d48-0e77-4da3-b1eb-546522cfa9ab\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"corrected_code_a222341f-b59c-4c18-80b6-0de7e4114964\" data-node-id=\"a222341f-b59c-4c18-80b6-0de7e4114964\" data-node-name=\"Load identifier erase\" data-key=func>erase</span>()</span></span>\n        <span class=\"ast-node\" id=\"corrected_code_c755f2c9-518d-40c8-b96b-ac5efca2f5c7\" data-node-id=\"c755f2c9-518d-40c8-b96b-ac5efca2f5c7\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"734a2ec3-c0a9-4991-b09a-6bcf36aff97f\"><span class=\"ast-node\" id=\"corrected_code_776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc\" data-node-id=\"776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"corrected_code_3fc04c7e-149b-4897-a4fa-e40371fabd86\" data-node-id=\"3fc04c7e-149b-4897-a4fa-e40371fabd86\" data-node-name=\"Load identifier turn_right\" data-key=func>turn_right</span>()</span></span>\n    else:\n        <span class=\"ast-node\" id=\"corrected_code_c59fe529-f8b6-4e62-880f-aea5524f8d64\" data-node-id=\"c59fe529-f8b6-4e62-880f-aea5524f8d64\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"f91ae808-29e8-4b57-bc5a-6891b60c6ae1\"><span class=\"ast-node\" id=\"corrected_code_ce996038-4dd7-4fe3-b13e-448a6e703b18\" data-node-id=\"ce996038-4dd7-4fe3-b13e-448a6e703b18\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"corrected_code_adf2b56a-7731-4890-85d8-43d98254b5eb\" data-node-id=\"adf2b56a-7731-4890-85d8-43d98254b5eb\" data-node-name=\"Load identifier paint_yellow\" data-key=func>paint_yellow</span>()</span></span>\n        <span class=\"ast-node\" id=\"corrected_code_948a48bc-4f5e-4f31-b354-2c89cb39b099\" data-node-id=\"948a48bc-4f5e-4f31-b354-2c89cb39b099\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"f91ae808-29e8-4b57-bc5a-6891b60c6ae1\"><span class=\"ast-node\" id=\"corrected_code_2d905cc7-ffdd-4270-b87b-c7af18100848\" data-node-id=\"2d905cc7-ffdd-4270-b87b-c7af18100848\" data-node-name=\"Call\" data-key=value><span class=\"ast-node rename-node\" id=\"corrected_code_991ef559-b9f8-40a8-abfc-d16fb03a8ead\" data-node-id=\"991ef559-b9f8-40a8-abfc-d16fb03a8ead\" data-node-name=\"Load identifier turn_right\" data-key=func>turn_right</span>()</span></span></span></span>\n    <span class=\"ast-node\" id=\"corrected_code_d93f5003-fed6-4092-8b2e-2e36d1b860b8\" data-node-id=\"d93f5003-fed6-4092-8b2e-2e36d1b860b8\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"a7d9751b-1bc2-432c-ba1a-5554b1fc420c\"><span class=\"ast-node\" id=\"corrected_code_5d87fa61-b5f8-4fc8-86ac-6425084dc98c\" data-node-id=\"5d87fa61-b5f8-4fc8-86ac-6425084dc98c\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"corrected_code_1ea3096d-1709-45d3-944e-b3a0e4f3e6ee\" data-node-id=\"1ea3096d-1709-45d3-944e-b3a0e4f3e6ee\" data-node-name=\"Load identifier move_forward\" data-key=func>move_forward</span>()</span></span></span></span>",
+  "source_no_diff": "<span class=\"ast-node\" id=\"student_code_only_51cb4171-a8c2-4b36-8aca-55776a9b697c\" data-node-id=\"51cb4171-a8c2-4b36-8aca-55776a9b697c\" data-node-name=\"Module\"><span class=\"ast-node\" id=\"student_code_only_9886563e-db96-4829-851a-914f1e7de3ed\" data-node-id=\"9886563e-db96-4829-851a-914f1e7de3ed\" data-node-name=\"For\" data-key=0 data-parent-list-id=\"d743a287-cec0-4ef0-b02b-f4e0b8e10d45\">for <span class=\"ast-node\" id=\"student_code_only_6986ac41-5296-46d1-b538-d6b4f4a58a5c\" data-node-id=\"6986ac41-5296-46d1-b538-d6b4f4a58a5c\" data-node-name=\"Store identifier i\" data-key=target>i</span> in <span class=\"ast-node\" id=\"student_code_only_eed1f4e9-dede-42ab-8701-d0f44244a0a4\" data-node-id=\"eed1f4e9-dede-42ab-8701-d0f44244a0a4\" data-node-name=\"Call\" data-key=iter><span class=\"ast-node\" id=\"student_code_only_9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9\" data-node-id=\"9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9\" data-node-name=\"Load identifier range\" data-key=func>range</span>(<span class=\"ast-node\" id=\"student_code_only_788240b8-a792-42d0-9009-091cf13c3a71\" data-node-id=\"788240b8-a792-42d0-9009-091cf13c3a71\" data-node-name=\"Constant(value = 10)\" data-key=0 data-parent-list-id=\"edb5cf27-b1c5-4ab2-a3a4-663d68f63d53\">10</span>)</span>:\n    <span class=\"ast-node\" id=\"student_code_only_efff57a4-8a4b-40d9-b6ec-5fc394fc2c46\" data-node-id=\"efff57a4-8a4b-40d9-b6ec-5fc394fc2c46\" data-node-name=\"If\" data-key=0 data-parent-list-id=\"a7d9751b-1bc2-432c-ba1a-5554b1fc420c\">if <span class=\"ast-node\" id=\"student_code_only_a19e517e-242a-4c60-bcf6-ecdc54f787ba\" data-node-id=\"a19e517e-242a-4c60-bcf6-ecdc54f787ba\" data-node-name=\"Call\" data-key=test><span class=\"ast-node\" id=\"student_code_only_31727e12-1053-4209-ae42-c12190e0d677\" data-node-id=\"31727e12-1053-4209-ae42-c12190e0d677\" data-node-name=\"Load identifier is_yellow\" data-key=func>is_yellow</span>()</span>:\n        <span class=\"ast-node\" id=\"student_code_only_efef6eaa-fd56-4f6d-897d-068aedfa7f8f\" data-node-id=\"efef6eaa-fd56-4f6d-897d-068aedfa7f8f\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"5abb1ac1-dadc-46d7-9836-a732c2e2665d\"><span class=\"ast-node\" id=\"student_code_only_44fa5b23-93e1-4f74-812a-09acec614857\" data-node-id=\"44fa5b23-93e1-4f74-812a-09acec614857\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_bb1e99dd-71ce-4b63-afc1-7f5d8dddce54\" data-node-id=\"bb1e99dd-71ce-4b63-afc1-7f5d8dddce54\" data-node-name=\"Load identifier paint_blue\" data-key=func>paint_blue</span>()</span></span>\n        <span class=\"ast-node\" id=\"student_code_only_fcbc17ba-52ae-4c8f-b1d3-792a534f910e\" data-node-id=\"fcbc17ba-52ae-4c8f-b1d3-792a534f910e\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"5abb1ac1-dadc-46d7-9836-a732c2e2665d\"><span class=\"ast-node\" id=\"student_code_only_5ffe32dd-9700-4cff-b2f5-4c09170eca01\" data-node-id=\"5ffe32dd-9700-4cff-b2f5-4c09170eca01\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_683a2680-5453-41c8-9b68-bb4983d6d13b\" data-node-id=\"683a2680-5453-41c8-9b68-bb4983d6d13b\" data-node-name=\"Load identifier turn_left\" data-key=func>turn_left</span>()</span></span>\n    <span class=\"ast-node\" id=\"student_code_only_41f4c983-89a0-4f06-aa5a-4d5a55478909\" data-node-id=\"41f4c983-89a0-4f06-aa5a-4d5a55478909\" data-node-name=\"If\" data-key=0 data-parent-list-id=\"67b27806-6428-4b73-a21a-be2fcc4e1990\">elif <span class=\"ast-node\" id=\"student_code_only_0919079e-d314-4c86-b976-dcfa117b9f51\" data-node-id=\"0919079e-d314-4c86-b976-dcfa117b9f51\" data-node-name=\"Call\" data-key=test><span class=\"ast-node\" id=\"student_code_only_dcfce1e8-9eac-4d45-83bb-baafac92354f\" data-node-id=\"dcfce1e8-9eac-4d45-83bb-baafac92354f\" data-node-name=\"Load identifier is_blue\" data-key=func>is_blue</span>()</span>:\n        <span class=\"ast-node\" id=\"student_code_only_8d77be0e-e02e-4457-87ed-314828d71645\" data-node-id=\"8d77be0e-e02e-4457-87ed-314828d71645\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"734a2ec3-c0a9-4991-b09a-6bcf36aff97f\"><span class=\"ast-node\" id=\"student_code_only_9cf74d48-0e77-4da3-b1eb-546522cfa9ab\" data-node-id=\"9cf74d48-0e77-4da3-b1eb-546522cfa9ab\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_a222341f-b59c-4c18-80b6-0de7e4114964\" data-node-id=\"a222341f-b59c-4c18-80b6-0de7e4114964\" data-node-name=\"Load identifier erase\" data-key=func>erase</span>()</span></span>\n        <span class=\"ast-node\" id=\"student_code_only_c755f2c9-518d-40c8-b96b-ac5efca2f5c7\" data-node-id=\"c755f2c9-518d-40c8-b96b-ac5efca2f5c7\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"734a2ec3-c0a9-4991-b09a-6bcf36aff97f\"><span class=\"ast-node\" id=\"student_code_only_776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc\" data-node-id=\"776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_3fc04c7e-149b-4897-a4fa-e40371fabd86\" data-node-id=\"3fc04c7e-149b-4897-a4fa-e40371fabd86\" data-node-name=\"Load identifier turn_right\" data-key=func>turn_right</span>()</span></span>\n    else:\n        <span class=\"ast-node\" id=\"student_code_only_c59fe529-f8b6-4e62-880f-aea5524f8d64\" data-node-id=\"c59fe529-f8b6-4e62-880f-aea5524f8d64\" data-node-name=\"Expr\" data-key=0 data-parent-list-id=\"f91ae808-29e8-4b57-bc5a-6891b60c6ae1\"><span class=\"ast-node\" id=\"student_code_only_ce996038-4dd7-4fe3-b13e-448a6e703b18\" data-node-id=\"ce996038-4dd7-4fe3-b13e-448a6e703b18\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_adf2b56a-7731-4890-85d8-43d98254b5eb\" data-node-id=\"adf2b56a-7731-4890-85d8-43d98254b5eb\" data-node-name=\"Load identifier paint_yellow\" data-key=func>paint_yellow</span>()</span></span>\n        <span class=\"ast-node\" id=\"student_code_only_948a48bc-4f5e-4f31-b354-2c89cb39b099\" data-node-id=\"948a48bc-4f5e-4f31-b354-2c89cb39b099\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"f91ae808-29e8-4b57-bc5a-6891b60c6ae1\"><span class=\"ast-node\" id=\"student_code_only_2d905cc7-ffdd-4270-b87b-c7af18100848\" data-node-id=\"2d905cc7-ffdd-4270-b87b-c7af18100848\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_991ef559-b9f8-40a8-abfc-d16fb03a8ead\" data-node-id=\"991ef559-b9f8-40a8-abfc-d16fb03a8ead\" data-node-name=\"Load identifier turn_left\" data-key=func>turn_left</span>()</span></span></span></span>\n    <span class=\"ast-node\" id=\"student_code_only_d93f5003-fed6-4092-8b2e-2e36d1b860b8\" data-node-id=\"d93f5003-fed6-4092-8b2e-2e36d1b860b8\" data-node-name=\"Expr\" data-key=1 data-parent-list-id=\"a7d9751b-1bc2-432c-ba1a-5554b1fc420c\"><span class=\"ast-node\" id=\"student_code_only_5d87fa61-b5f8-4fc8-86ac-6425084dc98c\" data-node-id=\"5d87fa61-b5f8-4fc8-86ac-6425084dc98c\" data-node-name=\"Call\" data-key=value><span class=\"ast-node\" id=\"student_code_only_1ea3096d-1709-45d3-944e-b3a0e4f3e6ee\" data-node-id=\"1ea3096d-1709-45d3-944e-b3a0e4f3e6ee\" data-node-name=\"Load identifier move_forward\" data-key=func>move_forward</span>()</span></span></span></span>",
+  "dest_string": "for i in range(10):\n    if is_yellow():\n        paint_blue()\n        turn_left()\n    elif is_blue():\n        erase()\n        turn_right()\n    else:\n        paint_yellow()\n        turn_right()\n    move_forward()\n",
+  "source_string": "for i in range(10):\n    if is_yellow():\n        paint_blue()\n        turn_left()\n    elif is_blue():\n        erase()\n        turn_right()\n    else:\n        paint_yellow()\n        turn_left()\n    move_forward()\n",
+  "unit_test_string": "field_as_str() == expected_field",
+  "synced_trace": [
+    {
+      "before": {
+        "node": "9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9",
+        "values": [
+          "<class 'range'>"
+        ],
+        "op": "LOAD_NAME range",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_NAME 0"
+      },
+      "after": {
+        "node": "9d3fdc63-06d3-4b9a-84a1-eb6ded60d7e9",
+        "values": [
+          "<class 'range'>"
+        ],
+        "op": "LOAD_NAME range",
+        "op_id": [
+          "<module>",
+          0
+        ],
+        "actual_op": "('<module>', 0) LOAD_NAME 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "788240b8-a792-42d0-9009-091cf13c3a71",
+        "values": [
+          "10"
+        ],
+        "op": "LOAD_CONST 10",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 0"
+      },
+      "after": {
+        "node": "788240b8-a792-42d0-9009-091cf13c3a71",
+        "values": [
+          "10"
+        ],
+        "op": "LOAD_CONST 10",
+        "op_id": [
+          "<module>",
+          2
+        ],
+        "actual_op": "('<module>', 2) LOAD_CONST 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "eed1f4e9-dede-42ab-8701-d0f44244a0a4",
+        "values": [
+          "range(0, 10)"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) CALL_FUNCTION 1"
+      },
+      "after": {
+        "node": "eed1f4e9-dede-42ab-8701-d0f44244a0a4",
+        "values": [
+          "range(0, 10)"
+        ],
+        "op": "CALL_FUNCTION 1",
+        "op_id": [
+          "<module>",
+          4
+        ],
+        "actual_op": "('<module>', 4) CALL_FUNCTION 1"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) GET_ITER 0"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>"
+        ],
+        "op": "GET_ITER",
+        "op_id": [
+          "<module>",
+          6
+        ],
+        "actual_op": "('<module>', 6) GET_ITER 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "0"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "0"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 4"
+      },
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 10, 'y': 10, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 10, 'y': 10, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "-1",
+          "{'x': 10, 'y': 9, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "1",
+          "{'x': 10, 'y': 11, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "1"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "1"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 4"
+      },
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 10, 'y': 9, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 10, 'y': 11, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "-1",
+          "0",
+          "{'x': 9, 'y': 9, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "-1",
+          "0",
+          "{'x': 9, 'y': 11, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "2"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "2"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 4"
+      },
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 9, 'y': 9, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 9, 'y': 11, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "1",
+          "{'x': 9, 'y': 10, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "-1",
+          "{'x': 9, 'y': 10, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "3"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "3"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 4"
+      },
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 9, 'y': 10, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 9, 'y': 10, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "1",
+          "0",
+          "{'x': 10, 'y': 10, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "1",
+          "0",
+          "{'x': 10, 'y': 10, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "4"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "4"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "bb1e99dd-71ce-4b63-afc1-7f5d8dddce54",
+        "values": [
+          "<function paint_blue>"
+        ],
+        "op": "LOAD_NAME paint_blue",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_NAME 3"
+      },
+      "after": {
+        "node": "bb1e99dd-71ce-4b63-afc1-7f5d8dddce54",
+        "values": [
+          "<function paint_blue>"
+        ],
+        "op": "LOAD_NAME paint_blue",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_NAME 3"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "44fa5b23-93e1-4f74-812a-09acec614857",
+        "values": [
+          "{'painted': 'b'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "44fa5b23-93e1-4f74-812a-09acec614857",
+        "values": [
+          "{'painted': 'b'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efef6eaa-fd56-4f6d-897d-068aedfa7f8f",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) POP_TOP 0"
+      },
+      "after": {
+        "node": "efef6eaa-fd56-4f6d-897d-068aedfa7f8f",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "683a2680-5453-41c8-9b68-bb4983d6d13b",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_NAME 4"
+      },
+      "after": {
+        "node": "683a2680-5453-41c8-9b68-bb4983d6d13b",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_NAME 4"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5ffe32dd-9700-4cff-b2f5-4c09170eca01",
+        "values": [
+          "{'x': 10, 'y': 10, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5ffe32dd-9700-4cff-b2f5-4c09170eca01",
+        "values": [
+          "{'x': 10, 'y': 10, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "fcbc17ba-52ae-4c8f-b1d3-792a534f910e",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) POP_TOP 0"
+      },
+      "after": {
+        "node": "fcbc17ba-52ae-4c8f-b1d3-792a534f910e",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) JUMP_FORWARD 72"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) JUMP_FORWARD 72"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "-1",
+          "{'x': 10, 'y': 9, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "-1",
+          "{'x': 10, 'y': 9, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "5"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "5"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "bb1e99dd-71ce-4b63-afc1-7f5d8dddce54",
+        "values": [
+          "<function paint_blue>"
+        ],
+        "op": "LOAD_NAME paint_blue",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_NAME 3"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "44fa5b23-93e1-4f74-812a-09acec614857",
+        "values": [
+          "{'painted': 'b'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efef6eaa-fd56-4f6d-897d-068aedfa7f8f",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "683a2680-5453-41c8-9b68-bb4983d6d13b",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_NAME 4"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "5ffe32dd-9700-4cff-b2f5-4c09170eca01",
+        "values": [
+          "{'x': 10, 'y': 9, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fcbc17ba-52ae-4c8f-b1d3-792a534f910e",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) JUMP_FORWARD 72"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 10, 'y': 9, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "-1",
+          "0",
+          "{'x': 9, 'y': 9, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "1",
+          "0",
+          "{'x': 11, 'y': 9, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "6"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "6"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "bb1e99dd-71ce-4b63-afc1-7f5d8dddce54",
+        "values": [
+          "<function paint_blue>"
+        ],
+        "op": "LOAD_NAME paint_blue",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_NAME 3"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "44fa5b23-93e1-4f74-812a-09acec614857",
+        "values": [
+          "{'painted': 'b'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efef6eaa-fd56-4f6d-897d-068aedfa7f8f",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "683a2680-5453-41c8-9b68-bb4983d6d13b",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_NAME 4"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "5ffe32dd-9700-4cff-b2f5-4c09170eca01",
+        "values": [
+          "{'x': 9, 'y': 9, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fcbc17ba-52ae-4c8f-b1d3-792a534f910e",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) JUMP_FORWARD 72"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 11, 'y': 9, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "1",
+          "{'x': 9, 'y': 10, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "1",
+          "{'x': 11, 'y': 10, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "7"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "7"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "bb1e99dd-71ce-4b63-afc1-7f5d8dddce54",
+        "values": [
+          "<function paint_blue>"
+        ],
+        "op": "LOAD_NAME paint_blue",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_NAME 3"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "44fa5b23-93e1-4f74-812a-09acec614857",
+        "values": [
+          "{'painted': 'b'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efef6eaa-fd56-4f6d-897d-068aedfa7f8f",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "683a2680-5453-41c8-9b68-bb4983d6d13b",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_NAME 4"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "5ffe32dd-9700-4cff-b2f5-4c09170eca01",
+        "values": [
+          "{'x': 9, 'y': 10, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "fcbc17ba-52ae-4c8f-b1d3-792a534f910e",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) JUMP_FORWARD 72"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 7"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 11, 'y': 10, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "1",
+          "0",
+          "{'x': 10, 'y': 10, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "-1",
+          "0",
+          "{'x': 10, 'y': 10, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "8"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "8"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "after": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "after": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "a222341f-b59c-4c18-80b6-0de7e4114964",
+        "values": [
+          "<function erase>"
+        ],
+        "op": "LOAD_NAME erase",
+        "op_id": [
+          "<module>",
+          38
+        ],
+        "actual_op": "('<module>', 38) LOAD_NAME 6"
+      },
+      "after": {
+        "node": "a222341f-b59c-4c18-80b6-0de7e4114964",
+        "values": [
+          "<function erase>"
+        ],
+        "op": "LOAD_NAME erase",
+        "op_id": [
+          "<module>",
+          38
+        ],
+        "actual_op": "('<module>', 38) LOAD_NAME 6"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "9cf74d48-0e77-4da3-b1eb-546522cfa9ab",
+        "values": [
+          "{'painted': '.'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          40
+        ],
+        "actual_op": "('<module>', 40) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "9cf74d48-0e77-4da3-b1eb-546522cfa9ab",
+        "values": [
+          "{'painted': '.'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          40
+        ],
+        "actual_op": "('<module>', 40) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "8d77be0e-e02e-4457-87ed-314828d71645",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          42
+        ],
+        "actual_op": "('<module>', 42) POP_TOP 0"
+      },
+      "after": {
+        "node": "8d77be0e-e02e-4457-87ed-314828d71645",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          42
+        ],
+        "actual_op": "('<module>', 42) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "3fc04c7e-149b-4897-a4fa-e40371fabd86",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          44
+        ],
+        "actual_op": "('<module>', 44) LOAD_NAME 7"
+      },
+      "after": {
+        "node": "3fc04c7e-149b-4897-a4fa-e40371fabd86",
+        "values": [
+          "<function turn_right>"
+        ],
+        "op": "LOAD_NAME turn_right",
+        "op_id": [
+          "<module>",
+          44
+        ],
+        "actual_op": "('<module>', 44) LOAD_NAME 7"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc",
+        "values": [
+          "{'x': 10, 'y': 10, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          46
+        ],
+        "actual_op": "('<module>', 46) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "776d6125-91bb-4cd0-a0f4-cb5b5a3dbdbc",
+        "values": [
+          "{'x': 10, 'y': 10, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          46
+        ],
+        "actual_op": "('<module>', 46) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c755f2c9-518d-40c8-b96b-ac5efca2f5c7",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          48
+        ],
+        "actual_op": "('<module>', 48) POP_TOP 0"
+      },
+      "after": {
+        "node": "c755f2c9-518d-40c8-b96b-ac5efca2f5c7",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          48
+        ],
+        "actual_op": "('<module>', 48) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          50
+        ],
+        "actual_op": "('<module>', 50) JUMP_FORWARD 28"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          50
+        ],
+        "actual_op": "('<module>', 50) JUMP_FORWARD 28"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "1",
+          "{'x': 10, 'y': 11, 'dir': 2}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "0",
+          "-1",
+          "{'x': 10, 'y': 9, 'dir': 0}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "9"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [
+          "<range_iterator object>",
+          "9"
+        ],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "after": {
+        "node": "6986ac41-5296-46d1-b538-d6b4f4a58a5c",
+        "values": [],
+        "op": "STORE_NAME i",
+        "op_id": [
+          "<module>",
+          10
+        ],
+        "actual_op": "('<module>', 10) STORE_NAME 1"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "after": {
+        "node": "31727e12-1053-4209-ae42-c12190e0d677",
+        "values": [
+          "<function is_yellow>"
+        ],
+        "op": "LOAD_NAME is_yellow",
+        "op_id": [
+          "<module>",
+          12
+        ],
+        "actual_op": "('<module>', 12) LOAD_NAME 2"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "a19e517e-242a-4c60-bcf6-ecdc54f787ba",
+        "values": [
+          "True"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          14
+        ],
+        "actual_op": "('<module>', 14) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "after": {
+        "node": "efff57a4-8a4b-40d9-b6ec-5fc394fc2c46",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 32",
+        "op_id": [
+          "<module>",
+          16
+        ],
+        "actual_op": "('<module>', 16) POP_JUMP_IF_FALSE 76"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "dcfce1e8-9eac-4d45-83bb-baafac92354f",
+        "values": [
+          "<function is_blue>"
+        ],
+        "op": "LOAD_NAME is_blue",
+        "op_id": [
+          "<module>",
+          32
+        ],
+        "actual_op": "('<module>', 32) LOAD_NAME 5"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "0919079e-d314-4c86-b976-dcfa117b9f51",
+        "values": [
+          "False"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          34
+        ],
+        "actual_op": "('<module>', 34) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "41f4c983-89a0-4f06-aa5a-4d5a55478909",
+        "values": [],
+        "op": "POP_JUMP_IF_FALSE 52",
+        "op_id": [
+          "<module>",
+          36
+        ],
+        "actual_op": "('<module>', 36) POP_JUMP_IF_FALSE 120"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "adf2b56a-7731-4890-85d8-43d98254b5eb",
+        "values": [
+          "<function paint_yellow>"
+        ],
+        "op": "LOAD_NAME paint_yellow",
+        "op_id": [
+          "<module>",
+          52
+        ],
+        "actual_op": "('<module>', 52) LOAD_NAME 8"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "ce996038-4dd7-4fe3-b13e-448a6e703b18",
+        "values": [
+          "{'painted': 'y'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          54
+        ],
+        "actual_op": "('<module>', 54) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          56
+        ],
+        "actual_op": "('<module>', 56) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "991ef559-b9f8-40a8-abfc-d16fb03a8ead",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          58
+        ],
+        "actual_op": "('<module>', 58) LOAD_NAME 4"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "2d905cc7-ffdd-4270-b87b-c7af18100848",
+        "values": [
+          "{'x': 10, 'y': 11, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          60
+        ],
+        "actual_op": "('<module>', 60) CALL_FUNCTION 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "948a48bc-4f5e-4f31-b354-2c89cb39b099",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          62
+        ],
+        "actual_op": "('<module>', 62) POP_TOP 0"
+      },
+      "after": null,
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "bb1e99dd-71ce-4b63-afc1-7f5d8dddce54",
+        "values": [
+          "<function paint_blue>"
+        ],
+        "op": "LOAD_NAME paint_blue",
+        "op_id": [
+          "<module>",
+          18
+        ],
+        "actual_op": "('<module>', 18) LOAD_NAME 3"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "44fa5b23-93e1-4f74-812a-09acec614857",
+        "values": [
+          "{'painted': 'b'}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          20
+        ],
+        "actual_op": "('<module>', 20) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "efef6eaa-fd56-4f6d-897d-068aedfa7f8f",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          22
+        ],
+        "actual_op": "('<module>', 22) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "683a2680-5453-41c8-9b68-bb4983d6d13b",
+        "values": [
+          "<function turn_left>"
+        ],
+        "op": "LOAD_NAME turn_left",
+        "op_id": [
+          "<module>",
+          24
+        ],
+        "actual_op": "('<module>', 24) LOAD_NAME 4"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "5ffe32dd-9700-4cff-b2f5-4c09170eca01",
+        "values": [
+          "{'x': 10, 'y': 9, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          26
+        ],
+        "actual_op": "('<module>', 26) CALL_FUNCTION 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "fcbc17ba-52ae-4c8f-b1d3-792a534f910e",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          28
+        ],
+        "actual_op": "('<module>', 28) POP_TOP 0"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": null,
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "JUMP_FORWARD 64",
+        "op_id": [
+          "<module>",
+          30
+        ],
+        "actual_op": "('<module>', 30) JUMP_FORWARD 72"
+      },
+      "value_mismatch": false,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "after": {
+        "node": "1ea3096d-1709-45d3-944e-b3a0e4f3e6ee",
+        "values": [
+          "<function move_forward>"
+        ],
+        "op": "LOAD_NAME move_forward",
+        "op_id": [
+          "<module>",
+          64
+        ],
+        "actual_op": "('<module>', 64) LOAD_NAME 9"
+      },
+      "value_mismatch": false,
+      "value_matches": true
+    },
+    {
+      "before": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "1",
+          "0",
+          "{'x': 11, 'y': 11, 'dir': 1}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "after": {
+        "node": "5d87fa61-b5f8-4fc8-86ac-6425084dc98c",
+        "values": [
+          "-1",
+          "0",
+          "{'x': 9, 'y': 9, 'dir': 3}"
+        ],
+        "op": "CALL_FUNCTION 0",
+        "op_id": [
+          "<module>",
+          66
+        ],
+        "actual_op": "('<module>', 66) CALL_FUNCTION 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "after": {
+        "node": "d93f5003-fed6-4092-8b2e-2e36d1b860b8",
+        "values": [],
+        "op": "POP_TOP",
+        "op_id": [
+          "<module>",
+          68
+        ],
+        "actual_op": "('<module>', 68) POP_TOP 0"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "after": {
+        "node": "c59fe529-f8b6-4e62-880f-aea5524f8d64",
+        "values": [],
+        "op": "JUMP_ABSOLUTE 8",
+        "op_id": [
+          "<module>",
+          70
+        ],
+        "actual_op": "('<module>', 70) JUMP_ABSOLUTE 20"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    },
+    {
+      "before": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "after": {
+        "node": "9886563e-db96-4829-851a-914f1e7de3ed",
+        "values": [],
+        "op": "FOR_ITER 72",
+        "op_id": [
+          "<module>",
+          8
+        ],
+        "actual_op": "('<module>', 8) FOR_ITER 142"
+      },
+      "value_mismatch": true,
+      "value_matches": false
+    }
+  ],
+  "points_of_interest": {
+    "last_matching_before_fix": 207,
+    "first_wrong_before_fix": 208,
+    "last_matching_after_fix": 208
+  },
+  "effect_summary": "The fixed version of the code performed better than the old version: \nThe test passed in the fixed version, but not in the old version."
+}

@@ -2,29 +2,171 @@ import json
 
 from python_fix_explainer import test_all, generate_correction
 
+import logging
+logging.basicConfig(level=logging.INFO)
+
 
 # ~~~~~~ Problem/solution defintion ~~~~~~
 
-output_name = 'helloWorld'
+output_name = 'ant_elif_1move'
 
 correct_solutions = [
     '''
-def helloWorld():
-    return "Hello World!"
-    '''
+for i in range(10):
+    if is_yellow():
+        paint_blue()
+        turn_left()
+    elif is_blue():
+        erase()
+        turn_right()
+    else:
+        paint_yellow()
+        turn_right()
+    move_forward()
+''',
+'''
+for i in range(10):
+    if is_yellow():
+        paint_blue()
+        turn_left()
+        move_forward()
+    elif is_blue():
+        erase()
+        turn_right()
+        move_forward()
+    else:
+        paint_yellow()
+        turn_right()
+        move_forward()
+'''
 ]
 
 unit_tests = [
-    'helloWorld() == "Hello World!"'
+    'field_as_str() == expected_field'
 ]
 
 student_solution = '''
-def helloWorld():
-    print("Hello World!") 
+for i in range(10):
+    if is_yellow():
+        paint_blue()
+        turn_left()
+    if is_blue():
+        erase()
+        turn_right()
+    else:
+        paint_yellow()
+        turn_right()
+    move_forward()
 '''
 
-prepend_code = '''
-'''
+prepend_code = """
+directional_moves = [
+    (0, -1),  # 0 = Up
+    (1, 0),   # 1 = Right
+    (0, 1),   # 2 = Down
+    (-1, 0)   # 3 = Left
+]
+
+
+# 20x20 field
+field = [['.']*20 for _ in range(20)]
+
+
+def field_as_str():
+    rows = []
+    for y in range(len(field[0])):
+        row = ''.join([field[x][y] for x in range(len(field))])
+        rows.append(row)
+    return '\\n'.join(rows)
+
+
+ant_x = 10
+ant_y = 10
+ant_direction = 1  # Right
+
+
+def erase():
+    field[ant_x][ant_y] = '.'
+    return {'painted': '.'}
+
+
+def paint_blue():
+    field[ant_x][ant_y] = 'b'
+    return {'painted': 'b'}
+
+
+def paint_yellow():
+    field[ant_x][ant_y] = 'y'
+    return {'painted': 'y'}
+
+
+def is_clear():
+    return field[ant_x][ant_y] == '.'
+
+
+def is_blue():
+    return field[ant_x][ant_y] == 'b'
+
+
+def is_yellow():
+    return field[ant_x][ant_y] == 'y'
+
+
+def move_forward():
+    global ant_x, ant_y
+    move_x, move_y = directional_moves[ant_direction]
+    ant_x = (ant_x + move_x) % 20
+    ant_y = (ant_y + move_y) % 20
+    return {
+        'x': ant_x,
+        'y': ant_y,
+        'dir': ant_direction
+    }
+
+
+def turn_right():
+    global ant_direction
+    ant_direction = (ant_direction + 1) % 4
+    return {
+        'x': ant_x,
+        'y': ant_y,
+        'dir': ant_direction
+    }
+
+
+def turn_left():
+    global ant_direction
+    ant_direction = (ant_direction + 3) % 4  # under modulo 4, +3 is same as -1, but ensures it's positive.
+    return {
+        'x': ant_x,
+        'y': ant_y,
+        'dir': ant_direction
+    }
+
+expected_field = '''
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+..........by........
+.........y.y........
+.........yy.........
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+'''.strip()
+
+"""
 
 append_code = '''
 '''
