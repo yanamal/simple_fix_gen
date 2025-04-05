@@ -1,6 +1,6 @@
 # A simple demo of using Fix Explainer
 
-This is a very simple demo that uses the Fix Explainer library:
+This is a very simple demo that uses the [Fix Explainer](https://github.com/yanamal/python_fix_explainer) library:
 
 - the `generate.py` file is a short end-to-end demo of using the library to generate fixes to incorrect student code, and outputing the generated data into a useable html file
   - this example generates the appropriate files in the `html` and `json` folders
