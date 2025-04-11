@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 # ~~~~~~ Problem/solution defintion ~~~~~~
 
-output_name = 'ant_elif_1move'
+output_name = 'ant_elif_3moves'
 
 correct_solutions = [
     '''
@@ -50,16 +50,21 @@ for i in range(10):
     if is_yellow():
         paint_blue()
         turn_left()
+        move_forward()
     if is_blue():
         erase()
         turn_right()
+        move_forward()
     else:
         paint_yellow()
         turn_right()
-    move_forward()
+        move_forward()
 '''
 
 prepend_code = """
+import copy
+
+
 directional_moves = [
     (0, -1),  # 0 = Up
     (1, 0),   # 1 = Right
@@ -67,6 +72,12 @@ directional_moves = [
     (-1, 0)   # 3 = Left
 ]
 
+direction_names = [
+    'up',
+    'right',
+    'down',
+    'left'
+]
 
 # 20x20 field
 field = [['.']*20 for _ in range(20)]
@@ -85,19 +96,31 @@ ant_y = 10
 ant_direction = 1  # Right
 
 
+# helper function to generate summary of performed action:
+# a human-readable description, and a record of the state after the action.
+def gen_action_summary(description):
+    return {
+        'description': description,
+        'ant_x': ant_x,
+        'ant_y': ant_y,
+        'ant_direction': ant_direction,
+        'field': copy.deepcopy(field)
+    }
+
+
 def erase():
     field[ant_x][ant_y] = '.'
-    return {'painted': '.'}
+    return gen_action_summary(f'Erased square at ({ant_x}, {ant_y})')
 
 
 def paint_blue():
     field[ant_x][ant_y] = 'b'
-    return {'painted': 'b'}
+    return gen_action_summary(f'Painted square blue at ({ant_x}, {ant_y})')
 
 
 def paint_yellow():
     field[ant_x][ant_y] = 'y'
-    return {'painted': 'y'}
+    return gen_action_summary(f'Painted square yellow at ({ant_x}, {ant_y})')
 
 
 def is_clear():
@@ -117,31 +140,20 @@ def move_forward():
     move_x, move_y = directional_moves[ant_direction]
     ant_x = (ant_x + move_x) % 20
     ant_y = (ant_y + move_y) % 20
-    return {
-        'x': ant_x,
-        'y': ant_y,
-        'dir': ant_direction
-    }
+    return gen_action_summary(f'Moved to ({ant_x}, {ant_y})')
 
 
 def turn_right():
     global ant_direction
     ant_direction = (ant_direction + 1) % 4
-    return {
-        'x': ant_x,
-        'y': ant_y,
-        'dir': ant_direction
-    }
+    return gen_action_summary(f'Turned clockwise to face {direction_names[ant_direction]}')
 
 
 def turn_left():
     global ant_direction
     ant_direction = (ant_direction + 3) % 4  # under modulo 4, +3 is same as -1, but ensures it's positive.
-    return {
-        'x': ant_x,
-        'y': ant_y,
-        'dir': ant_direction
-    }
+    return gen_action_summary(f'Turned counterclockwise to face {direction_names[ant_direction]}')
+
 
 expected_field = '''
 ....................
@@ -191,6 +203,7 @@ html_footer = '''
 # ~~~~~~ test solutions and generate output if everything is in order ~~~~~~
 
 solution_test_results = test_all(correct_solutions, unit_tests, prepend_code=prepend_code, append_code=append_code)
+print(solution_test_results)
 
 if not all([all(st) for st in solution_test_results]):
     print('Not all solutions pass unit tests!')
