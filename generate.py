@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 # ~~~~~~ Problem/solution defintion ~~~~~~
 
-output_name = 'ant_elif_3moves'
+output_name = 'ant_typo_1move'
 
 correct_solutions = [
     '''
@@ -50,19 +50,18 @@ for i in range(10):
     if is_yellow():
         paint_blue()
         turn_left()
-        move_forward()
-    if is_blue():
+    elif is_blue():
         erase()
         turn_right()
-        move_forward()
     else:
         paint_yellow()
-        turn_right()
-        move_forward()
+        turn_left()
+    move_forward()
 '''
 
 prepend_code = """
 import copy
+import json
 
 
 directional_moves = [
@@ -99,13 +98,13 @@ ant_direction = 1  # Right
 # helper function to generate summary of performed action:
 # a human-readable description, and a record of the state after the action.
 def gen_action_summary(description):
-    return {
+    return json.dumps({
         'description': description,
         'ant_x': ant_x,
         'ant_y': ant_y,
         'ant_direction': ant_direction,
         'field': copy.deepcopy(field)
-    }
+    })
 
 
 def erase():
