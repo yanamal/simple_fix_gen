@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 # ~~~~~~ Problem/solution defintion ~~~~~~
 
-output_name = 'ant_typo_1move'
+output_name = 'ant_elif_3moves'
 
 correct_solutions = [
     '''
@@ -45,7 +45,7 @@ unit_tests = [
     'field_as_str() == expected_field'
 ]
 
-student_solution = '''
+wrong_turn = '''
 for i in range(10):
     if is_yellow():
         paint_blue()
@@ -58,6 +58,38 @@ for i in range(10):
         turn_left()
     move_forward()
 '''
+
+elif_1move = '''
+for i in range(10):
+    if is_yellow():
+        paint_blue()
+        turn_left()
+    if is_blue():
+        erase()
+        turn_right()
+    else:
+        paint_yellow()
+        turn_right()
+    move_forward()
+'''
+
+elif_3moves = '''
+for i in range(10):
+    if is_yellow():
+        paint_blue()
+        turn_left()
+        move_forward()
+    if is_blue():
+        erase()
+        turn_right()
+        move_forward()
+    else:
+        paint_yellow()
+        turn_right()
+        move_forward()
+'''
+
+student_solution = elif_3moves
 
 prepend_code = """
 import copy
@@ -78,8 +110,8 @@ direction_names = [
     'left'
 ]
 
-# 20x20 field
-field = [['.']*20 for _ in range(20)]
+# 10x10 field
+field = [['.']*10 for _ in range(10)]
 
 
 def field_as_str():
@@ -90,8 +122,8 @@ def field_as_str():
     return '\\n'.join(rows)
 
 
-ant_x = 10
-ant_y = 10
+ant_x = 5
+ant_y = 5
 ant_direction = 1  # Right
 
 
@@ -137,8 +169,8 @@ def is_yellow():
 def move_forward():
     global ant_x, ant_y
     move_x, move_y = directional_moves[ant_direction]
-    ant_x = (ant_x + move_x) % 20
-    ant_y = (ant_y + move_y) % 20
+    ant_x = (ant_x + move_x) % 10
+    ant_y = (ant_y + move_y) % 10
     return gen_action_summary(f'Moved to ({ant_x}, {ant_y})')
 
 
@@ -155,28 +187,17 @@ def turn_left():
 
 
 expected_field = '''
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-..........by........
-.........y.y........
-.........yy.........
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-....................
+..........
+..........
+..........
+..........
+.....by...
+....y.y...
+....yy....
+..........
+..........
+..........
 '''.strip()
-
 """
 
 append_code = '''
